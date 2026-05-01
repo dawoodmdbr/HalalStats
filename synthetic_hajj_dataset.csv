@@ -1,0 +1,2001 @@
+Pilgrim_ID,Country,Gender,Age_Group,Accommodation_Type,Transport_Type,Stay_Duration,Estimated_Spending_SAR,Group_Size
+1,Malaysia,Female,31-45,Camp (Mina),Bus,10 days,34401,2
+2,Turkey,Female,31-45,Hotel (3 Star),Train (Haramain),7 days,11554,5
+3,Bangladesh,Male,31-45,Camp (Mina),Bus,14 days,17664,4
+4,Egypt,Male,60+,Hotel (5 Star),Bus,10 days,29386,1
+5,Malaysia,Male,31-45,Hotel (5 Star),Train (Haramain),10 days,9846,1
+6,UK,Male,60+,Hotel (5 Star),Private Car,21 days,31205,2
+7,Indonesia,Male,18-30,Hotel (5 Star),Group Transport,21 days,30570,1
+8,Malaysia,Male,60+,Hotel (5 Star),Train (Haramain),10 days,35255,3
+9,Bangladesh,Female,46-60,Hotel (3 Star),Private Car,7 days,26182,5
+10,Egypt,Female,31-45,Apartment,Train (Haramain),7 days,21043,1
+11,Turkey,Female,31-45,Hotel (5 Star),Private Car,14 days,5400,1
+12,Bangladesh,Male,46-60,Hotel (5 Star),Train (Haramain),10 days,24239,2
+13,Bangladesh,Female,60+,Camp (Mina),Private Car,21 days,15416,3
+14,Indonesia,Female,18-30,Hotel (3 Star),Train (Haramain),7 days,8412,1
+15,Nigeria,Female,46-60,Hotel (3 Star),Private Car,14 days,21440,5
+16,Egypt,Female,46-60,Apartment,Train (Haramain),10 days,29406,5
+17,India,Female,60+,Hotel (3 Star),Group Transport,7 days,6875,1
+18,Bangladesh,Male,31-45,Camp (Mina),Group Transport,10 days,10752,3
+19,Nigeria,Male,60+,Camp (Mina),Bus,10 days,26217,5
+20,India,Female,46-60,Apartment,Private Car,7 days,17489,5
+21,Egypt,Female,46-60,Camp (Mina),Train (Haramain),7 days,6353,3
+22,Pakistan,Female,31-45,Hotel (5 Star),Private Car,7 days,31986,3
+23,UK,Male,31-45,Hotel (5 Star),Group Transport,10 days,26371,1
+24,Nigeria,Male,31-45,Camp (Mina),Private Car,10 days,19691,4
+25,UAE,Female,60+,Apartment,Train (Haramain),14 days,9311,2
+26,Pakistan,Male,31-45,Hotel (3 Star),Private Car,21 days,15794,4
+27,UK,Male,46-60,Apartment,Train (Haramain),10 days,7934,4
+28,Indonesia,Female,46-60,Hotel (3 Star),Group Transport,21 days,21406,5
+29,Malaysia,Male,18-30,Camp (Mina),Group Transport,7 days,15394,3
+30,Turkey,Male,60+,Camp (Mina),Group Transport,10 days,31872,5
+31,UAE,Female,18-30,Hotel (5 Star),Bus,14 days,25800,2
+32,Indonesia,Male,46-60,Hotel (3 Star),Group Transport,14 days,26352,1
+33,Egypt,Male,18-30,Apartment,Private Car,21 days,33312,2
+34,Indonesia,Female,46-60,Camp (Mina),Bus,7 days,20438,5
+35,Malaysia,Male,18-30,Apartment,Group Transport,21 days,28385,5
+36,Egypt,Male,31-45,Hotel (5 Star),Private Car,7 days,23482,5
+37,UAE,Female,18-30,Hotel (3 Star),Private Car,14 days,37471,5
+38,Malaysia,Female,31-45,Hotel (3 Star),Private Car,21 days,18026,4
+39,India,Female,31-45,Camp (Mina),Train (Haramain),14 days,24648,1
+40,Turkey,Male,60+,Hotel (3 Star),Bus,14 days,10435,4
+41,UAE,Female,31-45,Camp (Mina),Private Car,7 days,13493,5
+42,India,Male,31-45,Hotel (5 Star),Train (Haramain),21 days,11691,3
+43,UK,Female,18-30,Hotel (3 Star),Group Transport,21 days,7763,4
+44,UAE,Male,46-60,Camp (Mina),Private Car,14 days,25389,5
+45,UK,Female,60+,Apartment,Train (Haramain),14 days,36498,5
+46,Egypt,Female,31-45,Camp (Mina),Private Car,7 days,21934,1
+47,India,Female,60+,Hotel (3 Star),Bus,10 days,10574,2
+48,Turkey,Female,18-30,Hotel (5 Star),Bus,10 days,6587,4
+49,Malaysia,Male,31-45,Hotel (3 Star),Group Transport,14 days,16688,4
+50,Bangladesh,Female,18-30,Hotel (3 Star),Private Car,10 days,9409,4
+51,Indonesia,Female,60+,Camp (Mina),Train (Haramain),10 days,10783,5
+52,Pakistan,Male,18-30,Apartment,Group Transport,10 days,38480,1
+53,Turkey,Female,60+,Hotel (3 Star),Private Car,10 days,31751,5
+54,India,Male,18-30,Apartment,Group Transport,14 days,17041,5
+55,Bangladesh,Female,60+,Camp (Mina),Train (Haramain),10 days,28227,3
+56,Turkey,Female,46-60,Apartment,Group Transport,10 days,21654,1
+57,India,Female,18-30,Camp (Mina),Group Transport,7 days,31370,4
+58,Nigeria,Male,18-30,Hotel (5 Star),Group Transport,14 days,34482,2
+59,Nigeria,Female,46-60,Apartment,Private Car,21 days,16586,4
+60,UK,Female,46-60,Apartment,Train (Haramain),21 days,10322,5
+61,Turkey,Female,18-30,Hotel (5 Star),Bus,7 days,18932,1
+62,Nigeria,Male,46-60,Apartment,Private Car,7 days,34299,1
+63,India,Male,31-45,Hotel (5 Star),Bus,14 days,30179,1
+64,UK,Female,60+,Hotel (3 Star),Bus,21 days,10257,3
+65,India,Male,60+,Camp (Mina),Private Car,10 days,14777,4
+66,UK,Female,60+,Hotel (5 Star),Private Car,7 days,16249,3
+67,Turkey,Female,31-45,Apartment,Train (Haramain),21 days,26390,2
+68,Bangladesh,Female,46-60,Hotel (5 Star),Train (Haramain),14 days,25369,5
+69,Malaysia,Female,46-60,Apartment,Group Transport,10 days,17881,3
+70,UAE,Female,18-30,Hotel (3 Star),Bus,14 days,14587,3
+71,Bangladesh,Female,46-60,Hotel (5 Star),Train (Haramain),7 days,33264,5
+72,Egypt,Female,18-30,Hotel (3 Star),Group Transport,21 days,13791,1
+73,India,Male,31-45,Camp (Mina),Train (Haramain),21 days,27375,5
+74,Egypt,Male,60+,Apartment,Private Car,21 days,27611,4
+75,Bangladesh,Male,60+,Apartment,Train (Haramain),21 days,12833,5
+76,UK,Male,60+,Hotel (3 Star),Bus,10 days,20754,1
+77,UAE,Male,46-60,Camp (Mina),Train (Haramain),10 days,17577,5
+78,UAE,Male,18-30,Hotel (5 Star),Bus,14 days,36095,3
+79,Pakistan,Male,18-30,Hotel (5 Star),Private Car,10 days,26248,2
+80,UAE,Female,31-45,Apartment,Bus,7 days,36891,3
+81,Malaysia,Female,46-60,Hotel (3 Star),Train (Haramain),7 days,29124,2
+82,UAE,Female,31-45,Hotel (3 Star),Group Transport,21 days,9566,5
+83,Bangladesh,Female,18-30,Hotel (5 Star),Private Car,7 days,7196,4
+84,Pakistan,Male,18-30,Camp (Mina),Train (Haramain),14 days,36115,5
+85,Bangladesh,Male,60+,Camp (Mina),Private Car,10 days,24859,1
+86,Bangladesh,Female,46-60,Hotel (5 Star),Private Car,10 days,16345,5
+87,Indonesia,Female,18-30,Hotel (5 Star),Train (Haramain),10 days,39077,2
+88,Pakistan,Male,60+,Hotel (3 Star),Train (Haramain),7 days,5864,3
+89,Bangladesh,Female,46-60,Camp (Mina),Group Transport,10 days,17055,4
+90,Indonesia,Female,31-45,Hotel (5 Star),Private Car,21 days,24747,5
+91,Indonesia,Female,46-60,Hotel (5 Star),Private Car,21 days,16978,5
+92,Pakistan,Female,46-60,Apartment,Train (Haramain),21 days,29599,3
+93,Egypt,Male,18-30,Hotel (5 Star),Bus,7 days,22615,4
+94,UK,Female,18-30,Hotel (5 Star),Train (Haramain),10 days,34377,5
+95,Malaysia,Female,46-60,Camp (Mina),Private Car,7 days,35031,5
+96,UK,Male,18-30,Hotel (3 Star),Train (Haramain),10 days,16760,2
+97,UAE,Male,18-30,Camp (Mina),Group Transport,14 days,38714,2
+98,Malaysia,Female,18-30,Hotel (3 Star),Bus,14 days,30762,1
+99,UAE,Male,60+,Apartment,Train (Haramain),7 days,39332,3
+100,Bangladesh,Female,60+,Hotel (5 Star),Group Transport,21 days,9944,4
+101,India,Female,46-60,Apartment,Private Car,7 days,18877,5
+102,Pakistan,Male,18-30,Hotel (3 Star),Train (Haramain),21 days,34990,5
+103,Malaysia,Female,60+,Camp (Mina),Private Car,10 days,39076,1
+104,Malaysia,Female,46-60,Camp (Mina),Group Transport,21 days,8258,5
+105,Bangladesh,Female,18-30,Apartment,Private Car,21 days,36629,3
+106,Egypt,Female,31-45,Hotel (3 Star),Group Transport,10 days,27958,1
+107,Indonesia,Male,18-30,Apartment,Group Transport,14 days,25317,3
+108,Bangladesh,Male,18-30,Apartment,Group Transport,10 days,20775,1
+109,Nigeria,Female,60+,Hotel (5 Star),Train (Haramain),7 days,16039,5
+110,Indonesia,Male,46-60,Apartment,Private Car,7 days,34097,1
+111,Pakistan,Female,46-60,Hotel (5 Star),Private Car,7 days,39207,2
+112,Indonesia,Female,60+,Hotel (5 Star),Bus,7 days,27553,4
+113,Egypt,Female,18-30,Camp (Mina),Bus,7 days,5055,5
+114,Indonesia,Female,31-45,Hotel (5 Star),Bus,14 days,28161,4
+115,Pakistan,Female,18-30,Hotel (5 Star),Bus,14 days,37873,5
+116,Egypt,Male,18-30,Camp (Mina),Private Car,21 days,20184,4
+117,UK,Female,31-45,Apartment,Group Transport,7 days,5669,2
+118,Malaysia,Male,60+,Hotel (3 Star),Group Transport,10 days,17663,4
+119,Malaysia,Male,46-60,Hotel (3 Star),Train (Haramain),7 days,30318,1
+120,UAE,Female,60+,Hotel (3 Star),Group Transport,14 days,38734,4
+121,UK,Female,60+,Apartment,Private Car,7 days,21691,5
+122,UK,Female,18-30,Hotel (5 Star),Private Car,14 days,23522,3
+123,Indonesia,Female,46-60,Hotel (3 Star),Private Car,21 days,16656,4
+124,Malaysia,Female,46-60,Apartment,Train (Haramain),21 days,20893,4
+125,Pakistan,Male,60+,Hotel (5 Star),Bus,21 days,21493,4
+126,Turkey,Female,31-45,Camp (Mina),Group Transport,14 days,8632,5
+127,Turkey,Female,60+,Hotel (3 Star),Private Car,7 days,35336,4
+128,Egypt,Male,31-45,Hotel (5 Star),Private Car,7 days,28112,5
+129,Malaysia,Male,46-60,Hotel (3 Star),Bus,10 days,18266,5
+130,Malaysia,Female,60+,Hotel (3 Star),Private Car,14 days,21940,3
+131,Turkey,Male,18-30,Hotel (3 Star),Group Transport,10 days,29003,1
+132,Malaysia,Female,60+,Hotel (5 Star),Train (Haramain),21 days,37872,5
+133,Indonesia,Male,46-60,Apartment,Private Car,7 days,39815,2
+134,Nigeria,Male,18-30,Hotel (5 Star),Group Transport,14 days,35869,4
+135,India,Female,18-30,Hotel (3 Star),Private Car,10 days,22257,2
+136,UK,Male,31-45,Hotel (5 Star),Bus,10 days,21682,4
+137,UAE,Male,18-30,Camp (Mina),Private Car,10 days,24622,3
+138,Egypt,Male,18-30,Apartment,Private Car,7 days,35408,5
+139,Nigeria,Male,60+,Hotel (5 Star),Train (Haramain),7 days,13837,1
+140,Turkey,Male,46-60,Camp (Mina),Bus,7 days,20407,5
+141,UK,Male,31-45,Apartment,Bus,14 days,34309,4
+142,Malaysia,Female,60+,Camp (Mina),Train (Haramain),7 days,11382,1
+143,UAE,Female,18-30,Apartment,Private Car,14 days,32654,5
+144,Malaysia,Male,18-30,Hotel (5 Star),Group Transport,10 days,23895,1
+145,Pakistan,Female,31-45,Camp (Mina),Bus,10 days,38551,4
+146,Pakistan,Female,46-60,Hotel (3 Star),Bus,21 days,26376,3
+147,UAE,Female,31-45,Camp (Mina),Private Car,7 days,5370,3
+148,UAE,Male,60+,Apartment,Private Car,10 days,5486,5
+149,Turkey,Female,31-45,Hotel (5 Star),Bus,7 days,28762,2
+150,UAE,Male,18-30,Apartment,Private Car,14 days,31613,4
+151,Indonesia,Female,60+,Camp (Mina),Group Transport,10 days,8196,5
+152,Malaysia,Male,18-30,Camp (Mina),Bus,7 days,34401,5
+153,Nigeria,Male,46-60,Hotel (3 Star),Group Transport,10 days,15813,3
+154,Bangladesh,Female,18-30,Hotel (5 Star),Group Transport,10 days,13572,1
+155,UAE,Female,18-30,Hotel (5 Star),Private Car,7 days,33225,4
+156,Egypt,Male,31-45,Camp (Mina),Group Transport,10 days,37275,1
+157,Pakistan,Female,18-30,Hotel (5 Star),Private Car,10 days,11843,4
+158,Indonesia,Female,60+,Hotel (3 Star),Train (Haramain),10 days,6105,2
+159,UK,Female,60+,Apartment,Private Car,10 days,36639,3
+160,Bangladesh,Male,46-60,Hotel (5 Star),Group Transport,14 days,23051,2
+161,Nigeria,Male,60+,Camp (Mina),Train (Haramain),10 days,33708,5
+162,Bangladesh,Female,31-45,Apartment,Private Car,21 days,16864,3
+163,UAE,Female,46-60,Apartment,Group Transport,10 days,39764,5
+164,Turkey,Female,60+,Hotel (3 Star),Bus,7 days,6425,2
+165,Pakistan,Male,31-45,Camp (Mina),Bus,21 days,11849,4
+166,Pakistan,Male,60+,Hotel (5 Star),Private Car,14 days,23976,5
+167,UK,Female,60+,Camp (Mina),Private Car,21 days,39258,1
+168,Turkey,Female,18-30,Apartment,Bus,21 days,36113,4
+169,Malaysia,Female,60+,Camp (Mina),Group Transport,21 days,20401,4
+170,India,Female,60+,Hotel (5 Star),Group Transport,7 days,17884,2
+171,Indonesia,Female,31-45,Hotel (5 Star),Group Transport,7 days,23824,2
+172,Pakistan,Female,31-45,Hotel (3 Star),Private Car,7 days,39414,3
+173,Egypt,Male,18-30,Hotel (5 Star),Train (Haramain),14 days,21142,3
+174,Pakistan,Female,60+,Hotel (5 Star),Train (Haramain),7 days,10956,1
+175,Bangladesh,Male,18-30,Camp (Mina),Train (Haramain),7 days,18928,4
+176,Pakistan,Female,60+,Camp (Mina),Train (Haramain),21 days,14721,1
+177,Pakistan,Female,46-60,Apartment,Train (Haramain),7 days,16157,1
+178,India,Male,46-60,Hotel (3 Star),Private Car,10 days,11696,2
+179,India,Male,18-30,Camp (Mina),Private Car,7 days,32862,1
+180,Nigeria,Male,18-30,Hotel (5 Star),Train (Haramain),14 days,10190,1
+181,Malaysia,Male,18-30,Apartment,Private Car,14 days,9663,5
+182,Egypt,Female,31-45,Camp (Mina),Private Car,10 days,9331,3
+183,Pakistan,Male,31-45,Hotel (3 Star),Train (Haramain),14 days,33549,3
+184,Pakistan,Female,31-45,Hotel (3 Star),Group Transport,14 days,21246,4
+185,Indonesia,Male,18-30,Apartment,Private Car,21 days,30761,3
+186,India,Female,60+,Apartment,Group Transport,10 days,8262,4
+187,Egypt,Female,46-60,Apartment,Private Car,21 days,12036,5
+188,UK,Female,18-30,Apartment,Private Car,21 days,27322,3
+189,Nigeria,Female,31-45,Apartment,Train (Haramain),7 days,24131,5
+190,Malaysia,Female,31-45,Hotel (5 Star),Private Car,10 days,9677,3
+191,Turkey,Female,18-30,Hotel (5 Star),Bus,7 days,12972,3
+192,Malaysia,Male,18-30,Camp (Mina),Bus,7 days,20329,5
+193,Bangladesh,Female,31-45,Hotel (3 Star),Train (Haramain),21 days,25493,1
+194,Pakistan,Male,60+,Hotel (5 Star),Group Transport,14 days,23595,1
+195,Nigeria,Male,31-45,Hotel (5 Star),Group Transport,10 days,26923,1
+196,Bangladesh,Female,31-45,Hotel (5 Star),Group Transport,14 days,14735,1
+197,Egypt,Male,18-30,Camp (Mina),Bus,21 days,39457,3
+198,Turkey,Female,60+,Apartment,Group Transport,21 days,12727,2
+199,India,Male,31-45,Camp (Mina),Group Transport,21 days,12764,5
+200,Nigeria,Female,31-45,Hotel (3 Star),Train (Haramain),21 days,32599,2
+201,Nigeria,Male,46-60,Hotel (3 Star),Group Transport,21 days,5818,2
+202,Pakistan,Female,18-30,Hotel (3 Star),Bus,21 days,38892,4
+203,UAE,Female,46-60,Hotel (3 Star),Bus,14 days,10660,1
+204,Nigeria,Female,46-60,Hotel (5 Star),Bus,7 days,34521,3
+205,Indonesia,Female,31-45,Hotel (5 Star),Train (Haramain),14 days,39470,1
+206,Turkey,Male,18-30,Camp (Mina),Train (Haramain),10 days,23385,1
+207,Turkey,Female,60+,Apartment,Private Car,14 days,28296,2
+208,Indonesia,Male,31-45,Hotel (3 Star),Group Transport,21 days,28616,4
+209,UK,Male,60+,Camp (Mina),Train (Haramain),14 days,31382,1
+210,Indonesia,Male,60+,Hotel (5 Star),Bus,7 days,16139,5
+211,Indonesia,Female,18-30,Hotel (5 Star),Bus,10 days,37060,5
+212,Turkey,Male,46-60,Apartment,Train (Haramain),14 days,27419,1
+213,Malaysia,Male,18-30,Apartment,Train (Haramain),7 days,32785,2
+214,Turkey,Male,60+,Apartment,Train (Haramain),14 days,20702,2
+215,UAE,Female,31-45,Camp (Mina),Private Car,10 days,34217,3
+216,Pakistan,Female,60+,Hotel (5 Star),Bus,14 days,17397,4
+217,Bangladesh,Male,31-45,Hotel (5 Star),Private Car,21 days,31940,2
+218,Malaysia,Female,31-45,Apartment,Private Car,14 days,33341,3
+219,India,Female,18-30,Hotel (3 Star),Group Transport,7 days,15067,5
+220,Bangladesh,Male,60+,Apartment,Bus,14 days,18824,5
+221,Pakistan,Male,46-60,Camp (Mina),Bus,7 days,18444,5
+222,UAE,Female,60+,Apartment,Train (Haramain),10 days,38307,1
+223,UAE,Male,60+,Apartment,Train (Haramain),14 days,15974,4
+224,India,Female,46-60,Camp (Mina),Group Transport,10 days,34290,3
+225,Malaysia,Female,18-30,Apartment,Private Car,10 days,21016,4
+226,UK,Female,60+,Hotel (5 Star),Train (Haramain),14 days,37112,1
+227,Indonesia,Female,60+,Hotel (3 Star),Train (Haramain),7 days,33513,3
+228,Malaysia,Female,31-45,Apartment,Bus,10 days,7956,3
+229,UK,Female,60+,Camp (Mina),Bus,10 days,13077,2
+230,UAE,Male,46-60,Hotel (3 Star),Train (Haramain),14 days,39938,4
+231,Turkey,Male,31-45,Camp (Mina),Bus,14 days,23000,4
+232,Pakistan,Female,18-30,Hotel (3 Star),Group Transport,14 days,18806,2
+233,India,Female,31-45,Hotel (3 Star),Train (Haramain),14 days,17809,5
+234,Pakistan,Female,46-60,Apartment,Bus,14 days,19855,1
+235,Egypt,Male,46-60,Hotel (5 Star),Group Transport,21 days,34388,4
+236,Egypt,Female,31-45,Apartment,Bus,14 days,11458,2
+237,Malaysia,Male,18-30,Camp (Mina),Bus,7 days,11853,3
+238,UAE,Female,31-45,Camp (Mina),Bus,10 days,37222,2
+239,UAE,Female,18-30,Hotel (3 Star),Train (Haramain),7 days,23320,5
+240,Indonesia,Male,31-45,Hotel (3 Star),Private Car,7 days,33618,1
+241,Indonesia,Male,46-60,Hotel (5 Star),Bus,21 days,22352,5
+242,Indonesia,Female,60+,Apartment,Group Transport,14 days,12297,3
+243,Turkey,Female,60+,Camp (Mina),Train (Haramain),10 days,32940,3
+244,Bangladesh,Female,18-30,Hotel (3 Star),Train (Haramain),7 days,8203,3
+245,Nigeria,Male,18-30,Hotel (5 Star),Group Transport,14 days,22273,3
+246,Bangladesh,Male,18-30,Camp (Mina),Bus,14 days,30368,2
+247,Pakistan,Male,46-60,Hotel (3 Star),Private Car,21 days,16650,3
+248,Bangladesh,Male,31-45,Camp (Mina),Bus,21 days,35984,3
+249,Turkey,Male,46-60,Hotel (5 Star),Group Transport,21 days,12382,2
+250,Pakistan,Male,60+,Hotel (5 Star),Train (Haramain),10 days,5801,3
+251,Bangladesh,Female,18-30,Camp (Mina),Private Car,7 days,24733,5
+252,Turkey,Female,31-45,Apartment,Train (Haramain),21 days,14969,5
+253,Nigeria,Male,60+,Camp (Mina),Group Transport,21 days,21733,4
+254,Bangladesh,Female,60+,Hotel (3 Star),Bus,21 days,37449,5
+255,Turkey,Female,60+,Apartment,Private Car,7 days,31143,1
+256,Indonesia,Male,46-60,Hotel (3 Star),Train (Haramain),7 days,30705,1
+257,UAE,Female,18-30,Camp (Mina),Train (Haramain),21 days,33363,1
+258,Indonesia,Male,60+,Apartment,Train (Haramain),21 days,35720,2
+259,UAE,Male,18-30,Hotel (3 Star),Bus,14 days,14972,5
+260,India,Female,46-60,Camp (Mina),Private Car,21 days,38351,1
+261,India,Male,60+,Camp (Mina),Bus,10 days,27412,4
+262,India,Male,46-60,Apartment,Bus,10 days,29078,2
+263,Nigeria,Male,46-60,Camp (Mina),Bus,21 days,27580,4
+264,Indonesia,Male,18-30,Hotel (5 Star),Group Transport,7 days,19855,5
+265,UAE,Male,60+,Hotel (3 Star),Group Transport,14 days,24569,3
+266,Turkey,Male,46-60,Hotel (3 Star),Group Transport,7 days,30738,4
+267,Pakistan,Male,60+,Camp (Mina),Private Car,21 days,11772,3
+268,Turkey,Male,18-30,Camp (Mina),Bus,10 days,29874,2
+269,Pakistan,Female,46-60,Hotel (5 Star),Bus,14 days,24731,4
+270,Egypt,Female,18-30,Apartment,Group Transport,7 days,15131,4
+271,Turkey,Female,60+,Camp (Mina),Bus,7 days,5788,2
+272,Bangladesh,Male,60+,Camp (Mina),Bus,21 days,21184,2
+273,Bangladesh,Male,18-30,Camp (Mina),Train (Haramain),14 days,35897,1
+274,Malaysia,Female,31-45,Camp (Mina),Bus,10 days,7889,5
+275,Indonesia,Female,46-60,Hotel (3 Star),Train (Haramain),21 days,14569,4
+276,Pakistan,Female,60+,Camp (Mina),Bus,14 days,26657,4
+277,Pakistan,Male,60+,Hotel (3 Star),Private Car,7 days,15141,2
+278,Indonesia,Female,46-60,Camp (Mina),Group Transport,21 days,24656,2
+279,Nigeria,Female,18-30,Apartment,Train (Haramain),7 days,26618,5
+280,Malaysia,Male,18-30,Hotel (5 Star),Group Transport,7 days,16934,2
+281,Nigeria,Female,18-30,Apartment,Train (Haramain),21 days,28286,3
+282,Nigeria,Male,31-45,Camp (Mina),Train (Haramain),21 days,12612,3
+283,Nigeria,Male,31-45,Camp (Mina),Train (Haramain),21 days,37069,3
+284,Indonesia,Male,60+,Camp (Mina),Private Car,21 days,21205,3
+285,Nigeria,Female,18-30,Apartment,Bus,21 days,32331,5
+286,Bangladesh,Female,46-60,Camp (Mina),Train (Haramain),7 days,18934,4
+287,India,Male,60+,Apartment,Private Car,10 days,15095,3
+288,Egypt,Female,46-60,Hotel (3 Star),Train (Haramain),10 days,30958,2
+289,Pakistan,Female,60+,Hotel (5 Star),Bus,21 days,23706,3
+290,Pakistan,Female,31-45,Hotel (5 Star),Train (Haramain),7 days,36472,5
+291,Egypt,Female,60+,Apartment,Private Car,10 days,39629,2
+292,Indonesia,Male,31-45,Hotel (3 Star),Bus,10 days,28004,3
+293,Turkey,Female,60+,Apartment,Private Car,10 days,25431,4
+294,Indonesia,Male,18-30,Hotel (3 Star),Bus,7 days,39502,2
+295,Pakistan,Male,46-60,Camp (Mina),Bus,21 days,36385,2
+296,Pakistan,Female,18-30,Hotel (3 Star),Group Transport,21 days,9663,4
+297,Egypt,Male,60+,Hotel (3 Star),Group Transport,21 days,17818,2
+298,Nigeria,Female,60+,Hotel (3 Star),Group Transport,14 days,27686,3
+299,Indonesia,Female,60+,Hotel (5 Star),Bus,14 days,28977,2
+300,UAE,Male,31-45,Hotel (3 Star),Train (Haramain),14 days,23454,3
+301,Egypt,Male,46-60,Camp (Mina),Private Car,7 days,18358,4
+302,Bangladesh,Male,46-60,Camp (Mina),Private Car,10 days,11668,1
+303,Pakistan,Male,60+,Camp (Mina),Private Car,10 days,14921,4
+304,Egypt,Female,60+,Hotel (3 Star),Group Transport,7 days,39959,3
+305,Indonesia,Female,31-45,Apartment,Bus,7 days,37328,5
+306,Pakistan,Female,18-30,Apartment,Group Transport,21 days,13859,4
+307,Turkey,Male,18-30,Camp (Mina),Train (Haramain),21 days,28970,5
+308,Egypt,Male,46-60,Hotel (5 Star),Bus,14 days,13872,5
+309,Malaysia,Male,31-45,Apartment,Private Car,14 days,24230,3
+310,Pakistan,Female,60+,Hotel (3 Star),Group Transport,7 days,31708,3
+311,Indonesia,Male,46-60,Apartment,Group Transport,14 days,23847,1
+312,India,Female,31-45,Camp (Mina),Train (Haramain),10 days,32105,2
+313,UAE,Male,18-30,Hotel (5 Star),Train (Haramain),7 days,9922,4
+314,UK,Female,31-45,Apartment,Group Transport,7 days,9392,3
+315,Nigeria,Female,18-30,Apartment,Train (Haramain),10 days,18541,4
+316,UK,Male,31-45,Camp (Mina),Private Car,21 days,24551,5
+317,Indonesia,Male,46-60,Hotel (5 Star),Train (Haramain),21 days,24381,2
+318,Bangladesh,Female,18-30,Hotel (5 Star),Train (Haramain),10 days,27948,1
+319,Bangladesh,Female,46-60,Camp (Mina),Group Transport,10 days,31728,4
+320,India,Male,46-60,Hotel (3 Star),Group Transport,14 days,7024,2
+321,Nigeria,Male,18-30,Apartment,Bus,7 days,21713,1
+322,Malaysia,Female,18-30,Hotel (3 Star),Bus,14 days,7486,4
+323,India,Male,60+,Apartment,Group Transport,10 days,6155,2
+324,UK,Female,60+,Apartment,Train (Haramain),14 days,15082,3
+325,India,Female,60+,Hotel (3 Star),Train (Haramain),10 days,23569,4
+326,UK,Male,46-60,Camp (Mina),Bus,14 days,12086,2
+327,Pakistan,Male,46-60,Camp (Mina),Bus,14 days,7317,1
+328,Bangladesh,Male,60+,Apartment,Bus,21 days,9491,2
+329,Pakistan,Male,46-60,Camp (Mina),Private Car,10 days,20916,3
+330,UAE,Male,46-60,Apartment,Private Car,14 days,20248,4
+331,Nigeria,Female,18-30,Camp (Mina),Bus,7 days,7511,4
+332,Malaysia,Female,18-30,Apartment,Train (Haramain),14 days,29226,4
+333,UK,Male,46-60,Camp (Mina),Bus,14 days,30025,3
+334,Malaysia,Male,60+,Hotel (5 Star),Private Car,7 days,12848,1
+335,UK,Male,31-45,Hotel (3 Star),Train (Haramain),10 days,19274,4
+336,Indonesia,Female,60+,Hotel (5 Star),Private Car,21 days,35958,1
+337,India,Male,31-45,Hotel (3 Star),Train (Haramain),21 days,21304,2
+338,UAE,Male,60+,Hotel (3 Star),Private Car,21 days,16294,1
+339,Bangladesh,Female,18-30,Apartment,Train (Haramain),7 days,31425,1
+340,UK,Female,46-60,Hotel (3 Star),Train (Haramain),14 days,8175,4
+341,Malaysia,Male,46-60,Hotel (5 Star),Train (Haramain),10 days,32775,5
+342,UAE,Male,18-30,Hotel (5 Star),Train (Haramain),14 days,14425,5
+343,Turkey,Male,31-45,Camp (Mina),Group Transport,21 days,31013,3
+344,Turkey,Female,31-45,Hotel (5 Star),Private Car,14 days,32928,3
+345,Pakistan,Male,31-45,Camp (Mina),Private Car,7 days,13210,5
+346,Bangladesh,Male,18-30,Hotel (3 Star),Group Transport,7 days,7759,2
+347,Indonesia,Male,31-45,Hotel (5 Star),Train (Haramain),10 days,21091,4
+348,Malaysia,Female,18-30,Hotel (3 Star),Train (Haramain),10 days,5002,4
+349,India,Female,60+,Hotel (5 Star),Private Car,21 days,35160,2
+350,India,Male,60+,Hotel (5 Star),Group Transport,10 days,25707,2
+351,Malaysia,Male,18-30,Camp (Mina),Train (Haramain),14 days,20248,5
+352,Nigeria,Female,46-60,Hotel (3 Star),Train (Haramain),7 days,10773,3
+353,Indonesia,Female,60+,Hotel (5 Star),Train (Haramain),7 days,17786,2
+354,UAE,Female,31-45,Apartment,Bus,7 days,20037,3
+355,UK,Female,18-30,Hotel (3 Star),Group Transport,10 days,6885,1
+356,Nigeria,Female,31-45,Hotel (3 Star),Train (Haramain),7 days,21331,4
+357,UK,Female,31-45,Hotel (3 Star),Bus,7 days,27495,5
+358,UK,Female,46-60,Camp (Mina),Group Transport,7 days,18450,4
+359,Nigeria,Female,31-45,Apartment,Train (Haramain),21 days,14491,5
+360,Pakistan,Female,46-60,Hotel (3 Star),Private Car,21 days,14268,1
+361,Turkey,Male,60+,Hotel (5 Star),Bus,10 days,32757,4
+362,UK,Male,18-30,Hotel (5 Star),Bus,7 days,11791,1
+363,Nigeria,Male,31-45,Camp (Mina),Train (Haramain),10 days,33314,5
+364,Nigeria,Female,18-30,Hotel (5 Star),Train (Haramain),7 days,33583,2
+365,Egypt,Male,31-45,Hotel (3 Star),Bus,7 days,26550,4
+366,Pakistan,Female,18-30,Hotel (5 Star),Private Car,7 days,5093,1
+367,Bangladesh,Female,31-45,Hotel (3 Star),Private Car,10 days,14967,4
+368,Egypt,Male,31-45,Hotel (5 Star),Group Transport,10 days,21218,4
+369,Egypt,Female,31-45,Apartment,Train (Haramain),7 days,13627,4
+370,Malaysia,Male,31-45,Camp (Mina),Private Car,14 days,9947,3
+371,Turkey,Male,31-45,Camp (Mina),Group Transport,10 days,28178,1
+372,Nigeria,Male,31-45,Apartment,Private Car,21 days,33876,1
+373,Turkey,Female,31-45,Apartment,Train (Haramain),10 days,27908,4
+374,Indonesia,Male,31-45,Camp (Mina),Group Transport,7 days,24971,2
+375,Malaysia,Female,31-45,Apartment,Group Transport,14 days,37584,4
+376,Bangladesh,Male,18-30,Hotel (3 Star),Group Transport,7 days,13959,3
+377,Turkey,Male,46-60,Hotel (5 Star),Private Car,21 days,33261,5
+378,India,Male,31-45,Camp (Mina),Train (Haramain),10 days,20835,3
+379,UK,Female,46-60,Apartment,Group Transport,10 days,24257,2
+380,Indonesia,Female,31-45,Hotel (3 Star),Bus,7 days,8346,4
+381,Pakistan,Female,31-45,Camp (Mina),Train (Haramain),7 days,35807,1
+382,Bangladesh,Male,18-30,Apartment,Bus,21 days,35418,4
+383,Indonesia,Male,60+,Camp (Mina),Bus,14 days,16340,2
+384,UK,Female,60+,Apartment,Group Transport,21 days,38012,1
+385,Malaysia,Female,18-30,Camp (Mina),Group Transport,14 days,14597,3
+386,UK,Female,46-60,Hotel (3 Star),Private Car,10 days,30557,5
+387,Egypt,Female,60+,Hotel (3 Star),Private Car,14 days,12737,5
+388,UK,Female,18-30,Hotel (5 Star),Private Car,14 days,22276,4
+389,Egypt,Female,18-30,Camp (Mina),Train (Haramain),10 days,12310,3
+390,Malaysia,Male,60+,Hotel (5 Star),Private Car,10 days,24344,2
+391,UAE,Female,46-60,Camp (Mina),Bus,10 days,15391,5
+392,Egypt,Male,18-30,Apartment,Private Car,21 days,15892,3
+393,Pakistan,Male,31-45,Apartment,Group Transport,10 days,16197,4
+394,UK,Female,46-60,Hotel (5 Star),Private Car,7 days,18050,1
+395,UK,Female,46-60,Camp (Mina),Train (Haramain),10 days,18535,4
+396,Pakistan,Male,60+,Hotel (5 Star),Train (Haramain),10 days,10122,4
+397,India,Female,60+,Hotel (3 Star),Bus,10 days,14852,3
+398,Nigeria,Female,31-45,Hotel (5 Star),Train (Haramain),14 days,10387,5
+399,UAE,Male,18-30,Hotel (5 Star),Private Car,21 days,36759,3
+400,Bangladesh,Male,60+,Apartment,Group Transport,10 days,39878,1
+401,Egypt,Male,60+,Hotel (5 Star),Train (Haramain),21 days,38725,3
+402,Pakistan,Female,46-60,Camp (Mina),Bus,7 days,12146,2
+403,Malaysia,Male,60+,Apartment,Private Car,7 days,5560,4
+404,Egypt,Female,60+,Hotel (5 Star),Bus,10 days,6312,5
+405,Nigeria,Male,60+,Hotel (3 Star),Train (Haramain),7 days,23205,1
+406,Malaysia,Male,60+,Hotel (5 Star),Train (Haramain),21 days,16595,4
+407,Indonesia,Male,46-60,Hotel (5 Star),Bus,14 days,27030,3
+408,UK,Female,31-45,Hotel (5 Star),Private Car,10 days,26329,2
+409,Indonesia,Female,31-45,Apartment,Train (Haramain),7 days,7651,3
+410,Egypt,Male,18-30,Camp (Mina),Group Transport,21 days,15006,4
+411,Nigeria,Male,60+,Hotel (3 Star),Train (Haramain),21 days,26966,1
+412,UAE,Male,46-60,Hotel (5 Star),Private Car,7 days,32846,5
+413,Egypt,Female,18-30,Camp (Mina),Train (Haramain),21 days,26774,4
+414,Pakistan,Male,18-30,Camp (Mina),Bus,21 days,9083,1
+415,Turkey,Female,31-45,Apartment,Train (Haramain),10 days,38513,4
+416,Egypt,Male,46-60,Hotel (3 Star),Train (Haramain),21 days,13749,2
+417,UK,Male,46-60,Apartment,Private Car,7 days,35783,3
+418,UK,Male,46-60,Camp (Mina),Bus,10 days,22325,5
+419,Egypt,Male,31-45,Camp (Mina),Private Car,7 days,23680,1
+420,Malaysia,Male,31-45,Camp (Mina),Train (Haramain),14 days,22323,5
+421,Turkey,Male,31-45,Apartment,Group Transport,7 days,27684,5
+422,Pakistan,Female,31-45,Hotel (3 Star),Train (Haramain),7 days,39493,5
+423,Egypt,Male,31-45,Hotel (5 Star),Private Car,10 days,17213,1
+424,Malaysia,Female,60+,Apartment,Group Transport,21 days,36831,1
+425,UK,Male,60+,Camp (Mina),Private Car,7 days,32713,5
+426,UK,Male,46-60,Apartment,Private Car,10 days,12187,3
+427,Nigeria,Female,18-30,Camp (Mina),Bus,14 days,37800,4
+428,Egypt,Male,46-60,Hotel (5 Star),Group Transport,10 days,37583,5
+429,Turkey,Female,18-30,Hotel (5 Star),Train (Haramain),10 days,19408,2
+430,India,Female,31-45,Hotel (3 Star),Private Car,21 days,27369,5
+431,Turkey,Male,18-30,Camp (Mina),Train (Haramain),7 days,8414,1
+432,UK,Female,46-60,Hotel (3 Star),Bus,14 days,24510,4
+433,UK,Female,46-60,Hotel (3 Star),Bus,10 days,17120,2
+434,Indonesia,Male,18-30,Hotel (5 Star),Group Transport,7 days,39311,4
+435,UK,Female,60+,Apartment,Bus,7 days,38039,4
+436,Pakistan,Male,31-45,Apartment,Bus,10 days,10295,2
+437,Bangladesh,Male,31-45,Hotel (3 Star),Train (Haramain),7 days,25460,5
+438,Egypt,Male,46-60,Hotel (5 Star),Bus,10 days,19963,5
+439,Turkey,Male,60+,Camp (Mina),Bus,10 days,16580,5
+440,Bangladesh,Female,18-30,Apartment,Private Car,10 days,27286,3
+441,Malaysia,Male,31-45,Hotel (3 Star),Bus,14 days,32328,5
+442,India,Male,60+,Apartment,Private Car,10 days,24093,2
+443,Pakistan,Female,31-45,Apartment,Bus,21 days,26605,3
+444,Turkey,Male,60+,Camp (Mina),Bus,7 days,11722,5
+445,Bangladesh,Male,60+,Hotel (5 Star),Group Transport,14 days,11766,3
+446,India,Female,46-60,Camp (Mina),Group Transport,7 days,20928,2
+447,Indonesia,Female,31-45,Hotel (5 Star),Private Car,14 days,26274,5
+448,Pakistan,Female,18-30,Apartment,Bus,21 days,39416,1
+449,Pakistan,Female,46-60,Hotel (3 Star),Train (Haramain),14 days,25612,2
+450,Indonesia,Female,46-60,Camp (Mina),Group Transport,14 days,39898,4
+451,Egypt,Female,18-30,Hotel (5 Star),Train (Haramain),14 days,34047,4
+452,Indonesia,Female,46-60,Apartment,Group Transport,7 days,6506,2
+453,Pakistan,Male,60+,Hotel (5 Star),Group Transport,10 days,20222,4
+454,Pakistan,Female,60+,Hotel (5 Star),Bus,7 days,17363,2
+455,Bangladesh,Female,31-45,Hotel (5 Star),Group Transport,10 days,24613,1
+456,UK,Female,31-45,Apartment,Train (Haramain),7 days,35628,2
+457,India,Male,18-30,Hotel (3 Star),Group Transport,21 days,9136,5
+458,Indonesia,Male,31-45,Hotel (3 Star),Private Car,21 days,16161,5
+459,India,Female,60+,Hotel (3 Star),Bus,14 days,28574,3
+460,Indonesia,Female,18-30,Hotel (5 Star),Bus,21 days,31902,4
+461,Malaysia,Female,18-30,Apartment,Private Car,14 days,7810,4
+462,Pakistan,Male,31-45,Hotel (5 Star),Private Car,10 days,16663,2
+463,UK,Male,60+,Hotel (3 Star),Private Car,21 days,11152,4
+464,Bangladesh,Female,18-30,Hotel (3 Star),Group Transport,10 days,5012,5
+465,UK,Male,60+,Apartment,Bus,7 days,16162,1
+466,UK,Female,60+,Hotel (5 Star),Private Car,10 days,27322,2
+467,UK,Male,60+,Camp (Mina),Group Transport,7 days,12999,4
+468,India,Male,31-45,Camp (Mina),Private Car,10 days,12219,5
+469,Indonesia,Female,46-60,Hotel (3 Star),Train (Haramain),10 days,10328,3
+470,UAE,Female,46-60,Apartment,Train (Haramain),21 days,8621,4
+471,Malaysia,Female,18-30,Hotel (5 Star),Bus,10 days,29256,1
+472,Turkey,Female,60+,Hotel (5 Star),Group Transport,21 days,16314,1
+473,UK,Male,31-45,Hotel (3 Star),Train (Haramain),21 days,5652,4
+474,Egypt,Male,60+,Hotel (3 Star),Train (Haramain),14 days,21182,4
+475,India,Male,60+,Hotel (5 Star),Group Transport,14 days,20659,5
+476,Bangladesh,Female,31-45,Hotel (5 Star),Private Car,7 days,39413,4
+477,Turkey,Male,46-60,Hotel (3 Star),Group Transport,10 days,15435,3
+478,UAE,Female,60+,Hotel (5 Star),Private Car,7 days,33067,5
+479,Egypt,Male,60+,Camp (Mina),Train (Haramain),10 days,27258,2
+480,UAE,Female,46-60,Hotel (3 Star),Train (Haramain),14 days,33287,3
+481,Turkey,Female,31-45,Hotel (5 Star),Train (Haramain),14 days,8688,5
+482,UK,Male,18-30,Hotel (3 Star),Bus,10 days,12689,5
+483,Egypt,Female,46-60,Apartment,Bus,10 days,6379,1
+484,UAE,Female,18-30,Hotel (3 Star),Bus,14 days,32624,5
+485,Bangladesh,Male,18-30,Hotel (3 Star),Group Transport,14 days,30964,3
+486,Indonesia,Female,46-60,Apartment,Train (Haramain),7 days,27891,4
+487,Pakistan,Female,60+,Camp (Mina),Train (Haramain),14 days,17516,3
+488,Indonesia,Female,18-30,Hotel (5 Star),Group Transport,10 days,18886,2
+489,Turkey,Male,18-30,Apartment,Bus,7 days,25307,5
+490,India,Male,31-45,Hotel (3 Star),Group Transport,10 days,29843,5
+491,Pakistan,Female,60+,Hotel (5 Star),Bus,21 days,10912,5
+492,Malaysia,Male,18-30,Apartment,Train (Haramain),7 days,26514,5
+493,Bangladesh,Female,31-45,Hotel (5 Star),Private Car,10 days,26823,1
+494,Malaysia,Female,60+,Hotel (5 Star),Bus,14 days,33797,1
+495,Egypt,Female,46-60,Apartment,Train (Haramain),21 days,11449,4
+496,Pakistan,Female,46-60,Hotel (5 Star),Train (Haramain),10 days,6725,5
+497,Malaysia,Female,31-45,Camp (Mina),Private Car,7 days,20870,2
+498,Malaysia,Male,46-60,Apartment,Train (Haramain),10 days,14304,4
+499,UAE,Female,18-30,Camp (Mina),Train (Haramain),21 days,12522,5
+500,Indonesia,Male,60+,Hotel (3 Star),Bus,7 days,18663,1
+501,UAE,Male,18-30,Hotel (5 Star),Bus,21 days,9784,2
+502,Pakistan,Female,18-30,Hotel (3 Star),Private Car,10 days,14472,4
+503,Pakistan,Female,46-60,Hotel (3 Star),Private Car,14 days,33952,2
+504,Turkey,Male,18-30,Hotel (5 Star),Train (Haramain),14 days,15055,5
+505,UAE,Male,46-60,Apartment,Bus,10 days,34508,3
+506,Nigeria,Male,60+,Hotel (5 Star),Private Car,10 days,17676,2
+507,Indonesia,Female,60+,Hotel (3 Star),Private Car,10 days,30192,2
+508,Pakistan,Male,18-30,Hotel (3 Star),Group Transport,7 days,29722,1
+509,Turkey,Female,31-45,Apartment,Private Car,21 days,12446,5
+510,UAE,Female,46-60,Hotel (5 Star),Train (Haramain),21 days,9725,2
+511,Indonesia,Female,46-60,Hotel (3 Star),Bus,21 days,25061,5
+512,UAE,Male,18-30,Camp (Mina),Private Car,10 days,27671,1
+513,Malaysia,Female,46-60,Hotel (3 Star),Group Transport,21 days,6409,5
+514,Turkey,Female,46-60,Hotel (3 Star),Bus,10 days,13205,1
+515,Indonesia,Female,31-45,Apartment,Private Car,7 days,21365,1
+516,UK,Female,31-45,Camp (Mina),Group Transport,14 days,5256,4
+517,Egypt,Female,18-30,Hotel (3 Star),Private Car,10 days,20704,5
+518,Egypt,Male,31-45,Hotel (3 Star),Bus,10 days,34902,3
+519,Indonesia,Female,18-30,Camp (Mina),Bus,14 days,6195,4
+520,UAE,Female,60+,Hotel (5 Star),Bus,14 days,39012,1
+521,Turkey,Male,18-30,Hotel (5 Star),Train (Haramain),7 days,16415,3
+522,Egypt,Female,60+,Hotel (3 Star),Private Car,21 days,26686,2
+523,Turkey,Male,18-30,Hotel (3 Star),Train (Haramain),10 days,16662,2
+524,Egypt,Female,46-60,Hotel (5 Star),Bus,21 days,33743,4
+525,Malaysia,Male,31-45,Apartment,Group Transport,10 days,37161,3
+526,UAE,Male,60+,Camp (Mina),Private Car,7 days,7402,5
+527,Malaysia,Female,18-30,Camp (Mina),Train (Haramain),14 days,18275,3
+528,Egypt,Female,31-45,Apartment,Private Car,7 days,33182,4
+529,UK,Female,18-30,Apartment,Group Transport,14 days,19915,5
+530,UK,Male,31-45,Apartment,Train (Haramain),21 days,5909,5
+531,Malaysia,Male,31-45,Apartment,Bus,21 days,5372,2
+532,UK,Male,18-30,Apartment,Train (Haramain),7 days,27620,3
+533,Egypt,Female,60+,Apartment,Private Car,14 days,39112,5
+534,Indonesia,Male,60+,Camp (Mina),Private Car,7 days,13515,4
+535,Malaysia,Male,46-60,Apartment,Private Car,14 days,7431,2
+536,India,Female,31-45,Hotel (5 Star),Private Car,14 days,26054,5
+537,UAE,Male,46-60,Apartment,Bus,21 days,37624,3
+538,UK,Male,46-60,Apartment,Train (Haramain),21 days,15585,2
+539,UK,Female,18-30,Camp (Mina),Bus,14 days,36958,3
+540,Pakistan,Male,18-30,Camp (Mina),Bus,14 days,6695,3
+541,Nigeria,Female,18-30,Apartment,Bus,14 days,39675,3
+542,Malaysia,Female,31-45,Camp (Mina),Private Car,21 days,38787,2
+543,Bangladesh,Female,18-30,Hotel (3 Star),Private Car,21 days,6403,5
+544,UK,Female,18-30,Camp (Mina),Private Car,10 days,22810,1
+545,UAE,Female,31-45,Camp (Mina),Train (Haramain),14 days,13855,5
+546,India,Male,31-45,Camp (Mina),Group Transport,10 days,15839,2
+547,UK,Male,60+,Camp (Mina),Private Car,14 days,5010,1
+548,India,Female,18-30,Hotel (5 Star),Train (Haramain),21 days,14230,1
+549,Egypt,Female,18-30,Hotel (5 Star),Private Car,10 days,34256,1
+550,Egypt,Male,18-30,Hotel (5 Star),Private Car,10 days,30651,4
+551,Nigeria,Female,60+,Apartment,Bus,7 days,37383,2
+552,Indonesia,Female,18-30,Apartment,Bus,14 days,18662,4
+553,Bangladesh,Female,60+,Hotel (3 Star),Bus,21 days,18739,1
+554,Pakistan,Male,46-60,Hotel (5 Star),Train (Haramain),7 days,6789,4
+555,Nigeria,Male,60+,Apartment,Group Transport,7 days,24420,4
+556,Turkey,Female,46-60,Camp (Mina),Group Transport,14 days,28761,2
+557,Pakistan,Female,18-30,Camp (Mina),Train (Haramain),7 days,22357,3
+558,Malaysia,Male,46-60,Hotel (5 Star),Private Car,14 days,16317,4
+559,UAE,Male,60+,Hotel (3 Star),Train (Haramain),7 days,26534,4
+560,Turkey,Female,31-45,Hotel (3 Star),Private Car,14 days,30734,1
+561,Turkey,Female,46-60,Camp (Mina),Train (Haramain),21 days,37872,1
+562,Nigeria,Male,46-60,Hotel (3 Star),Train (Haramain),14 days,12689,1
+563,Indonesia,Male,18-30,Hotel (5 Star),Train (Haramain),14 days,8567,5
+564,Nigeria,Male,60+,Camp (Mina),Group Transport,10 days,25732,4
+565,Malaysia,Female,46-60,Apartment,Bus,21 days,25774,1
+566,UK,Male,46-60,Apartment,Train (Haramain),21 days,28195,2
+567,UK,Female,46-60,Hotel (3 Star),Group Transport,21 days,27257,5
+568,Indonesia,Male,46-60,Camp (Mina),Bus,7 days,9394,3
+569,Malaysia,Male,31-45,Camp (Mina),Bus,10 days,27228,4
+570,Indonesia,Male,60+,Apartment,Train (Haramain),21 days,17388,4
+571,India,Male,18-30,Camp (Mina),Private Car,7 days,16319,2
+572,UK,Female,18-30,Camp (Mina),Private Car,7 days,11475,3
+573,Turkey,Female,31-45,Camp (Mina),Private Car,7 days,36555,3
+574,Bangladesh,Male,60+,Hotel (3 Star),Train (Haramain),10 days,23158,5
+575,UAE,Female,46-60,Camp (Mina),Private Car,7 days,19728,4
+576,Malaysia,Male,31-45,Hotel (5 Star),Group Transport,10 days,34545,1
+577,Pakistan,Male,60+,Hotel (3 Star),Group Transport,14 days,36100,2
+578,Indonesia,Male,46-60,Camp (Mina),Group Transport,7 days,21150,2
+579,UAE,Male,31-45,Camp (Mina),Group Transport,21 days,38214,2
+580,Pakistan,Female,60+,Hotel (5 Star),Bus,7 days,37876,2
+581,UAE,Male,18-30,Hotel (3 Star),Group Transport,14 days,8239,1
+582,Bangladesh,Male,18-30,Apartment,Private Car,14 days,35615,1
+583,Pakistan,Female,60+,Apartment,Train (Haramain),7 days,18746,5
+584,Nigeria,Male,18-30,Hotel (3 Star),Private Car,14 days,25921,4
+585,Egypt,Male,60+,Camp (Mina),Group Transport,10 days,27745,1
+586,Nigeria,Male,46-60,Camp (Mina),Bus,10 days,6245,5
+587,UK,Female,60+,Apartment,Group Transport,7 days,29853,3
+588,Egypt,Male,46-60,Apartment,Train (Haramain),10 days,32632,4
+589,Nigeria,Female,31-45,Apartment,Private Car,10 days,17856,1
+590,Egypt,Male,60+,Hotel (5 Star),Train (Haramain),21 days,10105,3
+591,Egypt,Male,31-45,Apartment,Train (Haramain),7 days,7513,5
+592,Turkey,Female,18-30,Hotel (5 Star),Train (Haramain),14 days,7801,1
+593,Indonesia,Male,46-60,Hotel (3 Star),Private Car,7 days,37345,1
+594,Indonesia,Male,60+,Camp (Mina),Group Transport,10 days,18895,3
+595,Turkey,Female,31-45,Apartment,Train (Haramain),21 days,13221,1
+596,UAE,Female,46-60,Camp (Mina),Private Car,7 days,11038,2
+597,India,Female,46-60,Camp (Mina),Bus,7 days,37031,1
+598,UAE,Female,18-30,Apartment,Private Car,10 days,20082,4
+599,Pakistan,Female,18-30,Apartment,Bus,10 days,19648,3
+600,Pakistan,Male,46-60,Hotel (3 Star),Private Car,7 days,5364,4
+601,Egypt,Female,46-60,Hotel (5 Star),Group Transport,10 days,39568,5
+602,Nigeria,Male,60+,Hotel (5 Star),Train (Haramain),10 days,19110,4
+603,Nigeria,Male,46-60,Camp (Mina),Group Transport,10 days,10958,2
+604,Indonesia,Male,60+,Apartment,Private Car,10 days,14096,2
+605,Malaysia,Female,46-60,Hotel (3 Star),Train (Haramain),10 days,12436,4
+606,UAE,Female,18-30,Hotel (3 Star),Bus,21 days,26177,5
+607,UK,Male,60+,Hotel (3 Star),Private Car,10 days,31754,1
+608,Bangladesh,Female,31-45,Hotel (3 Star),Train (Haramain),14 days,29544,2
+609,Nigeria,Female,18-30,Hotel (3 Star),Bus,7 days,17638,4
+610,Bangladesh,Female,60+,Hotel (5 Star),Bus,21 days,5179,4
+611,Egypt,Female,60+,Hotel (5 Star),Group Transport,21 days,8873,4
+612,Bangladesh,Male,31-45,Hotel (5 Star),Private Car,10 days,22570,1
+613,UK,Male,60+,Apartment,Bus,7 days,22157,3
+614,Turkey,Female,46-60,Camp (Mina),Train (Haramain),14 days,9460,5
+615,UK,Male,31-45,Hotel (3 Star),Bus,10 days,5352,3
+616,Bangladesh,Female,18-30,Apartment,Bus,7 days,26586,5
+617,UK,Female,18-30,Hotel (3 Star),Group Transport,10 days,10344,5
+618,India,Male,46-60,Hotel (5 Star),Group Transport,10 days,9507,4
+619,Egypt,Male,18-30,Apartment,Train (Haramain),10 days,37885,2
+620,UAE,Male,60+,Hotel (5 Star),Group Transport,10 days,21865,4
+621,Turkey,Female,60+,Hotel (3 Star),Bus,10 days,32213,1
+622,Nigeria,Male,46-60,Hotel (3 Star),Bus,10 days,9477,5
+623,Pakistan,Female,18-30,Camp (Mina),Group Transport,10 days,11533,2
+624,UAE,Male,18-30,Hotel (3 Star),Bus,14 days,28396,5
+625,Pakistan,Male,46-60,Hotel (5 Star),Bus,21 days,17755,5
+626,Egypt,Female,31-45,Hotel (3 Star),Train (Haramain),14 days,5865,4
+627,Turkey,Female,18-30,Camp (Mina),Group Transport,10 days,16173,2
+628,Indonesia,Female,31-45,Camp (Mina),Bus,10 days,38371,2
+629,Nigeria,Female,18-30,Hotel (5 Star),Group Transport,14 days,16254,5
+630,India,Female,18-30,Apartment,Train (Haramain),14 days,9018,2
+631,Indonesia,Female,18-30,Hotel (3 Star),Group Transport,21 days,10192,2
+632,Egypt,Female,18-30,Camp (Mina),Bus,14 days,7015,4
+633,UAE,Female,60+,Hotel (3 Star),Group Transport,21 days,8380,3
+634,India,Male,31-45,Hotel (3 Star),Bus,10 days,33343,1
+635,UK,Female,31-45,Apartment,Bus,7 days,8770,3
+636,Bangladesh,Female,18-30,Camp (Mina),Bus,7 days,10829,2
+637,India,Male,18-30,Hotel (3 Star),Train (Haramain),7 days,39381,5
+638,Egypt,Female,31-45,Camp (Mina),Group Transport,7 days,20545,1
+639,Malaysia,Male,60+,Hotel (5 Star),Train (Haramain),10 days,23263,1
+640,Bangladesh,Male,46-60,Hotel (5 Star),Group Transport,7 days,30675,5
+641,Pakistan,Female,46-60,Hotel (3 Star),Train (Haramain),14 days,30362,1
+642,Nigeria,Male,31-45,Camp (Mina),Private Car,14 days,5148,5
+643,Pakistan,Female,18-30,Hotel (3 Star),Bus,7 days,6754,1
+644,India,Male,18-30,Camp (Mina),Bus,14 days,31745,3
+645,Pakistan,Male,60+,Camp (Mina),Train (Haramain),21 days,12378,1
+646,Egypt,Male,46-60,Apartment,Private Car,10 days,25140,4
+647,UK,Female,60+,Apartment,Bus,7 days,14371,5
+648,UAE,Female,46-60,Apartment,Group Transport,7 days,31999,1
+649,Nigeria,Male,31-45,Hotel (3 Star),Train (Haramain),10 days,17779,5
+650,Pakistan,Male,46-60,Apartment,Bus,14 days,36075,4
+651,Pakistan,Female,60+,Apartment,Bus,10 days,35697,1
+652,India,Female,60+,Hotel (5 Star),Train (Haramain),10 days,14795,1
+653,UAE,Male,60+,Camp (Mina),Train (Haramain),14 days,9218,4
+654,Indonesia,Male,31-45,Camp (Mina),Group Transport,10 days,16672,4
+655,Pakistan,Female,46-60,Apartment,Group Transport,14 days,36042,4
+656,Egypt,Female,46-60,Camp (Mina),Bus,14 days,16009,5
+657,Malaysia,Female,60+,Hotel (5 Star),Bus,10 days,24544,4
+658,Nigeria,Female,46-60,Hotel (5 Star),Train (Haramain),21 days,34381,5
+659,Pakistan,Female,18-30,Apartment,Bus,14 days,30287,3
+660,Egypt,Male,18-30,Hotel (5 Star),Bus,10 days,7586,1
+661,Egypt,Female,18-30,Camp (Mina),Train (Haramain),14 days,7648,1
+662,Nigeria,Male,46-60,Hotel (3 Star),Bus,21 days,23101,2
+663,Indonesia,Female,31-45,Camp (Mina),Bus,21 days,26692,3
+664,Egypt,Male,31-45,Hotel (3 Star),Private Car,7 days,12407,4
+665,Malaysia,Female,31-45,Apartment,Group Transport,14 days,22254,4
+666,Egypt,Female,31-45,Hotel (3 Star),Train (Haramain),14 days,20234,3
+667,Egypt,Male,18-30,Hotel (5 Star),Private Car,10 days,27211,4
+668,Egypt,Male,18-30,Camp (Mina),Group Transport,14 days,34480,2
+669,UK,Female,60+,Hotel (3 Star),Group Transport,7 days,29846,5
+670,UK,Female,46-60,Camp (Mina),Group Transport,21 days,20321,1
+671,Indonesia,Female,46-60,Apartment,Private Car,21 days,17646,3
+672,Pakistan,Female,31-45,Apartment,Private Car,7 days,27117,1
+673,Egypt,Female,18-30,Hotel (5 Star),Group Transport,14 days,9893,5
+674,UAE,Male,31-45,Apartment,Bus,14 days,14476,3
+675,Pakistan,Male,60+,Hotel (3 Star),Bus,7 days,22270,5
+676,Indonesia,Female,46-60,Apartment,Private Car,10 days,26702,4
+677,Turkey,Male,46-60,Hotel (5 Star),Private Car,21 days,9382,4
+678,Pakistan,Male,31-45,Camp (Mina),Private Car,7 days,6785,4
+679,Pakistan,Male,60+,Camp (Mina),Group Transport,7 days,16735,5
+680,Bangladesh,Female,46-60,Apartment,Bus,14 days,35177,5
+681,India,Male,60+,Hotel (3 Star),Private Car,21 days,35712,5
+682,Bangladesh,Female,60+,Hotel (5 Star),Private Car,14 days,21679,1
+683,Malaysia,Male,31-45,Hotel (3 Star),Train (Haramain),7 days,22064,5
+684,UK,Female,18-30,Hotel (5 Star),Group Transport,10 days,35563,4
+685,UK,Male,31-45,Apartment,Train (Haramain),21 days,38092,2
+686,India,Female,18-30,Hotel (5 Star),Bus,7 days,31867,5
+687,Nigeria,Female,60+,Hotel (5 Star),Train (Haramain),7 days,38754,2
+688,Nigeria,Male,18-30,Apartment,Train (Haramain),10 days,24502,4
+689,Indonesia,Female,60+,Hotel (3 Star),Train (Haramain),7 days,5760,5
+690,India,Female,46-60,Apartment,Group Transport,7 days,29142,1
+691,Pakistan,Female,46-60,Hotel (5 Star),Bus,21 days,22290,1
+692,Nigeria,Female,46-60,Apartment,Train (Haramain),21 days,10499,2
+693,Egypt,Female,31-45,Hotel (5 Star),Group Transport,21 days,5364,1
+694,UAE,Female,31-45,Apartment,Bus,14 days,24797,1
+695,Pakistan,Female,60+,Camp (Mina),Private Car,10 days,37535,1
+696,Malaysia,Female,46-60,Camp (Mina),Train (Haramain),21 days,21105,4
+697,Egypt,Male,31-45,Apartment,Bus,14 days,12939,1
+698,Egypt,Male,46-60,Hotel (3 Star),Train (Haramain),14 days,18936,3
+699,India,Female,31-45,Hotel (5 Star),Private Car,10 days,20863,5
+700,Indonesia,Female,18-30,Camp (Mina),Bus,10 days,17561,1
+701,Malaysia,Male,18-30,Hotel (3 Star),Group Transport,7 days,15447,1
+702,Nigeria,Male,46-60,Hotel (5 Star),Bus,14 days,35624,1
+703,India,Male,60+,Camp (Mina),Group Transport,21 days,17411,3
+704,Nigeria,Female,31-45,Camp (Mina),Bus,10 days,24465,1
+705,India,Male,31-45,Apartment,Group Transport,14 days,24642,1
+706,India,Female,18-30,Hotel (5 Star),Private Car,21 days,36262,5
+707,India,Female,18-30,Hotel (3 Star),Private Car,14 days,35363,3
+708,Indonesia,Male,60+,Hotel (3 Star),Private Car,10 days,7107,3
+709,India,Female,60+,Hotel (3 Star),Bus,7 days,12928,1
+710,Turkey,Female,60+,Hotel (5 Star),Private Car,14 days,24317,3
+711,UAE,Female,46-60,Hotel (3 Star),Train (Haramain),21 days,30017,2
+712,Nigeria,Female,18-30,Hotel (3 Star),Private Car,10 days,18528,3
+713,Pakistan,Male,46-60,Hotel (3 Star),Group Transport,7 days,18313,3
+714,Bangladesh,Male,18-30,Apartment,Group Transport,21 days,6559,3
+715,Malaysia,Female,18-30,Apartment,Group Transport,21 days,20167,4
+716,UK,Female,31-45,Hotel (5 Star),Bus,21 days,20343,4
+717,Indonesia,Male,18-30,Hotel (5 Star),Train (Haramain),14 days,12523,4
+718,Pakistan,Female,18-30,Hotel (3 Star),Private Car,10 days,33439,3
+719,Egypt,Male,46-60,Apartment,Train (Haramain),21 days,20524,2
+720,Turkey,Female,18-30,Camp (Mina),Train (Haramain),14 days,18285,3
+721,UK,Female,46-60,Camp (Mina),Group Transport,10 days,15973,1
+722,Bangladesh,Male,60+,Hotel (3 Star),Group Transport,10 days,27694,2
+723,Pakistan,Male,18-30,Hotel (3 Star),Group Transport,14 days,9302,4
+724,UK,Male,18-30,Apartment,Bus,14 days,27391,5
+725,Pakistan,Male,46-60,Apartment,Train (Haramain),21 days,9611,2
+726,Turkey,Female,60+,Apartment,Train (Haramain),10 days,14372,4
+727,Bangladesh,Male,31-45,Hotel (5 Star),Bus,7 days,29312,2
+728,Egypt,Female,60+,Hotel (5 Star),Bus,14 days,19080,2
+729,India,Male,46-60,Hotel (3 Star),Bus,10 days,20082,3
+730,Nigeria,Male,60+,Hotel (5 Star),Train (Haramain),10 days,35677,1
+731,Egypt,Female,46-60,Apartment,Train (Haramain),21 days,25874,5
+732,India,Male,46-60,Apartment,Group Transport,7 days,13378,4
+733,Indonesia,Male,31-45,Hotel (5 Star),Group Transport,21 days,6597,2
+734,UAE,Male,18-30,Camp (Mina),Train (Haramain),7 days,16600,5
+735,Malaysia,Male,46-60,Hotel (3 Star),Group Transport,7 days,8747,2
+736,Malaysia,Female,46-60,Camp (Mina),Bus,14 days,18879,1
+737,Nigeria,Female,31-45,Hotel (3 Star),Private Car,10 days,18017,5
+738,Bangladesh,Male,46-60,Camp (Mina),Group Transport,10 days,29815,4
+739,Turkey,Male,18-30,Hotel (5 Star),Train (Haramain),10 days,23964,2
+740,Bangladesh,Male,31-45,Hotel (3 Star),Group Transport,7 days,33812,1
+741,Turkey,Female,18-30,Hotel (3 Star),Group Transport,10 days,29714,5
+742,Bangladesh,Female,18-30,Hotel (3 Star),Group Transport,14 days,23890,2
+743,UAE,Female,31-45,Apartment,Private Car,7 days,9725,2
+744,Indonesia,Female,46-60,Apartment,Bus,7 days,25684,4
+745,Indonesia,Male,18-30,Camp (Mina),Train (Haramain),7 days,31325,1
+746,India,Male,18-30,Hotel (5 Star),Private Car,7 days,37542,3
+747,UK,Male,18-30,Apartment,Train (Haramain),14 days,18092,2
+748,Indonesia,Female,18-30,Hotel (3 Star),Train (Haramain),10 days,35382,5
+749,Indonesia,Male,31-45,Apartment,Train (Haramain),14 days,30457,4
+750,Egypt,Female,31-45,Hotel (5 Star),Private Car,10 days,11131,4
+751,Egypt,Female,60+,Apartment,Bus,14 days,30215,2
+752,India,Male,60+,Hotel (3 Star),Train (Haramain),21 days,17612,2
+753,UK,Male,18-30,Camp (Mina),Bus,21 days,18091,2
+754,Nigeria,Male,46-60,Hotel (3 Star),Bus,21 days,34759,3
+755,Egypt,Female,18-30,Hotel (5 Star),Group Transport,21 days,5559,2
+756,Nigeria,Female,46-60,Camp (Mina),Private Car,7 days,5713,1
+757,Pakistan,Male,18-30,Apartment,Private Car,7 days,20184,5
+758,Egypt,Male,60+,Apartment,Group Transport,14 days,20261,2
+759,UAE,Female,60+,Apartment,Group Transport,14 days,25372,3
+760,UK,Male,46-60,Camp (Mina),Bus,21 days,37140,5
+761,India,Female,18-30,Hotel (3 Star),Train (Haramain),10 days,38024,4
+762,Pakistan,Female,46-60,Camp (Mina),Private Car,21 days,37544,2
+763,UK,Male,60+,Camp (Mina),Train (Haramain),14 days,5037,5
+764,UAE,Male,18-30,Hotel (5 Star),Train (Haramain),21 days,17697,4
+765,UK,Male,18-30,Camp (Mina),Group Transport,14 days,36707,3
+766,UAE,Male,46-60,Apartment,Train (Haramain),21 days,31016,1
+767,UAE,Female,31-45,Hotel (3 Star),Bus,10 days,39600,2
+768,Nigeria,Female,46-60,Hotel (3 Star),Group Transport,21 days,28984,1
+769,Bangladesh,Female,60+,Hotel (3 Star),Train (Haramain),10 days,10167,3
+770,Pakistan,Male,60+,Apartment,Group Transport,10 days,5432,5
+771,UK,Female,60+,Apartment,Bus,14 days,9151,5
+772,Turkey,Male,60+,Apartment,Bus,10 days,11411,3
+773,Pakistan,Male,60+,Apartment,Train (Haramain),7 days,35788,3
+774,Bangladesh,Male,31-45,Apartment,Group Transport,7 days,31623,2
+775,Pakistan,Male,18-30,Camp (Mina),Train (Haramain),7 days,27104,4
+776,Indonesia,Male,46-60,Apartment,Train (Haramain),14 days,5256,1
+777,Turkey,Male,46-60,Apartment,Group Transport,7 days,38439,1
+778,Bangladesh,Female,60+,Apartment,Train (Haramain),14 days,38257,5
+779,Nigeria,Male,46-60,Apartment,Bus,14 days,23066,5
+780,UK,Female,60+,Hotel (3 Star),Group Transport,7 days,37746,2
+781,Malaysia,Female,31-45,Apartment,Group Transport,10 days,7460,3
+782,Bangladesh,Male,31-45,Camp (Mina),Group Transport,21 days,39743,1
+783,India,Male,18-30,Camp (Mina),Group Transport,14 days,8216,2
+784,UK,Male,31-45,Camp (Mina),Train (Haramain),7 days,19267,5
+785,Bangladesh,Female,31-45,Hotel (5 Star),Train (Haramain),14 days,14581,5
+786,Indonesia,Male,18-30,Hotel (3 Star),Bus,10 days,9515,1
+787,Malaysia,Female,46-60,Apartment,Private Car,10 days,27076,5
+788,Indonesia,Male,60+,Hotel (5 Star),Private Car,7 days,14776,5
+789,Malaysia,Male,60+,Apartment,Bus,14 days,26947,4
+790,India,Female,46-60,Hotel (5 Star),Private Car,21 days,7963,3
+791,UK,Female,18-30,Hotel (5 Star),Bus,21 days,11786,5
+792,Nigeria,Male,46-60,Camp (Mina),Train (Haramain),14 days,18866,4
+793,Indonesia,Female,31-45,Camp (Mina),Group Transport,14 days,37305,2
+794,Indonesia,Female,18-30,Hotel (5 Star),Group Transport,14 days,22360,5
+795,UAE,Female,18-30,Camp (Mina),Train (Haramain),7 days,37813,2
+796,Malaysia,Female,18-30,Hotel (5 Star),Group Transport,10 days,6193,5
+797,Egypt,Female,60+,Hotel (3 Star),Group Transport,21 days,9512,1
+798,UK,Male,46-60,Camp (Mina),Private Car,7 days,27666,4
+799,Malaysia,Male,18-30,Camp (Mina),Train (Haramain),14 days,21630,4
+800,UAE,Female,18-30,Camp (Mina),Private Car,14 days,13983,1
+801,Pakistan,Male,18-30,Hotel (3 Star),Private Car,10 days,5636,3
+802,Malaysia,Male,46-60,Hotel (5 Star),Group Transport,14 days,8775,4
+803,Nigeria,Female,60+,Apartment,Group Transport,7 days,7421,2
+804,UK,Male,31-45,Camp (Mina),Train (Haramain),7 days,18025,4
+805,UAE,Female,60+,Hotel (5 Star),Group Transport,10 days,14280,3
+806,Pakistan,Female,18-30,Hotel (3 Star),Group Transport,7 days,16351,2
+807,Turkey,Male,60+,Apartment,Train (Haramain),21 days,35171,2
+808,UAE,Female,60+,Camp (Mina),Group Transport,7 days,8644,1
+809,Turkey,Female,31-45,Hotel (3 Star),Private Car,7 days,21142,5
+810,UK,Female,46-60,Hotel (3 Star),Train (Haramain),7 days,12773,1
+811,Indonesia,Female,46-60,Apartment,Group Transport,21 days,33466,5
+812,UAE,Female,60+,Hotel (5 Star),Bus,14 days,15778,1
+813,India,Male,60+,Camp (Mina),Train (Haramain),7 days,17501,5
+814,Turkey,Male,46-60,Camp (Mina),Train (Haramain),10 days,7108,4
+815,Nigeria,Female,46-60,Hotel (5 Star),Bus,21 days,34369,2
+816,India,Female,31-45,Hotel (5 Star),Group Transport,10 days,30818,5
+817,Bangladesh,Male,18-30,Hotel (5 Star),Group Transport,7 days,15251,4
+818,Bangladesh,Female,60+,Apartment,Train (Haramain),10 days,28341,3
+819,Pakistan,Male,46-60,Apartment,Train (Haramain),7 days,16678,1
+820,Indonesia,Female,60+,Camp (Mina),Group Transport,21 days,19367,3
+821,UK,Female,60+,Apartment,Group Transport,10 days,34672,4
+822,UAE,Female,46-60,Hotel (3 Star),Private Car,10 days,9332,3
+823,Egypt,Female,31-45,Camp (Mina),Train (Haramain),7 days,17002,3
+824,Nigeria,Female,60+,Apartment,Train (Haramain),7 days,25284,4
+825,Turkey,Female,31-45,Hotel (5 Star),Bus,14 days,20700,2
+826,UK,Female,46-60,Hotel (3 Star),Private Car,7 days,18769,5
+827,India,Male,18-30,Hotel (5 Star),Group Transport,7 days,34318,1
+828,Bangladesh,Male,18-30,Camp (Mina),Private Car,14 days,29323,5
+829,Nigeria,Male,60+,Hotel (5 Star),Group Transport,7 days,32610,1
+830,Egypt,Female,46-60,Apartment,Group Transport,7 days,11963,5
+831,UAE,Female,31-45,Apartment,Private Car,14 days,12838,3
+832,Pakistan,Female,60+,Camp (Mina),Train (Haramain),21 days,17243,2
+833,Egypt,Female,46-60,Hotel (5 Star),Group Transport,21 days,32939,3
+834,Nigeria,Female,46-60,Camp (Mina),Private Car,7 days,6845,2
+835,Egypt,Female,31-45,Hotel (5 Star),Bus,7 days,21766,4
+836,Nigeria,Female,60+,Hotel (3 Star),Private Car,14 days,17780,1
+837,Nigeria,Male,46-60,Apartment,Bus,14 days,6509,1
+838,Malaysia,Female,46-60,Camp (Mina),Group Transport,21 days,28957,4
+839,Turkey,Male,46-60,Hotel (3 Star),Private Car,10 days,39346,5
+840,Bangladesh,Male,31-45,Hotel (3 Star),Private Car,7 days,22263,4
+841,Malaysia,Female,60+,Camp (Mina),Bus,10 days,31148,4
+842,UAE,Female,60+,Camp (Mina),Private Car,10 days,36533,2
+843,Malaysia,Male,60+,Hotel (3 Star),Private Car,14 days,17931,4
+844,Indonesia,Male,60+,Hotel (5 Star),Group Transport,7 days,6359,1
+845,Indonesia,Female,18-30,Hotel (3 Star),Private Car,7 days,29532,3
+846,Bangladesh,Female,18-30,Camp (Mina),Train (Haramain),14 days,25344,2
+847,Egypt,Male,60+,Hotel (3 Star),Bus,10 days,9242,2
+848,Turkey,Female,31-45,Hotel (5 Star),Private Car,14 days,25601,5
+849,Bangladesh,Female,18-30,Apartment,Bus,21 days,24116,3
+850,Nigeria,Female,46-60,Apartment,Bus,7 days,35782,2
+851,India,Male,18-30,Hotel (3 Star),Bus,21 days,23880,4
+852,Turkey,Male,46-60,Hotel (5 Star),Private Car,14 days,8499,2
+853,Turkey,Male,60+,Apartment,Private Car,7 days,36587,2
+854,Nigeria,Female,18-30,Hotel (3 Star),Bus,21 days,31020,2
+855,Nigeria,Female,31-45,Hotel (3 Star),Train (Haramain),21 days,13080,5
+856,Pakistan,Male,18-30,Hotel (5 Star),Bus,10 days,28207,2
+857,Bangladesh,Male,18-30,Camp (Mina),Train (Haramain),7 days,38957,2
+858,Nigeria,Male,18-30,Hotel (3 Star),Bus,21 days,18908,5
+859,Indonesia,Female,60+,Camp (Mina),Group Transport,21 days,35652,3
+860,UAE,Male,31-45,Camp (Mina),Bus,10 days,35344,1
+861,India,Male,18-30,Apartment,Bus,21 days,30034,5
+862,Bangladesh,Female,31-45,Camp (Mina),Private Car,21 days,30788,5
+863,UK,Female,60+,Hotel (5 Star),Train (Haramain),21 days,17751,2
+864,Indonesia,Female,46-60,Apartment,Group Transport,10 days,38793,2
+865,Egypt,Male,18-30,Apartment,Train (Haramain),21 days,37839,1
+866,Nigeria,Female,31-45,Apartment,Group Transport,21 days,14385,2
+867,UK,Female,31-45,Hotel (3 Star),Bus,7 days,23232,4
+868,Nigeria,Male,60+,Hotel (3 Star),Private Car,7 days,39790,2
+869,Turkey,Female,18-30,Camp (Mina),Private Car,10 days,20831,2
+870,Indonesia,Male,46-60,Apartment,Train (Haramain),14 days,25125,4
+871,Turkey,Male,31-45,Apartment,Private Car,7 days,22682,1
+872,Pakistan,Female,18-30,Hotel (5 Star),Train (Haramain),10 days,22288,4
+873,Turkey,Female,46-60,Camp (Mina),Train (Haramain),21 days,29405,5
+874,Pakistan,Female,31-45,Hotel (5 Star),Group Transport,21 days,7620,4
+875,Pakistan,Female,31-45,Camp (Mina),Train (Haramain),10 days,18854,3
+876,UK,Female,46-60,Camp (Mina),Group Transport,21 days,14677,5
+877,Nigeria,Female,46-60,Hotel (3 Star),Private Car,21 days,29074,2
+878,Egypt,Male,60+,Hotel (3 Star),Train (Haramain),14 days,22824,5
+879,Turkey,Male,18-30,Hotel (5 Star),Train (Haramain),21 days,5765,1
+880,Indonesia,Female,18-30,Camp (Mina),Bus,7 days,36615,1
+881,Pakistan,Male,60+,Apartment,Train (Haramain),21 days,17975,4
+882,Nigeria,Female,31-45,Hotel (3 Star),Train (Haramain),10 days,14341,5
+883,India,Male,46-60,Apartment,Bus,14 days,33141,2
+884,Bangladesh,Male,46-60,Hotel (5 Star),Bus,21 days,17334,1
+885,UK,Male,46-60,Hotel (3 Star),Private Car,10 days,20835,2
+886,Egypt,Female,31-45,Hotel (3 Star),Train (Haramain),7 days,31548,3
+887,Malaysia,Male,46-60,Camp (Mina),Private Car,21 days,30039,1
+888,UK,Female,46-60,Hotel (5 Star),Private Car,14 days,37530,4
+889,India,Male,60+,Camp (Mina),Bus,21 days,23565,3
+890,Bangladesh,Male,31-45,Hotel (3 Star),Group Transport,10 days,14834,5
+891,India,Male,18-30,Hotel (5 Star),Private Car,14 days,5840,2
+892,Turkey,Male,60+,Hotel (3 Star),Group Transport,21 days,18873,1
+893,Pakistan,Male,60+,Hotel (5 Star),Train (Haramain),7 days,36568,3
+894,Egypt,Female,18-30,Hotel (3 Star),Bus,14 days,15846,3
+895,UAE,Female,60+,Apartment,Train (Haramain),7 days,10899,1
+896,Pakistan,Male,31-45,Apartment,Train (Haramain),10 days,25502,5
+897,UAE,Male,46-60,Camp (Mina),Bus,21 days,5565,5
+898,Bangladesh,Male,31-45,Apartment,Train (Haramain),7 days,14187,4
+899,Nigeria,Male,18-30,Hotel (3 Star),Bus,10 days,12226,5
+900,Malaysia,Female,18-30,Hotel (3 Star),Group Transport,21 days,9311,4
+901,Indonesia,Male,60+,Apartment,Train (Haramain),10 days,30689,3
+902,Pakistan,Female,31-45,Camp (Mina),Bus,7 days,11083,1
+903,Egypt,Male,31-45,Apartment,Private Car,10 days,17598,5
+904,India,Female,18-30,Hotel (5 Star),Train (Haramain),14 days,21940,4
+905,Egypt,Male,31-45,Hotel (5 Star),Group Transport,21 days,31880,3
+906,Bangladesh,Male,18-30,Hotel (5 Star),Bus,10 days,7580,5
+907,UAE,Female,31-45,Apartment,Train (Haramain),7 days,14386,2
+908,India,Male,31-45,Apartment,Train (Haramain),21 days,24522,3
+909,Indonesia,Male,31-45,Apartment,Train (Haramain),14 days,31224,5
+910,Indonesia,Male,18-30,Hotel (5 Star),Group Transport,21 days,19635,3
+911,Pakistan,Female,60+,Camp (Mina),Bus,14 days,5671,1
+912,Bangladesh,Male,31-45,Hotel (3 Star),Private Car,21 days,38545,1
+913,Nigeria,Male,18-30,Apartment,Private Car,10 days,31855,1
+914,Bangladesh,Female,18-30,Camp (Mina),Private Car,10 days,19260,2
+915,UAE,Female,31-45,Hotel (3 Star),Bus,7 days,6074,1
+916,Egypt,Female,31-45,Hotel (3 Star),Private Car,14 days,14475,2
+917,Indonesia,Male,60+,Hotel (3 Star),Group Transport,7 days,17878,1
+918,Egypt,Male,18-30,Camp (Mina),Bus,10 days,20120,3
+919,Egypt,Male,18-30,Camp (Mina),Train (Haramain),14 days,28147,5
+920,Egypt,Female,46-60,Hotel (5 Star),Group Transport,7 days,6986,5
+921,Indonesia,Male,18-30,Camp (Mina),Train (Haramain),7 days,37430,1
+922,UK,Male,60+,Camp (Mina),Private Car,7 days,22430,5
+923,Turkey,Female,46-60,Camp (Mina),Group Transport,7 days,7176,1
+924,UAE,Female,46-60,Hotel (3 Star),Bus,7 days,23722,1
+925,UK,Female,46-60,Apartment,Group Transport,14 days,23617,4
+926,UAE,Female,31-45,Hotel (5 Star),Train (Haramain),7 days,32115,4
+927,India,Female,31-45,Apartment,Bus,14 days,16906,4
+928,Bangladesh,Male,18-30,Apartment,Group Transport,7 days,11610,2
+929,Bangladesh,Female,46-60,Camp (Mina),Group Transport,10 days,18411,4
+930,Malaysia,Male,60+,Hotel (5 Star),Group Transport,10 days,14180,1
+931,Bangladesh,Male,31-45,Apartment,Group Transport,7 days,15073,3
+932,Indonesia,Female,60+,Apartment,Bus,21 days,35960,4
+933,Nigeria,Female,60+,Hotel (5 Star),Train (Haramain),10 days,10901,4
+934,Pakistan,Female,31-45,Camp (Mina),Group Transport,14 days,9482,3
+935,Malaysia,Male,31-45,Apartment,Bus,7 days,30428,1
+936,Pakistan,Female,31-45,Hotel (3 Star),Train (Haramain),14 days,12400,2
+937,UAE,Female,31-45,Apartment,Group Transport,21 days,12396,4
+938,Pakistan,Female,46-60,Hotel (3 Star),Train (Haramain),7 days,12338,3
+939,Pakistan,Female,46-60,Camp (Mina),Train (Haramain),10 days,17500,1
+940,Malaysia,Female,46-60,Apartment,Bus,14 days,16545,5
+941,India,Male,46-60,Hotel (5 Star),Train (Haramain),10 days,10241,2
+942,Egypt,Male,18-30,Hotel (5 Star),Bus,10 days,28778,3
+943,Bangladesh,Male,46-60,Apartment,Group Transport,7 days,27821,3
+944,Bangladesh,Female,31-45,Camp (Mina),Train (Haramain),14 days,9695,3
+945,Indonesia,Female,60+,Camp (Mina),Train (Haramain),21 days,16530,4
+946,Malaysia,Female,46-60,Hotel (5 Star),Private Car,10 days,19318,5
+947,Indonesia,Male,18-30,Apartment,Group Transport,7 days,27331,2
+948,Nigeria,Female,31-45,Camp (Mina),Group Transport,7 days,31355,1
+949,Nigeria,Female,60+,Hotel (5 Star),Private Car,21 days,16324,1
+950,Indonesia,Female,60+,Hotel (3 Star),Private Car,7 days,33149,5
+951,Malaysia,Male,46-60,Apartment,Bus,10 days,8218,3
+952,Indonesia,Female,60+,Hotel (3 Star),Bus,7 days,25141,3
+953,Bangladesh,Male,46-60,Hotel (3 Star),Train (Haramain),14 days,7837,3
+954,UK,Female,46-60,Camp (Mina),Train (Haramain),14 days,19379,3
+955,Turkey,Male,31-45,Camp (Mina),Train (Haramain),10 days,9239,3
+956,Pakistan,Male,31-45,Camp (Mina),Train (Haramain),14 days,25812,5
+957,Turkey,Male,18-30,Apartment,Bus,21 days,34669,4
+958,Malaysia,Female,31-45,Hotel (3 Star),Group Transport,7 days,14611,2
+959,Turkey,Female,31-45,Apartment,Train (Haramain),10 days,9150,3
+960,Nigeria,Male,46-60,Camp (Mina),Group Transport,21 days,16109,4
+961,UAE,Male,31-45,Hotel (3 Star),Train (Haramain),7 days,39214,1
+962,Pakistan,Female,46-60,Apartment,Private Car,21 days,31016,5
+963,Egypt,Female,46-60,Apartment,Train (Haramain),10 days,16936,4
+964,Malaysia,Male,31-45,Hotel (5 Star),Train (Haramain),10 days,16036,3
+965,Pakistan,Female,18-30,Apartment,Train (Haramain),21 days,19021,3
+966,Turkey,Female,18-30,Camp (Mina),Bus,7 days,20471,3
+967,Nigeria,Female,60+,Apartment,Private Car,14 days,28244,4
+968,India,Female,60+,Hotel (3 Star),Train (Haramain),14 days,6502,3
+969,UK,Male,31-45,Apartment,Train (Haramain),21 days,39178,4
+970,Egypt,Female,18-30,Hotel (5 Star),Group Transport,10 days,8770,3
+971,UK,Female,46-60,Hotel (3 Star),Private Car,7 days,9001,1
+972,Pakistan,Male,60+,Hotel (3 Star),Train (Haramain),7 days,25946,1
+973,Nigeria,Male,46-60,Hotel (5 Star),Group Transport,10 days,5598,2
+974,Nigeria,Female,60+,Camp (Mina),Group Transport,14 days,35316,3
+975,Turkey,Female,31-45,Hotel (3 Star),Bus,7 days,30567,3
+976,Bangladesh,Female,18-30,Camp (Mina),Group Transport,21 days,31508,4
+977,Turkey,Female,60+,Hotel (3 Star),Train (Haramain),14 days,35276,4
+978,Bangladesh,Male,18-30,Hotel (3 Star),Bus,21 days,28671,3
+979,Bangladesh,Male,46-60,Camp (Mina),Bus,14 days,21450,2
+980,Egypt,Male,31-45,Hotel (3 Star),Train (Haramain),10 days,19908,3
+981,Turkey,Female,18-30,Camp (Mina),Private Car,21 days,36212,4
+982,India,Female,31-45,Hotel (5 Star),Group Transport,21 days,11806,3
+983,Indonesia,Female,18-30,Camp (Mina),Bus,10 days,23015,4
+984,Indonesia,Female,46-60,Hotel (5 Star),Private Car,21 days,22158,3
+985,Turkey,Male,46-60,Hotel (3 Star),Train (Haramain),14 days,20456,5
+986,Turkey,Male,31-45,Camp (Mina),Group Transport,7 days,32588,4
+987,UK,Female,46-60,Hotel (3 Star),Group Transport,7 days,27491,2
+988,Egypt,Male,60+,Camp (Mina),Bus,10 days,29188,5
+989,Turkey,Female,18-30,Hotel (5 Star),Group Transport,14 days,32079,3
+990,UK,Female,46-60,Hotel (5 Star),Group Transport,21 days,9019,4
+991,Bangladesh,Male,60+,Camp (Mina),Group Transport,21 days,17419,5
+992,Nigeria,Female,31-45,Hotel (5 Star),Group Transport,7 days,38697,2
+993,Nigeria,Female,60+,Hotel (3 Star),Train (Haramain),21 days,24396,4
+994,Bangladesh,Male,31-45,Hotel (3 Star),Private Car,7 days,34892,5
+995,Malaysia,Female,31-45,Apartment,Train (Haramain),10 days,12973,5
+996,UK,Female,18-30,Hotel (5 Star),Train (Haramain),21 days,26113,5
+997,UK,Male,18-30,Hotel (3 Star),Bus,14 days,16136,1
+998,Bangladesh,Female,60+,Camp (Mina),Group Transport,21 days,24203,3
+999,India,Male,18-30,Hotel (5 Star),Train (Haramain),7 days,36285,4
+1000,UAE,Female,18-30,Hotel (3 Star),Group Transport,10 days,28039,4
+1001,Pakistan,Male,18-30,Hotel (5 Star),Train (Haramain),7 days,6184,4
+1002,Bangladesh,Male,60+,Camp (Mina),Train (Haramain),21 days,27727,5
+1003,Turkey,Male,46-60,Hotel (3 Star),Bus,7 days,21911,3
+1004,Turkey,Female,18-30,Apartment,Private Car,7 days,5916,2
+1005,Egypt,Male,18-30,Apartment,Private Car,10 days,8574,4
+1006,Bangladesh,Male,60+,Hotel (5 Star),Train (Haramain),14 days,22790,3
+1007,Egypt,Male,46-60,Camp (Mina),Bus,21 days,22625,3
+1008,Bangladesh,Male,18-30,Hotel (3 Star),Group Transport,10 days,10206,1
+1009,UK,Male,31-45,Camp (Mina),Group Transport,14 days,24517,4
+1010,Pakistan,Female,60+,Hotel (3 Star),Train (Haramain),7 days,21105,5
+1011,UK,Female,18-30,Hotel (5 Star),Private Car,14 days,7690,3
+1012,UAE,Female,18-30,Hotel (3 Star),Bus,7 days,5690,3
+1013,Nigeria,Female,31-45,Camp (Mina),Private Car,7 days,30103,2
+1014,Indonesia,Female,31-45,Camp (Mina),Group Transport,10 days,39263,1
+1015,Bangladesh,Female,60+,Hotel (5 Star),Private Car,7 days,16085,3
+1016,UAE,Female,60+,Camp (Mina),Group Transport,10 days,30825,3
+1017,Nigeria,Male,31-45,Hotel (3 Star),Bus,14 days,15720,5
+1018,Malaysia,Female,60+,Hotel (5 Star),Bus,14 days,16720,5
+1019,Pakistan,Male,31-45,Hotel (3 Star),Train (Haramain),7 days,5897,2
+1020,Egypt,Male,18-30,Camp (Mina),Train (Haramain),10 days,22094,2
+1021,Egypt,Female,31-45,Hotel (5 Star),Private Car,7 days,28572,2
+1022,UK,Male,31-45,Hotel (3 Star),Bus,10 days,20150,5
+1023,Turkey,Male,46-60,Camp (Mina),Bus,10 days,21799,5
+1024,Nigeria,Male,31-45,Camp (Mina),Train (Haramain),10 days,14663,1
+1025,Malaysia,Male,31-45,Apartment,Group Transport,14 days,32007,4
+1026,UAE,Female,46-60,Camp (Mina),Private Car,10 days,30671,4
+1027,Pakistan,Female,60+,Hotel (3 Star),Private Car,14 days,30385,1
+1028,Nigeria,Female,46-60,Hotel (5 Star),Train (Haramain),10 days,16236,4
+1029,Malaysia,Female,18-30,Apartment,Bus,14 days,27024,5
+1030,Indonesia,Female,46-60,Camp (Mina),Train (Haramain),21 days,22376,4
+1031,Bangladesh,Female,18-30,Camp (Mina),Train (Haramain),14 days,23157,5
+1032,Egypt,Female,60+,Camp (Mina),Train (Haramain),14 days,24945,1
+1033,UAE,Female,46-60,Hotel (3 Star),Train (Haramain),7 days,28017,2
+1034,Egypt,Female,46-60,Apartment,Group Transport,10 days,6756,1
+1035,UAE,Female,60+,Hotel (3 Star),Group Transport,21 days,7576,4
+1036,UK,Male,18-30,Apartment,Bus,7 days,30467,5
+1037,Turkey,Female,46-60,Hotel (5 Star),Train (Haramain),10 days,36205,4
+1038,UAE,Male,18-30,Hotel (3 Star),Group Transport,21 days,17674,4
+1039,Egypt,Male,46-60,Hotel (3 Star),Bus,21 days,27353,2
+1040,UK,Male,31-45,Hotel (5 Star),Train (Haramain),21 days,34849,4
+1041,UAE,Male,46-60,Apartment,Private Car,10 days,9535,2
+1042,Indonesia,Female,60+,Camp (Mina),Group Transport,21 days,22118,5
+1043,Turkey,Male,60+,Hotel (5 Star),Bus,21 days,5632,5
+1044,UAE,Female,18-30,Camp (Mina),Private Car,7 days,18280,2
+1045,UK,Female,46-60,Camp (Mina),Train (Haramain),14 days,19746,1
+1046,Nigeria,Male,18-30,Hotel (5 Star),Train (Haramain),10 days,24285,5
+1047,India,Female,18-30,Apartment,Train (Haramain),14 days,23047,1
+1048,Malaysia,Male,31-45,Camp (Mina),Group Transport,7 days,15207,5
+1049,India,Male,31-45,Hotel (5 Star),Bus,14 days,10591,5
+1050,India,Female,60+,Hotel (3 Star),Private Car,21 days,32757,3
+1051,Pakistan,Female,18-30,Hotel (3 Star),Bus,21 days,21226,4
+1052,Indonesia,Male,60+,Hotel (3 Star),Group Transport,10 days,34732,4
+1053,Nigeria,Female,46-60,Hotel (5 Star),Bus,10 days,32206,1
+1054,Bangladesh,Female,18-30,Hotel (3 Star),Group Transport,10 days,25256,4
+1055,UAE,Female,18-30,Camp (Mina),Train (Haramain),7 days,38822,1
+1056,Malaysia,Male,46-60,Hotel (3 Star),Private Car,10 days,14784,5
+1057,Turkey,Male,46-60,Hotel (3 Star),Train (Haramain),7 days,24937,3
+1058,Nigeria,Female,60+,Camp (Mina),Bus,21 days,16219,3
+1059,Egypt,Female,60+,Hotel (3 Star),Train (Haramain),14 days,14399,5
+1060,Bangladesh,Female,46-60,Camp (Mina),Private Car,21 days,38312,2
+1061,Pakistan,Female,60+,Hotel (3 Star),Train (Haramain),21 days,32657,2
+1062,Pakistan,Female,46-60,Camp (Mina),Private Car,21 days,25047,4
+1063,Nigeria,Male,18-30,Hotel (3 Star),Private Car,10 days,15559,1
+1064,UK,Female,18-30,Camp (Mina),Train (Haramain),10 days,25157,3
+1065,India,Male,31-45,Hotel (5 Star),Group Transport,10 days,11618,4
+1066,Egypt,Female,18-30,Camp (Mina),Bus,14 days,11780,5
+1067,Pakistan,Male,46-60,Hotel (3 Star),Group Transport,10 days,32050,3
+1068,Malaysia,Female,60+,Hotel (3 Star),Group Transport,7 days,13015,1
+1069,Pakistan,Male,31-45,Apartment,Train (Haramain),21 days,8130,1
+1070,Turkey,Female,60+,Camp (Mina),Bus,14 days,33083,2
+1071,UAE,Male,46-60,Hotel (5 Star),Bus,14 days,21480,4
+1072,Pakistan,Male,18-30,Camp (Mina),Group Transport,14 days,16528,5
+1073,Turkey,Male,31-45,Camp (Mina),Train (Haramain),14 days,10914,3
+1074,Nigeria,Male,46-60,Hotel (5 Star),Bus,14 days,16179,1
+1075,Nigeria,Male,31-45,Camp (Mina),Group Transport,7 days,25472,3
+1076,Bangladesh,Male,31-45,Hotel (5 Star),Bus,21 days,17076,5
+1077,Pakistan,Female,18-30,Hotel (5 Star),Train (Haramain),14 days,29783,3
+1078,Malaysia,Male,46-60,Camp (Mina),Train (Haramain),21 days,18824,4
+1079,Pakistan,Female,60+,Camp (Mina),Train (Haramain),10 days,9299,2
+1080,Malaysia,Female,31-45,Hotel (3 Star),Bus,14 days,13118,3
+1081,Indonesia,Female,31-45,Hotel (3 Star),Private Car,14 days,15756,2
+1082,Bangladesh,Female,60+,Apartment,Bus,21 days,12953,5
+1083,Indonesia,Female,46-60,Apartment,Private Car,14 days,20185,2
+1084,Pakistan,Male,31-45,Camp (Mina),Train (Haramain),14 days,19674,3
+1085,Bangladesh,Male,31-45,Hotel (5 Star),Group Transport,14 days,38927,3
+1086,Indonesia,Male,31-45,Apartment,Private Car,7 days,5386,1
+1087,India,Female,46-60,Camp (Mina),Train (Haramain),7 days,31617,3
+1088,Pakistan,Male,46-60,Apartment,Train (Haramain),14 days,12192,2
+1089,Indonesia,Male,60+,Hotel (5 Star),Private Car,7 days,15745,1
+1090,India,Male,46-60,Camp (Mina),Group Transport,10 days,35020,3
+1091,India,Male,46-60,Hotel (5 Star),Train (Haramain),14 days,26159,3
+1092,Nigeria,Male,18-30,Camp (Mina),Private Car,10 days,8409,5
+1093,Pakistan,Female,60+,Apartment,Group Transport,21 days,30745,1
+1094,India,Male,31-45,Hotel (3 Star),Group Transport,10 days,34455,5
+1095,Nigeria,Female,46-60,Apartment,Train (Haramain),21 days,34166,5
+1096,Indonesia,Female,31-45,Apartment,Bus,14 days,33072,5
+1097,Turkey,Female,31-45,Hotel (3 Star),Bus,21 days,17109,4
+1098,Pakistan,Female,18-30,Hotel (3 Star),Train (Haramain),21 days,7484,5
+1099,Bangladesh,Female,46-60,Camp (Mina),Group Transport,10 days,39622,2
+1100,Malaysia,Male,60+,Camp (Mina),Train (Haramain),10 days,7597,3
+1101,Malaysia,Male,46-60,Hotel (5 Star),Private Car,10 days,8983,4
+1102,Indonesia,Male,31-45,Hotel (5 Star),Bus,14 days,22040,5
+1103,UK,Female,60+,Apartment,Private Car,14 days,35554,3
+1104,UK,Male,46-60,Hotel (3 Star),Train (Haramain),10 days,32916,1
+1105,Indonesia,Male,31-45,Hotel (5 Star),Train (Haramain),14 days,31372,1
+1106,India,Female,31-45,Apartment,Group Transport,14 days,34048,3
+1107,Pakistan,Female,18-30,Hotel (3 Star),Group Transport,21 days,24669,2
+1108,Malaysia,Female,18-30,Camp (Mina),Group Transport,21 days,14777,3
+1109,Malaysia,Female,18-30,Apartment,Private Car,10 days,25968,3
+1110,India,Male,31-45,Camp (Mina),Group Transport,14 days,16292,4
+1111,Malaysia,Female,46-60,Hotel (5 Star),Train (Haramain),21 days,18923,1
+1112,Bangladesh,Female,18-30,Hotel (5 Star),Group Transport,7 days,32703,1
+1113,Pakistan,Male,46-60,Hotel (3 Star),Bus,14 days,23657,5
+1114,UAE,Male,18-30,Apartment,Group Transport,7 days,8629,3
+1115,Malaysia,Female,60+,Camp (Mina),Private Car,10 days,7114,3
+1116,Indonesia,Male,60+,Hotel (3 Star),Bus,14 days,39445,2
+1117,Bangladesh,Female,18-30,Hotel (5 Star),Bus,10 days,30574,1
+1118,Malaysia,Female,31-45,Hotel (5 Star),Bus,10 days,37349,2
+1119,Bangladesh,Male,18-30,Apartment,Private Car,10 days,27257,4
+1120,Nigeria,Male,18-30,Camp (Mina),Train (Haramain),10 days,22973,5
+1121,UAE,Female,31-45,Apartment,Group Transport,10 days,30737,2
+1122,Egypt,Female,60+,Camp (Mina),Bus,14 days,17047,1
+1123,Indonesia,Female,46-60,Camp (Mina),Bus,7 days,27113,4
+1124,Indonesia,Male,18-30,Apartment,Bus,14 days,5694,3
+1125,Pakistan,Female,31-45,Hotel (3 Star),Train (Haramain),14 days,20588,4
+1126,Bangladesh,Female,18-30,Apartment,Train (Haramain),14 days,25067,2
+1127,India,Female,31-45,Apartment,Private Car,21 days,11704,1
+1128,Indonesia,Female,46-60,Hotel (5 Star),Train (Haramain),21 days,6971,2
+1129,Bangladesh,Female,46-60,Hotel (5 Star),Group Transport,14 days,16441,3
+1130,Bangladesh,Male,60+,Apartment,Private Car,7 days,36476,3
+1131,Turkey,Female,31-45,Apartment,Private Car,14 days,19677,1
+1132,Turkey,Female,31-45,Hotel (5 Star),Group Transport,10 days,32818,5
+1133,Egypt,Female,60+,Camp (Mina),Group Transport,21 days,6868,4
+1134,Nigeria,Female,60+,Apartment,Group Transport,21 days,23055,4
+1135,Egypt,Male,31-45,Hotel (3 Star),Private Car,14 days,6728,3
+1136,Malaysia,Male,60+,Hotel (3 Star),Private Car,14 days,12632,2
+1137,India,Male,46-60,Hotel (3 Star),Private Car,7 days,17043,2
+1138,Malaysia,Female,18-30,Apartment,Group Transport,7 days,11403,5
+1139,UK,Female,46-60,Camp (Mina),Group Transport,10 days,20732,2
+1140,Malaysia,Male,60+,Camp (Mina),Bus,14 days,23526,4
+1141,Pakistan,Male,31-45,Hotel (5 Star),Train (Haramain),14 days,14340,2
+1142,Malaysia,Male,31-45,Apartment,Bus,14 days,27394,5
+1143,Egypt,Female,46-60,Camp (Mina),Group Transport,21 days,38021,4
+1144,Indonesia,Female,31-45,Apartment,Private Car,10 days,9102,2
+1145,Indonesia,Male,60+,Hotel (5 Star),Group Transport,7 days,24159,4
+1146,Turkey,Male,46-60,Hotel (5 Star),Train (Haramain),21 days,11212,3
+1147,India,Male,31-45,Hotel (5 Star),Bus,21 days,36824,3
+1148,India,Female,18-30,Hotel (3 Star),Bus,21 days,16525,3
+1149,Pakistan,Female,18-30,Apartment,Private Car,21 days,33760,2
+1150,Egypt,Female,60+,Hotel (5 Star),Bus,10 days,32457,5
+1151,Turkey,Male,31-45,Apartment,Bus,14 days,15532,4
+1152,UK,Male,60+,Hotel (3 Star),Group Transport,7 days,18518,1
+1153,India,Female,46-60,Hotel (3 Star),Bus,7 days,11476,3
+1154,Indonesia,Male,18-30,Hotel (5 Star),Bus,21 days,24743,3
+1155,Malaysia,Female,46-60,Hotel (5 Star),Bus,21 days,6004,1
+1156,Malaysia,Male,31-45,Camp (Mina),Private Car,10 days,8271,1
+1157,Turkey,Male,60+,Apartment,Private Car,21 days,5209,2
+1158,Egypt,Male,60+,Hotel (5 Star),Group Transport,7 days,30463,4
+1159,Egypt,Male,60+,Camp (Mina),Bus,7 days,10539,3
+1160,Nigeria,Female,46-60,Apartment,Private Car,14 days,24977,5
+1161,UAE,Male,18-30,Hotel (5 Star),Private Car,14 days,13606,2
+1162,India,Female,46-60,Camp (Mina),Group Transport,7 days,39052,2
+1163,Egypt,Female,46-60,Camp (Mina),Train (Haramain),7 days,8148,5
+1164,Indonesia,Female,31-45,Apartment,Bus,10 days,38536,5
+1165,Turkey,Male,31-45,Camp (Mina),Private Car,10 days,10607,5
+1166,UK,Female,31-45,Apartment,Group Transport,7 days,24586,1
+1167,Nigeria,Female,18-30,Apartment,Group Transport,21 days,34250,3
+1168,Bangladesh,Female,18-30,Apartment,Group Transport,14 days,23594,1
+1169,Pakistan,Male,31-45,Hotel (3 Star),Private Car,7 days,12399,3
+1170,UK,Male,31-45,Camp (Mina),Bus,21 days,30117,1
+1171,Bangladesh,Female,18-30,Apartment,Train (Haramain),7 days,38126,4
+1172,Malaysia,Male,60+,Hotel (5 Star),Bus,14 days,38617,3
+1173,Pakistan,Female,18-30,Hotel (3 Star),Group Transport,14 days,12498,2
+1174,India,Female,18-30,Hotel (3 Star),Group Transport,10 days,14628,3
+1175,Indonesia,Male,18-30,Camp (Mina),Train (Haramain),10 days,5329,3
+1176,Pakistan,Female,31-45,Apartment,Bus,10 days,12032,3
+1177,UAE,Male,60+,Camp (Mina),Group Transport,10 days,25622,4
+1178,Bangladesh,Male,18-30,Hotel (3 Star),Group Transport,14 days,33584,1
+1179,India,Female,31-45,Apartment,Bus,21 days,9722,2
+1180,UAE,Male,46-60,Hotel (5 Star),Group Transport,21 days,22772,1
+1181,Malaysia,Male,46-60,Apartment,Bus,21 days,25569,1
+1182,UAE,Female,18-30,Hotel (3 Star),Group Transport,7 days,8235,5
+1183,Nigeria,Female,46-60,Hotel (5 Star),Bus,10 days,9576,4
+1184,Nigeria,Male,60+,Apartment,Train (Haramain),10 days,31707,5
+1185,Turkey,Male,46-60,Hotel (5 Star),Group Transport,14 days,38868,4
+1186,UK,Female,46-60,Hotel (5 Star),Train (Haramain),14 days,35285,1
+1187,UK,Male,60+,Hotel (3 Star),Group Transport,7 days,29154,1
+1188,India,Male,18-30,Hotel (5 Star),Group Transport,7 days,25054,4
+1189,Malaysia,Male,18-30,Camp (Mina),Private Car,21 days,22165,1
+1190,Egypt,Male,60+,Hotel (3 Star),Bus,14 days,19439,1
+1191,Nigeria,Male,60+,Camp (Mina),Train (Haramain),10 days,27515,2
+1192,India,Male,60+,Hotel (5 Star),Train (Haramain),21 days,31962,5
+1193,Egypt,Male,46-60,Camp (Mina),Train (Haramain),10 days,24464,5
+1194,UK,Female,60+,Apartment,Bus,21 days,35413,5
+1195,Turkey,Female,31-45,Hotel (5 Star),Private Car,10 days,38270,3
+1196,UAE,Female,46-60,Apartment,Train (Haramain),7 days,25269,2
+1197,Nigeria,Female,18-30,Camp (Mina),Bus,21 days,36541,5
+1198,India,Female,18-30,Apartment,Group Transport,10 days,13009,5
+1199,Pakistan,Male,18-30,Hotel (5 Star),Train (Haramain),10 days,22007,2
+1200,Egypt,Male,46-60,Apartment,Train (Haramain),14 days,31462,1
+1201,UAE,Male,31-45,Camp (Mina),Private Car,21 days,16542,5
+1202,Nigeria,Male,60+,Camp (Mina),Train (Haramain),10 days,22434,1
+1203,UK,Female,60+,Camp (Mina),Train (Haramain),14 days,34765,5
+1204,Malaysia,Male,18-30,Hotel (5 Star),Group Transport,10 days,28769,4
+1205,Egypt,Male,18-30,Camp (Mina),Bus,21 days,27465,3
+1206,UK,Female,46-60,Hotel (5 Star),Bus,7 days,26868,5
+1207,Nigeria,Male,31-45,Apartment,Private Car,21 days,25156,4
+1208,Egypt,Male,60+,Camp (Mina),Group Transport,21 days,25300,2
+1209,UAE,Female,46-60,Apartment,Bus,10 days,18435,4
+1210,Nigeria,Male,60+,Hotel (3 Star),Group Transport,10 days,9114,2
+1211,Bangladesh,Male,18-30,Apartment,Bus,21 days,13095,5
+1212,India,Male,60+,Hotel (3 Star),Group Transport,14 days,8951,2
+1213,UAE,Male,31-45,Apartment,Private Car,14 days,26468,4
+1214,Egypt,Male,31-45,Hotel (5 Star),Train (Haramain),14 days,32073,3
+1215,Malaysia,Female,18-30,Apartment,Private Car,10 days,39341,1
+1216,UK,Female,31-45,Hotel (5 Star),Bus,10 days,7768,1
+1217,Pakistan,Female,31-45,Hotel (5 Star),Private Car,21 days,38979,3
+1218,UK,Female,46-60,Camp (Mina),Train (Haramain),7 days,30351,1
+1219,Egypt,Female,60+,Hotel (5 Star),Private Car,10 days,20445,5
+1220,UK,Female,18-30,Hotel (3 Star),Bus,21 days,6160,5
+1221,India,Male,18-30,Camp (Mina),Bus,21 days,27361,4
+1222,Nigeria,Female,18-30,Camp (Mina),Private Car,7 days,12041,4
+1223,Pakistan,Female,18-30,Apartment,Train (Haramain),14 days,23767,2
+1224,Indonesia,Male,18-30,Hotel (5 Star),Private Car,21 days,15846,4
+1225,Egypt,Male,31-45,Hotel (5 Star),Train (Haramain),21 days,24924,5
+1226,Turkey,Female,46-60,Hotel (3 Star),Group Transport,21 days,18882,4
+1227,Indonesia,Male,18-30,Apartment,Train (Haramain),14 days,19738,1
+1228,UK,Female,46-60,Apartment,Group Transport,14 days,26019,2
+1229,Egypt,Male,46-60,Camp (Mina),Private Car,7 days,6095,2
+1230,Bangladesh,Female,31-45,Camp (Mina),Train (Haramain),10 days,19123,5
+1231,Turkey,Male,18-30,Camp (Mina),Group Transport,14 days,33132,4
+1232,Pakistan,Male,31-45,Hotel (3 Star),Group Transport,10 days,6079,1
+1233,Malaysia,Female,18-30,Hotel (3 Star),Group Transport,10 days,34657,4
+1234,Bangladesh,Female,31-45,Camp (Mina),Bus,14 days,37375,3
+1235,Indonesia,Female,46-60,Apartment,Private Car,21 days,29754,4
+1236,Nigeria,Female,18-30,Hotel (3 Star),Group Transport,7 days,36153,5
+1237,India,Female,60+,Apartment,Train (Haramain),10 days,23344,4
+1238,Malaysia,Male,46-60,Apartment,Group Transport,21 days,39241,2
+1239,Bangladesh,Female,60+,Hotel (5 Star),Bus,14 days,9979,1
+1240,Nigeria,Female,46-60,Camp (Mina),Private Car,10 days,6212,5
+1241,Nigeria,Male,31-45,Hotel (5 Star),Bus,10 days,14001,3
+1242,Egypt,Male,18-30,Camp (Mina),Bus,10 days,18248,1
+1243,Bangladesh,Female,46-60,Camp (Mina),Bus,21 days,38187,1
+1244,Pakistan,Male,31-45,Apartment,Train (Haramain),21 days,20608,2
+1245,UK,Male,18-30,Camp (Mina),Private Car,21 days,36368,2
+1246,Turkey,Female,18-30,Apartment,Private Car,10 days,10283,2
+1247,Turkey,Male,46-60,Apartment,Train (Haramain),10 days,30854,5
+1248,Indonesia,Male,18-30,Camp (Mina),Private Car,7 days,15715,4
+1249,Indonesia,Female,46-60,Apartment,Bus,7 days,21165,1
+1250,Turkey,Female,18-30,Apartment,Private Car,21 days,39108,4
+1251,Pakistan,Male,60+,Apartment,Train (Haramain),21 days,31797,4
+1252,India,Male,31-45,Hotel (3 Star),Bus,14 days,15584,2
+1253,UAE,Female,60+,Apartment,Train (Haramain),21 days,19780,4
+1254,UK,Male,46-60,Hotel (3 Star),Group Transport,7 days,26573,1
+1255,India,Male,60+,Hotel (3 Star),Bus,7 days,38359,1
+1256,Egypt,Male,46-60,Apartment,Bus,7 days,5526,3
+1257,UAE,Female,18-30,Apartment,Private Car,10 days,12855,5
+1258,UAE,Male,18-30,Hotel (3 Star),Bus,10 days,39060,4
+1259,Bangladesh,Male,46-60,Hotel (3 Star),Train (Haramain),21 days,34482,5
+1260,Pakistan,Female,60+,Apartment,Private Car,14 days,21571,5
+1261,Pakistan,Male,18-30,Apartment,Group Transport,14 days,36740,5
+1262,UAE,Male,31-45,Camp (Mina),Train (Haramain),14 days,24142,5
+1263,Bangladesh,Female,18-30,Hotel (3 Star),Group Transport,10 days,30104,1
+1264,UK,Female,31-45,Hotel (3 Star),Group Transport,7 days,13625,4
+1265,UAE,Female,60+,Camp (Mina),Group Transport,7 days,20926,3
+1266,Malaysia,Female,31-45,Hotel (3 Star),Bus,10 days,36218,5
+1267,Indonesia,Male,31-45,Hotel (5 Star),Train (Haramain),14 days,31380,3
+1268,Indonesia,Male,31-45,Hotel (3 Star),Train (Haramain),14 days,25566,1
+1269,India,Female,31-45,Camp (Mina),Bus,21 days,38205,1
+1270,Egypt,Female,18-30,Hotel (5 Star),Private Car,21 days,34717,2
+1271,Indonesia,Male,31-45,Apartment,Group Transport,14 days,30135,5
+1272,Nigeria,Female,18-30,Camp (Mina),Train (Haramain),10 days,33164,2
+1273,India,Male,31-45,Camp (Mina),Bus,14 days,13953,3
+1274,Indonesia,Female,46-60,Apartment,Group Transport,21 days,8574,4
+1275,Egypt,Male,60+,Camp (Mina),Private Car,14 days,25169,2
+1276,Pakistan,Female,31-45,Hotel (3 Star),Private Car,10 days,26604,1
+1277,Pakistan,Female,46-60,Apartment,Group Transport,7 days,29134,5
+1278,UK,Male,31-45,Camp (Mina),Private Car,10 days,28202,3
+1279,UAE,Female,31-45,Apartment,Train (Haramain),10 days,5684,1
+1280,Malaysia,Male,31-45,Apartment,Train (Haramain),21 days,13007,4
+1281,Pakistan,Male,46-60,Apartment,Train (Haramain),10 days,14255,5
+1282,Bangladesh,Male,60+,Hotel (5 Star),Private Car,10 days,37262,4
+1283,Indonesia,Male,46-60,Camp (Mina),Train (Haramain),21 days,23093,4
+1284,Bangladesh,Male,60+,Hotel (5 Star),Bus,21 days,10782,5
+1285,Egypt,Female,31-45,Camp (Mina),Train (Haramain),7 days,6234,5
+1286,Pakistan,Female,18-30,Hotel (3 Star),Train (Haramain),14 days,39188,4
+1287,Malaysia,Male,31-45,Hotel (3 Star),Private Car,10 days,36996,3
+1288,Egypt,Female,60+,Hotel (3 Star),Train (Haramain),21 days,34204,5
+1289,Nigeria,Male,46-60,Camp (Mina),Group Transport,7 days,22152,1
+1290,Nigeria,Female,31-45,Apartment,Bus,14 days,30019,2
+1291,Bangladesh,Female,46-60,Apartment,Private Car,21 days,24488,3
+1292,UAE,Female,46-60,Hotel (5 Star),Bus,14 days,24689,5
+1293,India,Female,46-60,Hotel (5 Star),Group Transport,14 days,33506,5
+1294,UAE,Male,31-45,Hotel (3 Star),Private Car,10 days,22715,3
+1295,UK,Male,46-60,Hotel (5 Star),Private Car,10 days,18765,2
+1296,UAE,Female,46-60,Camp (Mina),Train (Haramain),21 days,26942,4
+1297,UK,Female,31-45,Camp (Mina),Bus,14 days,25478,1
+1298,UK,Male,46-60,Hotel (5 Star),Group Transport,21 days,27551,5
+1299,Malaysia,Female,31-45,Hotel (5 Star),Group Transport,21 days,33072,2
+1300,Pakistan,Male,60+,Hotel (5 Star),Private Car,14 days,7892,1
+1301,Malaysia,Male,60+,Hotel (5 Star),Train (Haramain),21 days,38966,3
+1302,UK,Male,60+,Hotel (3 Star),Private Car,14 days,29395,5
+1303,Egypt,Female,46-60,Hotel (3 Star),Private Car,14 days,23756,4
+1304,Nigeria,Male,18-30,Hotel (5 Star),Private Car,14 days,27174,3
+1305,UK,Female,18-30,Camp (Mina),Private Car,14 days,39651,5
+1306,Malaysia,Male,46-60,Hotel (3 Star),Group Transport,7 days,5797,2
+1307,Egypt,Female,18-30,Camp (Mina),Group Transport,14 days,13209,1
+1308,Malaysia,Female,31-45,Apartment,Private Car,10 days,26346,1
+1309,UAE,Female,18-30,Camp (Mina),Private Car,10 days,33024,5
+1310,Indonesia,Male,46-60,Hotel (5 Star),Train (Haramain),10 days,34414,3
+1311,Bangladesh,Male,46-60,Apartment,Private Car,14 days,10947,4
+1312,India,Female,31-45,Hotel (3 Star),Group Transport,10 days,14617,2
+1313,Malaysia,Female,60+,Hotel (3 Star),Bus,7 days,25704,5
+1314,India,Female,46-60,Apartment,Group Transport,21 days,33702,2
+1315,Turkey,Male,31-45,Camp (Mina),Train (Haramain),14 days,6892,1
+1316,Malaysia,Male,18-30,Hotel (3 Star),Group Transport,10 days,34754,4
+1317,Indonesia,Male,18-30,Hotel (5 Star),Bus,7 days,8424,2
+1318,India,Male,31-45,Apartment,Private Car,21 days,18418,5
+1319,UK,Female,31-45,Hotel (5 Star),Bus,7 days,34886,4
+1320,Malaysia,Female,46-60,Apartment,Private Car,10 days,39783,3
+1321,Pakistan,Male,18-30,Hotel (3 Star),Private Car,7 days,28057,5
+1322,Bangladesh,Male,31-45,Camp (Mina),Group Transport,21 days,9833,2
+1323,Indonesia,Female,18-30,Apartment,Group Transport,10 days,14894,4
+1324,India,Male,31-45,Apartment,Group Transport,21 days,5565,5
+1325,Indonesia,Male,18-30,Hotel (5 Star),Train (Haramain),7 days,23402,4
+1326,Egypt,Male,60+,Hotel (3 Star),Group Transport,14 days,15315,4
+1327,Bangladesh,Male,46-60,Hotel (5 Star),Train (Haramain),14 days,17834,4
+1328,UK,Male,18-30,Hotel (3 Star),Group Transport,14 days,7314,2
+1329,Malaysia,Male,60+,Hotel (5 Star),Private Car,14 days,8883,5
+1330,Malaysia,Female,18-30,Apartment,Train (Haramain),21 days,15051,1
+1331,Malaysia,Male,18-30,Hotel (5 Star),Bus,14 days,16695,1
+1332,Bangladesh,Male,60+,Camp (Mina),Train (Haramain),21 days,28123,2
+1333,Pakistan,Female,18-30,Hotel (3 Star),Train (Haramain),10 days,12902,2
+1334,Turkey,Female,18-30,Hotel (3 Star),Bus,14 days,22573,4
+1335,Nigeria,Female,46-60,Apartment,Train (Haramain),21 days,34374,5
+1336,UAE,Male,60+,Hotel (3 Star),Private Car,14 days,17288,5
+1337,India,Female,60+,Camp (Mina),Group Transport,14 days,11884,3
+1338,Pakistan,Male,31-45,Hotel (5 Star),Bus,14 days,15559,3
+1339,UK,Male,18-30,Apartment,Group Transport,21 days,23125,1
+1340,India,Male,46-60,Camp (Mina),Private Car,7 days,8688,3
+1341,Malaysia,Female,18-30,Hotel (3 Star),Bus,14 days,28869,3
+1342,Indonesia,Female,18-30,Hotel (3 Star),Group Transport,14 days,9023,1
+1343,UK,Female,31-45,Camp (Mina),Group Transport,10 days,22100,1
+1344,India,Female,18-30,Hotel (5 Star),Private Car,7 days,12423,3
+1345,Malaysia,Female,46-60,Hotel (5 Star),Group Transport,21 days,17213,5
+1346,India,Male,46-60,Apartment,Private Car,10 days,38158,3
+1347,Indonesia,Male,31-45,Hotel (3 Star),Train (Haramain),14 days,33460,4
+1348,Malaysia,Male,18-30,Camp (Mina),Private Car,10 days,36017,4
+1349,Turkey,Male,46-60,Hotel (5 Star),Train (Haramain),10 days,38000,4
+1350,Pakistan,Female,18-30,Apartment,Bus,14 days,31502,2
+1351,Egypt,Female,18-30,Hotel (3 Star),Group Transport,7 days,35990,4
+1352,UAE,Male,18-30,Hotel (3 Star),Private Car,7 days,24515,5
+1353,Bangladesh,Female,31-45,Apartment,Private Car,10 days,34991,2
+1354,UAE,Female,18-30,Apartment,Group Transport,14 days,12634,2
+1355,UK,Male,46-60,Hotel (5 Star),Group Transport,21 days,16498,4
+1356,UAE,Male,18-30,Camp (Mina),Bus,10 days,15916,3
+1357,Malaysia,Female,46-60,Hotel (3 Star),Bus,21 days,34377,1
+1358,Turkey,Female,18-30,Camp (Mina),Private Car,10 days,38001,3
+1359,Egypt,Male,46-60,Hotel (3 Star),Bus,10 days,6391,3
+1360,Pakistan,Male,46-60,Hotel (3 Star),Train (Haramain),14 days,19184,2
+1361,Pakistan,Male,18-30,Camp (Mina),Bus,14 days,32114,2
+1362,Indonesia,Female,18-30,Apartment,Bus,21 days,16882,2
+1363,Bangladesh,Male,46-60,Hotel (5 Star),Private Car,21 days,22273,5
+1364,India,Male,60+,Hotel (3 Star),Train (Haramain),7 days,22129,5
+1365,Turkey,Female,31-45,Apartment,Bus,14 days,5427,1
+1366,India,Female,60+,Hotel (3 Star),Train (Haramain),10 days,36416,2
+1367,Egypt,Female,60+,Hotel (5 Star),Train (Haramain),10 days,5731,4
+1368,UAE,Female,18-30,Hotel (3 Star),Train (Haramain),7 days,5799,2
+1369,Pakistan,Female,31-45,Hotel (5 Star),Group Transport,14 days,33873,5
+1370,Egypt,Male,60+,Hotel (5 Star),Group Transport,10 days,12025,2
+1371,UAE,Male,18-30,Hotel (3 Star),Group Transport,7 days,19481,5
+1372,Pakistan,Female,60+,Hotel (3 Star),Group Transport,7 days,30411,2
+1373,UAE,Female,60+,Hotel (5 Star),Private Car,10 days,36358,4
+1374,Bangladesh,Female,18-30,Apartment,Bus,10 days,19961,1
+1375,Turkey,Female,18-30,Camp (Mina),Group Transport,21 days,26767,4
+1376,UK,Female,18-30,Hotel (5 Star),Private Car,14 days,26392,5
+1377,Egypt,Male,31-45,Hotel (3 Star),Bus,21 days,18262,3
+1378,Egypt,Male,60+,Hotel (3 Star),Group Transport,7 days,10229,4
+1379,Nigeria,Male,18-30,Apartment,Bus,10 days,28772,2
+1380,Malaysia,Male,46-60,Camp (Mina),Group Transport,21 days,23799,1
+1381,Bangladesh,Female,60+,Hotel (5 Star),Private Car,7 days,28555,2
+1382,Bangladesh,Male,46-60,Hotel (5 Star),Train (Haramain),14 days,31616,2
+1383,India,Female,31-45,Camp (Mina),Train (Haramain),10 days,24333,4
+1384,UAE,Female,18-30,Hotel (5 Star),Bus,21 days,9261,1
+1385,Malaysia,Female,46-60,Camp (Mina),Private Car,14 days,8466,3
+1386,Turkey,Male,31-45,Hotel (3 Star),Train (Haramain),21 days,8088,2
+1387,Turkey,Female,18-30,Camp (Mina),Group Transport,7 days,6115,1
+1388,Bangladesh,Male,46-60,Hotel (5 Star),Train (Haramain),14 days,9578,3
+1389,Turkey,Male,46-60,Camp (Mina),Bus,21 days,7590,2
+1390,Nigeria,Female,31-45,Apartment,Bus,14 days,12372,1
+1391,Egypt,Female,18-30,Hotel (3 Star),Private Car,7 days,8573,4
+1392,Indonesia,Female,18-30,Hotel (3 Star),Bus,14 days,7978,2
+1393,UK,Male,46-60,Camp (Mina),Train (Haramain),21 days,14422,2
+1394,India,Female,46-60,Hotel (5 Star),Train (Haramain),7 days,28697,1
+1395,UAE,Male,46-60,Apartment,Train (Haramain),10 days,35820,2
+1396,UK,Female,18-30,Hotel (3 Star),Train (Haramain),21 days,9925,3
+1397,UAE,Female,31-45,Hotel (3 Star),Private Car,21 days,34430,2
+1398,Pakistan,Male,31-45,Hotel (5 Star),Group Transport,7 days,33834,5
+1399,UK,Male,18-30,Hotel (5 Star),Group Transport,7 days,29435,3
+1400,Indonesia,Male,60+,Apartment,Private Car,10 days,26676,1
+1401,Bangladesh,Male,31-45,Camp (Mina),Bus,21 days,24814,3
+1402,Nigeria,Male,46-60,Hotel (5 Star),Group Transport,7 days,19716,5
+1403,Egypt,Male,60+,Camp (Mina),Bus,10 days,32528,5
+1404,Egypt,Female,60+,Apartment,Group Transport,10 days,6995,2
+1405,Nigeria,Female,31-45,Camp (Mina),Bus,7 days,27414,2
+1406,Malaysia,Male,60+,Hotel (3 Star),Private Car,21 days,18844,4
+1407,Pakistan,Female,60+,Camp (Mina),Train (Haramain),14 days,20522,3
+1408,UAE,Male,31-45,Apartment,Bus,14 days,13498,4
+1409,Indonesia,Female,31-45,Apartment,Train (Haramain),10 days,7102,5
+1410,Turkey,Female,60+,Apartment,Bus,14 days,13524,2
+1411,UK,Male,46-60,Camp (Mina),Bus,14 days,35846,2
+1412,Pakistan,Male,18-30,Hotel (3 Star),Bus,7 days,13107,2
+1413,UK,Male,60+,Hotel (5 Star),Bus,10 days,23268,1
+1414,Indonesia,Female,60+,Hotel (3 Star),Bus,21 days,29399,5
+1415,India,Male,46-60,Camp (Mina),Train (Haramain),10 days,14624,2
+1416,India,Female,60+,Camp (Mina),Bus,7 days,32126,5
+1417,Pakistan,Male,60+,Hotel (5 Star),Train (Haramain),14 days,28131,2
+1418,Bangladesh,Female,18-30,Camp (Mina),Private Car,21 days,25714,3
+1419,Indonesia,Female,18-30,Apartment,Group Transport,10 days,23570,5
+1420,Indonesia,Male,18-30,Apartment,Bus,14 days,17482,4
+1421,Nigeria,Female,31-45,Apartment,Group Transport,10 days,39318,1
+1422,Bangladesh,Female,31-45,Apartment,Train (Haramain),21 days,38414,4
+1423,UAE,Male,18-30,Apartment,Private Car,10 days,26040,5
+1424,UAE,Female,18-30,Camp (Mina),Private Car,10 days,18407,2
+1425,Turkey,Male,31-45,Hotel (5 Star),Private Car,10 days,38305,5
+1426,Egypt,Male,46-60,Hotel (5 Star),Group Transport,14 days,19166,1
+1427,India,Male,60+,Apartment,Train (Haramain),21 days,11572,5
+1428,UAE,Male,60+,Camp (Mina),Bus,21 days,38002,2
+1429,Bangladesh,Female,18-30,Hotel (3 Star),Bus,14 days,31972,4
+1430,Indonesia,Female,46-60,Hotel (3 Star),Train (Haramain),14 days,27923,3
+1431,UAE,Female,31-45,Camp (Mina),Group Transport,14 days,6909,4
+1432,Indonesia,Male,18-30,Apartment,Bus,7 days,37848,2
+1433,UAE,Female,46-60,Hotel (5 Star),Train (Haramain),10 days,7083,2
+1434,India,Female,46-60,Camp (Mina),Bus,10 days,22140,1
+1435,UK,Male,46-60,Hotel (3 Star),Private Car,21 days,7670,5
+1436,UAE,Male,31-45,Hotel (3 Star),Bus,10 days,19691,5
+1437,Bangladesh,Female,31-45,Hotel (3 Star),Group Transport,7 days,39262,4
+1438,UAE,Male,60+,Apartment,Train (Haramain),14 days,30595,3
+1439,Egypt,Male,60+,Hotel (3 Star),Group Transport,21 days,38440,3
+1440,India,Male,46-60,Camp (Mina),Train (Haramain),21 days,13630,1
+1441,Bangladesh,Male,46-60,Camp (Mina),Private Car,10 days,36250,2
+1442,Nigeria,Female,31-45,Hotel (3 Star),Train (Haramain),21 days,33798,1
+1443,Bangladesh,Male,60+,Camp (Mina),Bus,14 days,38212,5
+1444,Egypt,Male,46-60,Hotel (3 Star),Bus,21 days,16982,2
+1445,UK,Male,60+,Hotel (3 Star),Private Car,14 days,13655,1
+1446,India,Male,60+,Hotel (5 Star),Train (Haramain),7 days,23582,4
+1447,Nigeria,Male,46-60,Apartment,Private Car,7 days,9008,5
+1448,Egypt,Male,31-45,Apartment,Bus,14 days,5496,3
+1449,Egypt,Male,46-60,Hotel (5 Star),Group Transport,10 days,39231,1
+1450,Pakistan,Male,46-60,Hotel (5 Star),Private Car,21 days,28212,5
+1451,India,Female,60+,Apartment,Group Transport,10 days,25637,5
+1452,Bangladesh,Male,46-60,Hotel (3 Star),Group Transport,21 days,21877,3
+1453,Indonesia,Female,31-45,Hotel (3 Star),Train (Haramain),7 days,22810,3
+1454,UK,Male,46-60,Apartment,Private Car,7 days,14884,3
+1455,Indonesia,Male,31-45,Hotel (3 Star),Group Transport,7 days,7723,1
+1456,Bangladesh,Male,31-45,Hotel (5 Star),Group Transport,21 days,9761,3
+1457,Bangladesh,Male,60+,Hotel (3 Star),Train (Haramain),7 days,12630,4
+1458,India,Female,18-30,Hotel (3 Star),Train (Haramain),7 days,21375,5
+1459,Bangladesh,Male,18-30,Camp (Mina),Bus,7 days,30218,3
+1460,Pakistan,Male,60+,Camp (Mina),Group Transport,7 days,35565,5
+1461,Nigeria,Female,46-60,Camp (Mina),Bus,10 days,37975,2
+1462,Bangladesh,Female,60+,Hotel (3 Star),Group Transport,7 days,32073,2
+1463,Indonesia,Male,31-45,Apartment,Bus,7 days,9190,3
+1464,Bangladesh,Female,18-30,Hotel (5 Star),Train (Haramain),10 days,6883,5
+1465,Pakistan,Female,60+,Hotel (3 Star),Private Car,10 days,7886,2
+1466,UAE,Female,46-60,Apartment,Train (Haramain),21 days,13953,3
+1467,UAE,Male,60+,Hotel (3 Star),Bus,14 days,13381,5
+1468,Egypt,Male,18-30,Hotel (5 Star),Bus,7 days,28238,3
+1469,UK,Male,60+,Hotel (3 Star),Private Car,7 days,18795,5
+1470,Turkey,Female,60+,Hotel (5 Star),Group Transport,7 days,35428,2
+1471,Nigeria,Male,18-30,Hotel (3 Star),Bus,21 days,14638,3
+1472,Malaysia,Female,31-45,Hotel (5 Star),Bus,7 days,9931,2
+1473,Egypt,Male,31-45,Hotel (3 Star),Bus,14 days,31411,3
+1474,UK,Male,18-30,Hotel (5 Star),Private Car,10 days,25534,1
+1475,UAE,Female,60+,Camp (Mina),Train (Haramain),21 days,34181,2
+1476,Indonesia,Male,18-30,Hotel (3 Star),Bus,10 days,24996,2
+1477,Malaysia,Female,31-45,Hotel (3 Star),Private Car,7 days,11553,4
+1478,UK,Female,46-60,Apartment,Bus,7 days,23073,2
+1479,UK,Male,60+,Apartment,Group Transport,7 days,12130,5
+1480,Egypt,Female,31-45,Hotel (5 Star),Private Car,14 days,34405,3
+1481,Malaysia,Male,60+,Hotel (3 Star),Bus,14 days,10789,1
+1482,India,Male,18-30,Hotel (5 Star),Private Car,21 days,33930,5
+1483,Turkey,Female,46-60,Camp (Mina),Bus,10 days,22529,5
+1484,India,Male,18-30,Apartment,Train (Haramain),7 days,12942,5
+1485,Malaysia,Female,46-60,Hotel (5 Star),Bus,7 days,12548,5
+1486,India,Male,60+,Hotel (5 Star),Private Car,7 days,23296,1
+1487,Pakistan,Male,60+,Apartment,Group Transport,7 days,37244,4
+1488,UAE,Male,18-30,Hotel (3 Star),Group Transport,14 days,5296,2
+1489,Pakistan,Male,46-60,Hotel (5 Star),Group Transport,10 days,7409,5
+1490,Bangladesh,Male,46-60,Apartment,Bus,10 days,39229,2
+1491,India,Female,60+,Hotel (3 Star),Train (Haramain),21 days,35846,2
+1492,Bangladesh,Female,18-30,Camp (Mina),Bus,14 days,32167,5
+1493,Indonesia,Female,46-60,Apartment,Group Transport,7 days,33991,4
+1494,Nigeria,Female,60+,Hotel (5 Star),Private Car,10 days,22801,2
+1495,Indonesia,Female,31-45,Camp (Mina),Group Transport,10 days,12358,3
+1496,Malaysia,Female,18-30,Hotel (3 Star),Private Car,14 days,27588,2
+1497,UK,Male,31-45,Hotel (3 Star),Train (Haramain),21 days,22671,5
+1498,UAE,Male,18-30,Apartment,Private Car,21 days,22502,1
+1499,India,Female,60+,Apartment,Bus,7 days,30128,2
+1500,Egypt,Female,46-60,Apartment,Bus,21 days,36645,4
+1501,Nigeria,Male,46-60,Hotel (3 Star),Bus,10 days,12637,3
+1502,Turkey,Male,46-60,Camp (Mina),Private Car,21 days,5660,3
+1503,Turkey,Male,18-30,Hotel (3 Star),Bus,7 days,11922,1
+1504,Turkey,Female,60+,Hotel (5 Star),Bus,10 days,33161,1
+1505,India,Female,31-45,Hotel (3 Star),Bus,21 days,8970,2
+1506,Turkey,Female,60+,Hotel (5 Star),Train (Haramain),21 days,8407,5
+1507,Pakistan,Male,31-45,Camp (Mina),Private Car,14 days,32843,4
+1508,Nigeria,Male,18-30,Apartment,Private Car,7 days,14046,3
+1509,Pakistan,Female,18-30,Apartment,Group Transport,21 days,28800,1
+1510,UK,Female,31-45,Hotel (3 Star),Private Car,14 days,19547,4
+1511,Nigeria,Male,31-45,Apartment,Train (Haramain),10 days,36389,5
+1512,Pakistan,Male,31-45,Camp (Mina),Private Car,14 days,35346,3
+1513,Nigeria,Male,60+,Apartment,Train (Haramain),14 days,27748,3
+1514,UK,Male,31-45,Hotel (3 Star),Train (Haramain),21 days,30848,5
+1515,Bangladesh,Female,18-30,Camp (Mina),Private Car,21 days,12607,3
+1516,India,Male,18-30,Hotel (5 Star),Group Transport,21 days,38583,5
+1517,India,Male,46-60,Hotel (3 Star),Bus,14 days,17563,3
+1518,Turkey,Male,31-45,Hotel (5 Star),Bus,10 days,38690,2
+1519,Indonesia,Female,60+,Camp (Mina),Private Car,7 days,34176,5
+1520,Turkey,Female,60+,Hotel (3 Star),Private Car,14 days,19925,4
+1521,Malaysia,Male,60+,Hotel (3 Star),Train (Haramain),21 days,26251,2
+1522,Pakistan,Male,46-60,Camp (Mina),Private Car,7 days,22648,4
+1523,Nigeria,Male,18-30,Apartment,Train (Haramain),10 days,25108,3
+1524,Indonesia,Female,60+,Hotel (3 Star),Group Transport,7 days,15979,4
+1525,UK,Female,18-30,Hotel (3 Star),Private Car,21 days,7722,2
+1526,Malaysia,Female,46-60,Hotel (5 Star),Bus,14 days,10355,5
+1527,UK,Male,31-45,Apartment,Bus,14 days,33799,1
+1528,India,Female,31-45,Hotel (5 Star),Private Car,21 days,37705,4
+1529,India,Male,31-45,Hotel (5 Star),Train (Haramain),14 days,28070,1
+1530,Turkey,Male,60+,Apartment,Bus,21 days,16284,4
+1531,Pakistan,Male,31-45,Apartment,Train (Haramain),14 days,26737,4
+1532,Indonesia,Female,60+,Camp (Mina),Private Car,14 days,28241,5
+1533,UAE,Male,46-60,Apartment,Private Car,14 days,32414,3
+1534,Malaysia,Female,46-60,Hotel (3 Star),Bus,10 days,25895,2
+1535,Malaysia,Female,60+,Apartment,Private Car,10 days,31771,2
+1536,Turkey,Male,18-30,Camp (Mina),Group Transport,21 days,6384,2
+1537,India,Male,31-45,Camp (Mina),Group Transport,10 days,27689,3
+1538,Turkey,Female,31-45,Camp (Mina),Bus,21 days,32475,1
+1539,Nigeria,Male,31-45,Apartment,Group Transport,7 days,13252,2
+1540,Indonesia,Female,60+,Apartment,Train (Haramain),7 days,35844,1
+1541,Pakistan,Male,46-60,Hotel (5 Star),Bus,10 days,35151,3
+1542,Bangladesh,Female,31-45,Hotel (5 Star),Bus,7 days,28365,3
+1543,Egypt,Female,46-60,Hotel (3 Star),Train (Haramain),7 days,11026,5
+1544,Egypt,Female,31-45,Hotel (5 Star),Group Transport,14 days,37767,2
+1545,Turkey,Female,31-45,Hotel (3 Star),Group Transport,14 days,33523,5
+1546,Nigeria,Male,60+,Camp (Mina),Group Transport,21 days,15482,2
+1547,Indonesia,Male,18-30,Hotel (5 Star),Bus,7 days,30108,3
+1548,UAE,Female,60+,Apartment,Bus,21 days,5493,3
+1549,Egypt,Female,31-45,Hotel (5 Star),Group Transport,21 days,21465,4
+1550,Indonesia,Male,31-45,Hotel (3 Star),Private Car,7 days,34550,4
+1551,Pakistan,Male,18-30,Hotel (5 Star),Group Transport,10 days,18833,3
+1552,UK,Male,46-60,Camp (Mina),Train (Haramain),7 days,7970,3
+1553,Nigeria,Male,46-60,Apartment,Bus,14 days,37779,1
+1554,India,Male,31-45,Hotel (3 Star),Train (Haramain),7 days,34958,1
+1555,Indonesia,Male,46-60,Apartment,Train (Haramain),10 days,22145,5
+1556,Pakistan,Female,31-45,Apartment,Bus,21 days,6806,4
+1557,UAE,Male,18-30,Hotel (3 Star),Private Car,21 days,10664,4
+1558,Bangladesh,Male,18-30,Apartment,Group Transport,14 days,33900,3
+1559,India,Female,31-45,Apartment,Train (Haramain),14 days,19126,3
+1560,Bangladesh,Male,18-30,Hotel (5 Star),Bus,14 days,10154,5
+1561,UAE,Male,60+,Apartment,Train (Haramain),21 days,27208,4
+1562,Pakistan,Male,60+,Apartment,Group Transport,14 days,18767,1
+1563,Egypt,Male,18-30,Apartment,Private Car,7 days,25043,2
+1564,Bangladesh,Male,31-45,Apartment,Private Car,21 days,6525,5
+1565,India,Female,31-45,Hotel (3 Star),Private Car,10 days,38528,2
+1566,Turkey,Male,18-30,Camp (Mina),Bus,21 days,21978,1
+1567,Malaysia,Female,46-60,Hotel (5 Star),Bus,7 days,6055,1
+1568,Indonesia,Female,60+,Apartment,Private Car,7 days,15046,2
+1569,Egypt,Male,46-60,Apartment,Group Transport,14 days,20678,5
+1570,Bangladesh,Female,31-45,Hotel (3 Star),Group Transport,21 days,31624,2
+1571,UK,Male,31-45,Camp (Mina),Bus,21 days,10255,5
+1572,Indonesia,Female,46-60,Apartment,Private Car,21 days,14411,5
+1573,Turkey,Female,18-30,Hotel (3 Star),Group Transport,10 days,38971,3
+1574,UAE,Male,46-60,Hotel (5 Star),Group Transport,14 days,36235,4
+1575,Malaysia,Male,46-60,Hotel (5 Star),Group Transport,7 days,24194,4
+1576,Pakistan,Male,60+,Apartment,Bus,7 days,24476,1
+1577,Turkey,Male,60+,Apartment,Private Car,14 days,8044,3
+1578,Turkey,Male,46-60,Camp (Mina),Train (Haramain),7 days,26057,4
+1579,UAE,Female,46-60,Camp (Mina),Private Car,7 days,8514,5
+1580,Nigeria,Female,31-45,Apartment,Private Car,14 days,14990,5
+1581,UAE,Female,60+,Hotel (3 Star),Bus,7 days,12507,2
+1582,Nigeria,Female,60+,Camp (Mina),Group Transport,21 days,9857,2
+1583,Nigeria,Female,31-45,Apartment,Group Transport,10 days,17118,5
+1584,Egypt,Female,18-30,Camp (Mina),Bus,14 days,8146,5
+1585,Egypt,Female,60+,Apartment,Bus,10 days,31401,2
+1586,India,Male,60+,Hotel (5 Star),Bus,7 days,31177,4
+1587,Bangladesh,Male,18-30,Apartment,Bus,7 days,9414,1
+1588,Bangladesh,Female,60+,Hotel (5 Star),Bus,21 days,22494,2
+1589,Pakistan,Female,60+,Camp (Mina),Train (Haramain),14 days,25437,4
+1590,Bangladesh,Male,18-30,Apartment,Private Car,7 days,8937,4
+1591,Egypt,Male,18-30,Camp (Mina),Private Car,14 days,26326,4
+1592,India,Male,46-60,Hotel (5 Star),Private Car,14 days,13974,3
+1593,India,Male,31-45,Apartment,Group Transport,14 days,22500,3
+1594,Nigeria,Female,31-45,Camp (Mina),Train (Haramain),14 days,6750,4
+1595,UAE,Male,18-30,Hotel (5 Star),Private Car,14 days,9027,5
+1596,Pakistan,Female,18-30,Camp (Mina),Group Transport,10 days,10745,3
+1597,Nigeria,Female,60+,Hotel (3 Star),Train (Haramain),21 days,26448,2
+1598,UAE,Female,46-60,Hotel (5 Star),Train (Haramain),14 days,33451,3
+1599,Bangladesh,Male,46-60,Hotel (5 Star),Group Transport,10 days,33207,5
+1600,Nigeria,Male,18-30,Hotel (5 Star),Train (Haramain),7 days,10938,1
+1601,Indonesia,Female,60+,Apartment,Group Transport,14 days,17150,3
+1602,Bangladesh,Female,60+,Apartment,Private Car,7 days,18406,4
+1603,UAE,Female,31-45,Apartment,Group Transport,14 days,24781,4
+1604,Pakistan,Male,31-45,Hotel (3 Star),Train (Haramain),10 days,23325,4
+1605,UAE,Female,60+,Hotel (3 Star),Private Car,10 days,8148,1
+1606,Nigeria,Male,31-45,Hotel (5 Star),Private Car,10 days,33879,5
+1607,Nigeria,Female,18-30,Hotel (3 Star),Bus,21 days,12933,2
+1608,Turkey,Female,60+,Camp (Mina),Bus,7 days,14436,5
+1609,Pakistan,Female,31-45,Hotel (5 Star),Train (Haramain),21 days,22669,1
+1610,UK,Male,46-60,Hotel (5 Star),Group Transport,14 days,11474,4
+1611,Bangladesh,Male,60+,Camp (Mina),Group Transport,7 days,16228,5
+1612,India,Female,60+,Hotel (5 Star),Train (Haramain),10 days,38538,2
+1613,Pakistan,Male,46-60,Hotel (3 Star),Private Car,7 days,6843,4
+1614,India,Female,18-30,Apartment,Train (Haramain),10 days,5073,2
+1615,Pakistan,Male,46-60,Camp (Mina),Train (Haramain),21 days,21059,3
+1616,Pakistan,Male,60+,Hotel (3 Star),Private Car,21 days,25733,2
+1617,UAE,Male,18-30,Camp (Mina),Group Transport,10 days,30395,4
+1618,Pakistan,Female,31-45,Camp (Mina),Train (Haramain),10 days,25202,3
+1619,Turkey,Male,31-45,Hotel (5 Star),Group Transport,14 days,18273,4
+1620,UK,Male,31-45,Hotel (5 Star),Train (Haramain),21 days,38099,4
+1621,Nigeria,Female,60+,Hotel (3 Star),Private Car,21 days,12512,3
+1622,Malaysia,Female,46-60,Camp (Mina),Private Car,14 days,33231,2
+1623,India,Female,18-30,Hotel (5 Star),Bus,21 days,28274,1
+1624,Nigeria,Female,31-45,Hotel (5 Star),Private Car,10 days,27409,1
+1625,Malaysia,Male,18-30,Camp (Mina),Bus,7 days,10113,1
+1626,UK,Male,60+,Hotel (3 Star),Train (Haramain),7 days,7881,1
+1627,UK,Male,31-45,Hotel (3 Star),Group Transport,21 days,24249,5
+1628,India,Male,60+,Camp (Mina),Private Car,14 days,17714,1
+1629,India,Male,46-60,Hotel (3 Star),Private Car,10 days,13656,3
+1630,UK,Female,60+,Hotel (5 Star),Private Car,7 days,10741,1
+1631,Malaysia,Male,60+,Camp (Mina),Train (Haramain),10 days,21661,4
+1632,Pakistan,Male,46-60,Hotel (5 Star),Bus,21 days,36555,1
+1633,Bangladesh,Male,18-30,Apartment,Train (Haramain),21 days,33690,2
+1634,Indonesia,Female,46-60,Apartment,Group Transport,7 days,37833,3
+1635,Nigeria,Female,46-60,Hotel (3 Star),Train (Haramain),21 days,10704,3
+1636,UAE,Male,60+,Apartment,Group Transport,14 days,17175,5
+1637,Nigeria,Female,18-30,Hotel (5 Star),Private Car,21 days,17696,4
+1638,UAE,Female,31-45,Apartment,Group Transport,21 days,33054,3
+1639,Malaysia,Female,46-60,Hotel (5 Star),Group Transport,21 days,26076,2
+1640,UAE,Female,18-30,Hotel (3 Star),Bus,10 days,19986,1
+1641,India,Female,46-60,Hotel (3 Star),Group Transport,10 days,19440,3
+1642,Bangladesh,Female,46-60,Hotel (5 Star),Group Transport,7 days,12960,2
+1643,Bangladesh,Female,46-60,Apartment,Train (Haramain),7 days,27462,1
+1644,India,Male,46-60,Hotel (3 Star),Private Car,7 days,22821,5
+1645,Turkey,Male,60+,Camp (Mina),Train (Haramain),21 days,32258,3
+1646,Malaysia,Female,18-30,Hotel (3 Star),Train (Haramain),10 days,32353,3
+1647,Turkey,Male,18-30,Apartment,Private Car,14 days,28416,2
+1648,Turkey,Male,18-30,Camp (Mina),Private Car,21 days,27115,4
+1649,Nigeria,Female,46-60,Apartment,Group Transport,21 days,29968,5
+1650,UK,Male,60+,Hotel (5 Star),Group Transport,21 days,27731,4
+1651,Nigeria,Female,46-60,Camp (Mina),Bus,14 days,27785,3
+1652,UK,Female,46-60,Apartment,Train (Haramain),7 days,18828,4
+1653,Indonesia,Female,18-30,Camp (Mina),Private Car,14 days,9541,1
+1654,UAE,Male,46-60,Apartment,Group Transport,7 days,18311,5
+1655,UK,Male,31-45,Camp (Mina),Private Car,14 days,35531,4
+1656,India,Male,46-60,Apartment,Group Transport,10 days,19588,1
+1657,Nigeria,Male,31-45,Hotel (5 Star),Bus,21 days,17380,2
+1658,Malaysia,Female,46-60,Camp (Mina),Bus,21 days,22818,4
+1659,UAE,Female,60+,Camp (Mina),Private Car,21 days,35857,5
+1660,Indonesia,Male,60+,Camp (Mina),Bus,7 days,26711,1
+1661,UK,Female,18-30,Camp (Mina),Private Car,14 days,10097,4
+1662,Indonesia,Female,46-60,Hotel (5 Star),Group Transport,10 days,33393,2
+1663,Malaysia,Male,31-45,Camp (Mina),Train (Haramain),14 days,27076,4
+1664,Turkey,Female,31-45,Hotel (3 Star),Bus,21 days,23738,1
+1665,Bangladesh,Male,46-60,Hotel (5 Star),Group Transport,10 days,34317,4
+1666,Malaysia,Female,31-45,Hotel (3 Star),Train (Haramain),10 days,12044,5
+1667,Egypt,Male,60+,Camp (Mina),Train (Haramain),21 days,10497,3
+1668,Malaysia,Female,31-45,Apartment,Train (Haramain),14 days,18751,1
+1669,Indonesia,Female,18-30,Hotel (3 Star),Group Transport,21 days,34882,1
+1670,India,Male,60+,Camp (Mina),Group Transport,14 days,27449,1
+1671,Nigeria,Male,60+,Hotel (3 Star),Private Car,10 days,38402,1
+1672,India,Male,60+,Camp (Mina),Train (Haramain),10 days,37543,4
+1673,Indonesia,Male,46-60,Camp (Mina),Train (Haramain),21 days,34362,5
+1674,Nigeria,Female,46-60,Camp (Mina),Train (Haramain),10 days,32315,2
+1675,Egypt,Female,60+,Apartment,Private Car,7 days,32746,5
+1676,Bangladesh,Male,46-60,Hotel (3 Star),Train (Haramain),10 days,15057,1
+1677,UAE,Female,31-45,Hotel (5 Star),Group Transport,7 days,26061,4
+1678,Indonesia,Male,46-60,Hotel (5 Star),Train (Haramain),10 days,39157,4
+1679,UK,Male,46-60,Hotel (5 Star),Bus,21 days,16322,1
+1680,Indonesia,Female,60+,Hotel (5 Star),Group Transport,21 days,9276,4
+1681,Indonesia,Female,18-30,Camp (Mina),Private Car,7 days,17306,1
+1682,Nigeria,Male,18-30,Hotel (3 Star),Train (Haramain),21 days,39017,5
+1683,Pakistan,Male,18-30,Hotel (3 Star),Bus,10 days,32742,3
+1684,Malaysia,Male,31-45,Apartment,Private Car,10 days,36600,4
+1685,Pakistan,Female,46-60,Hotel (3 Star),Private Car,21 days,22629,1
+1686,Egypt,Female,18-30,Hotel (3 Star),Group Transport,10 days,13245,1
+1687,UK,Female,60+,Hotel (3 Star),Private Car,14 days,36414,4
+1688,Bangladesh,Female,18-30,Apartment,Private Car,14 days,35098,2
+1689,Turkey,Male,18-30,Hotel (5 Star),Private Car,10 days,15588,1
+1690,Egypt,Male,46-60,Hotel (3 Star),Private Car,21 days,5442,4
+1691,Turkey,Male,46-60,Apartment,Train (Haramain),7 days,16803,1
+1692,Turkey,Male,46-60,Apartment,Train (Haramain),21 days,15599,2
+1693,Bangladesh,Male,31-45,Camp (Mina),Train (Haramain),7 days,12058,3
+1694,India,Male,31-45,Apartment,Train (Haramain),21 days,22206,2
+1695,Pakistan,Female,18-30,Hotel (5 Star),Bus,10 days,16894,5
+1696,Indonesia,Female,46-60,Hotel (3 Star),Train (Haramain),14 days,7939,4
+1697,UAE,Male,18-30,Apartment,Private Car,21 days,27149,2
+1698,Turkey,Male,60+,Hotel (5 Star),Train (Haramain),7 days,6031,3
+1699,UK,Female,60+,Apartment,Train (Haramain),14 days,15208,1
+1700,Egypt,Female,46-60,Apartment,Group Transport,7 days,5562,4
+1701,India,Female,46-60,Apartment,Private Car,10 days,25951,2
+1702,Turkey,Female,60+,Apartment,Train (Haramain),14 days,33351,3
+1703,India,Male,46-60,Apartment,Train (Haramain),7 days,23680,2
+1704,India,Male,31-45,Hotel (5 Star),Train (Haramain),21 days,26586,5
+1705,Turkey,Male,31-45,Hotel (3 Star),Bus,10 days,14308,4
+1706,Nigeria,Male,46-60,Hotel (3 Star),Train (Haramain),10 days,14609,1
+1707,Malaysia,Male,60+,Hotel (3 Star),Group Transport,10 days,34495,3
+1708,UK,Female,18-30,Hotel (3 Star),Private Car,21 days,22675,2
+1709,Indonesia,Male,46-60,Hotel (5 Star),Private Car,21 days,33064,4
+1710,Indonesia,Female,46-60,Camp (Mina),Train (Haramain),14 days,13720,2
+1711,UK,Male,18-30,Camp (Mina),Train (Haramain),21 days,19457,4
+1712,Nigeria,Male,46-60,Hotel (5 Star),Train (Haramain),14 days,7939,5
+1713,Indonesia,Male,18-30,Hotel (5 Star),Private Car,10 days,28365,2
+1714,India,Male,60+,Apartment,Private Car,14 days,10392,5
+1715,Bangladesh,Male,31-45,Apartment,Bus,7 days,30905,3
+1716,Egypt,Female,60+,Apartment,Group Transport,10 days,12972,5
+1717,Pakistan,Female,31-45,Hotel (3 Star),Bus,10 days,35653,4
+1718,Indonesia,Female,18-30,Apartment,Group Transport,14 days,31329,3
+1719,UK,Male,31-45,Camp (Mina),Bus,10 days,24184,2
+1720,Bangladesh,Male,60+,Hotel (3 Star),Private Car,21 days,19799,2
+1721,Turkey,Female,31-45,Apartment,Bus,7 days,20052,4
+1722,Malaysia,Male,18-30,Hotel (3 Star),Group Transport,14 days,11044,1
+1723,UK,Male,31-45,Camp (Mina),Train (Haramain),14 days,24871,1
+1724,India,Female,46-60,Apartment,Group Transport,10 days,28767,2
+1725,Malaysia,Male,60+,Camp (Mina),Train (Haramain),21 days,25234,4
+1726,Egypt,Female,46-60,Camp (Mina),Private Car,10 days,26381,1
+1727,Egypt,Male,18-30,Camp (Mina),Group Transport,10 days,22274,5
+1728,Nigeria,Female,31-45,Apartment,Bus,14 days,27304,2
+1729,UAE,Male,46-60,Hotel (5 Star),Group Transport,10 days,22572,5
+1730,Nigeria,Male,46-60,Apartment,Train (Haramain),7 days,30965,4
+1731,Bangladesh,Female,31-45,Camp (Mina),Private Car,10 days,23384,5
+1732,Malaysia,Male,31-45,Apartment,Bus,10 days,22855,1
+1733,UAE,Male,60+,Camp (Mina),Group Transport,14 days,22920,1
+1734,Turkey,Female,46-60,Hotel (5 Star),Train (Haramain),10 days,21702,3
+1735,India,Male,46-60,Hotel (3 Star),Bus,21 days,6894,2
+1736,Malaysia,Female,18-30,Hotel (5 Star),Private Car,14 days,35985,4
+1737,Nigeria,Male,60+,Hotel (5 Star),Bus,10 days,33287,2
+1738,Pakistan,Male,18-30,Hotel (3 Star),Private Car,7 days,12991,5
+1739,UAE,Male,46-60,Apartment,Bus,7 days,20439,4
+1740,UAE,Male,18-30,Hotel (3 Star),Group Transport,14 days,34084,4
+1741,India,Female,46-60,Apartment,Train (Haramain),14 days,32659,1
+1742,Indonesia,Male,46-60,Apartment,Group Transport,10 days,29976,5
+1743,Egypt,Female,18-30,Camp (Mina),Group Transport,21 days,22107,1
+1744,Egypt,Male,18-30,Camp (Mina),Private Car,10 days,7329,1
+1745,Pakistan,Male,31-45,Hotel (3 Star),Private Car,7 days,7770,3
+1746,Bangladesh,Male,31-45,Hotel (5 Star),Private Car,21 days,9846,1
+1747,Bangladesh,Male,31-45,Hotel (3 Star),Group Transport,21 days,21651,2
+1748,Turkey,Female,46-60,Apartment,Bus,21 days,19633,4
+1749,Malaysia,Female,18-30,Camp (Mina),Bus,10 days,18628,1
+1750,UK,Female,60+,Hotel (3 Star),Group Transport,7 days,5569,2
+1751,Indonesia,Female,46-60,Hotel (3 Star),Group Transport,14 days,6973,5
+1752,Nigeria,Male,60+,Camp (Mina),Train (Haramain),10 days,38038,4
+1753,UK,Female,18-30,Camp (Mina),Private Car,14 days,12641,5
+1754,UK,Female,46-60,Camp (Mina),Private Car,21 days,13930,2
+1755,UAE,Male,60+,Apartment,Group Transport,21 days,11680,5
+1756,Pakistan,Male,60+,Camp (Mina),Group Transport,10 days,6257,5
+1757,Egypt,Male,31-45,Hotel (5 Star),Bus,7 days,13250,5
+1758,Turkey,Male,31-45,Hotel (3 Star),Group Transport,21 days,33757,1
+1759,Bangladesh,Female,31-45,Camp (Mina),Bus,14 days,9858,1
+1760,Pakistan,Female,46-60,Camp (Mina),Group Transport,14 days,18491,1
+1761,UAE,Male,18-30,Apartment,Train (Haramain),10 days,30294,4
+1762,Nigeria,Male,18-30,Apartment,Train (Haramain),14 days,11908,2
+1763,Turkey,Male,31-45,Hotel (3 Star),Bus,7 days,15844,1
+1764,UAE,Female,31-45,Hotel (5 Star),Private Car,21 days,7911,5
+1765,Egypt,Female,31-45,Hotel (3 Star),Train (Haramain),14 days,13991,5
+1766,Egypt,Male,60+,Camp (Mina),Bus,14 days,16572,5
+1767,Egypt,Male,31-45,Hotel (5 Star),Group Transport,21 days,34693,5
+1768,Pakistan,Female,60+,Hotel (5 Star),Group Transport,10 days,22493,3
+1769,Pakistan,Male,18-30,Hotel (5 Star),Bus,14 days,22634,4
+1770,Bangladesh,Male,46-60,Hotel (5 Star),Private Car,10 days,29561,2
+1771,Bangladesh,Female,46-60,Hotel (3 Star),Bus,10 days,23033,2
+1772,Nigeria,Male,46-60,Apartment,Bus,14 days,12351,1
+1773,Turkey,Female,46-60,Apartment,Train (Haramain),7 days,30921,3
+1774,India,Male,60+,Camp (Mina),Bus,10 days,24340,2
+1775,India,Male,60+,Apartment,Bus,14 days,19901,4
+1776,UAE,Female,31-45,Apartment,Group Transport,10 days,15638,5
+1777,Egypt,Female,60+,Apartment,Train (Haramain),21 days,26378,1
+1778,Turkey,Male,31-45,Apartment,Group Transport,7 days,27820,4
+1779,UK,Female,31-45,Camp (Mina),Group Transport,7 days,30060,2
+1780,Pakistan,Male,46-60,Hotel (3 Star),Private Car,21 days,37642,3
+1781,Malaysia,Male,60+,Hotel (5 Star),Private Car,21 days,30378,1
+1782,Indonesia,Female,60+,Apartment,Train (Haramain),10 days,13150,2
+1783,Nigeria,Male,31-45,Hotel (3 Star),Train (Haramain),21 days,29059,1
+1784,Egypt,Male,31-45,Apartment,Private Car,7 days,39525,2
+1785,Egypt,Female,18-30,Apartment,Private Car,21 days,23193,5
+1786,Egypt,Female,18-30,Hotel (5 Star),Private Car,14 days,32801,3
+1787,Pakistan,Male,31-45,Hotel (5 Star),Private Car,14 days,31246,5
+1788,Pakistan,Female,18-30,Hotel (5 Star),Private Car,10 days,17807,2
+1789,Indonesia,Female,18-30,Apartment,Group Transport,7 days,22535,4
+1790,UK,Female,31-45,Apartment,Train (Haramain),14 days,10492,5
+1791,Turkey,Female,31-45,Apartment,Group Transport,21 days,36357,4
+1792,Egypt,Male,60+,Hotel (5 Star),Group Transport,14 days,11302,2
+1793,India,Male,31-45,Camp (Mina),Bus,14 days,37314,3
+1794,Bangladesh,Male,31-45,Hotel (3 Star),Group Transport,10 days,9747,4
+1795,India,Female,46-60,Camp (Mina),Private Car,21 days,15686,2
+1796,UAE,Female,60+,Apartment,Private Car,21 days,23891,4
+1797,India,Female,60+,Apartment,Bus,21 days,34928,5
+1798,UAE,Female,60+,Camp (Mina),Bus,10 days,12494,2
+1799,Malaysia,Female,46-60,Apartment,Bus,21 days,34877,5
+1800,Bangladesh,Female,31-45,Hotel (3 Star),Bus,21 days,32981,1
+1801,India,Female,60+,Apartment,Bus,14 days,19026,2
+1802,Malaysia,Male,60+,Hotel (3 Star),Group Transport,14 days,25422,4
+1803,Nigeria,Male,18-30,Camp (Mina),Bus,21 days,14244,1
+1804,Turkey,Female,60+,Camp (Mina),Group Transport,7 days,38481,5
+1805,Malaysia,Female,31-45,Apartment,Train (Haramain),7 days,28644,5
+1806,Turkey,Female,31-45,Hotel (3 Star),Bus,21 days,13521,4
+1807,India,Male,18-30,Apartment,Bus,7 days,6746,1
+1808,UK,Male,60+,Hotel (5 Star),Group Transport,10 days,22591,3
+1809,Malaysia,Female,60+,Hotel (5 Star),Train (Haramain),14 days,31718,4
+1810,Bangladesh,Female,60+,Hotel (5 Star),Group Transport,10 days,7696,5
+1811,India,Male,46-60,Hotel (5 Star),Group Transport,14 days,17012,2
+1812,Egypt,Male,60+,Apartment,Bus,7 days,19688,1
+1813,Pakistan,Male,31-45,Hotel (5 Star),Private Car,7 days,28457,3
+1814,Malaysia,Male,31-45,Hotel (3 Star),Private Car,21 days,10036,2
+1815,Bangladesh,Female,46-60,Camp (Mina),Group Transport,7 days,34960,1
+1816,Nigeria,Male,46-60,Camp (Mina),Bus,7 days,27159,4
+1817,Egypt,Male,60+,Hotel (5 Star),Train (Haramain),21 days,12910,4
+1818,Nigeria,Female,18-30,Hotel (5 Star),Private Car,21 days,7693,1
+1819,India,Male,46-60,Hotel (5 Star),Train (Haramain),14 days,20858,3
+1820,Pakistan,Male,46-60,Apartment,Private Car,7 days,33810,1
+1821,Malaysia,Male,60+,Camp (Mina),Bus,14 days,25092,2
+1822,Malaysia,Female,60+,Hotel (5 Star),Group Transport,14 days,28243,2
+1823,UK,Male,46-60,Hotel (3 Star),Train (Haramain),10 days,35505,4
+1824,UK,Female,18-30,Hotel (5 Star),Train (Haramain),7 days,12692,1
+1825,India,Female,46-60,Camp (Mina),Group Transport,7 days,33555,4
+1826,India,Male,60+,Hotel (5 Star),Train (Haramain),10 days,11398,3
+1827,Pakistan,Male,60+,Camp (Mina),Private Car,14 days,12252,2
+1828,UK,Male,46-60,Hotel (5 Star),Group Transport,7 days,16721,5
+1829,Bangladesh,Male,18-30,Hotel (3 Star),Private Car,14 days,22939,5
+1830,Bangladesh,Female,46-60,Hotel (5 Star),Private Car,10 days,16825,1
+1831,Pakistan,Male,46-60,Hotel (3 Star),Bus,21 days,30251,1
+1832,Bangladesh,Male,60+,Hotel (3 Star),Private Car,14 days,29151,5
+1833,UAE,Male,18-30,Hotel (5 Star),Bus,7 days,5036,1
+1834,Turkey,Female,31-45,Hotel (3 Star),Train (Haramain),21 days,33412,2
+1835,Pakistan,Male,18-30,Apartment,Train (Haramain),14 days,23171,3
+1836,Pakistan,Male,46-60,Hotel (5 Star),Bus,14 days,37761,3
+1837,Indonesia,Female,46-60,Hotel (5 Star),Private Car,21 days,20202,4
+1838,Egypt,Female,46-60,Hotel (3 Star),Group Transport,21 days,13060,2
+1839,Egypt,Male,18-30,Hotel (3 Star),Group Transport,21 days,13065,1
+1840,UAE,Male,60+,Hotel (5 Star),Bus,7 days,34873,1
+1841,UK,Male,46-60,Apartment,Train (Haramain),7 days,10932,4
+1842,India,Male,46-60,Hotel (3 Star),Train (Haramain),14 days,31470,4
+1843,India,Male,18-30,Hotel (3 Star),Group Transport,14 days,13328,1
+1844,Nigeria,Female,31-45,Camp (Mina),Bus,10 days,11333,1
+1845,UAE,Female,31-45,Apartment,Group Transport,7 days,16268,2
+1846,Pakistan,Male,60+,Apartment,Private Car,14 days,10067,4
+1847,UAE,Male,60+,Hotel (5 Star),Private Car,21 days,22045,2
+1848,UAE,Female,46-60,Apartment,Bus,21 days,27770,1
+1849,UAE,Male,18-30,Hotel (5 Star),Bus,7 days,12887,5
+1850,Egypt,Male,46-60,Camp (Mina),Private Car,21 days,38182,5
+1851,UAE,Male,60+,Apartment,Train (Haramain),10 days,37370,1
+1852,Turkey,Male,18-30,Hotel (3 Star),Bus,14 days,29918,4
+1853,India,Male,18-30,Camp (Mina),Private Car,14 days,33026,5
+1854,Nigeria,Female,60+,Hotel (5 Star),Private Car,14 days,16929,4
+1855,Turkey,Male,31-45,Camp (Mina),Train (Haramain),7 days,39937,5
+1856,Nigeria,Male,31-45,Hotel (5 Star),Train (Haramain),21 days,18563,4
+1857,Indonesia,Male,18-30,Camp (Mina),Train (Haramain),10 days,33546,5
+1858,Nigeria,Female,46-60,Hotel (5 Star),Train (Haramain),7 days,17888,4
+1859,India,Female,31-45,Apartment,Group Transport,14 days,39283,2
+1860,India,Female,46-60,Hotel (3 Star),Train (Haramain),10 days,21958,4
+1861,UAE,Female,31-45,Hotel (5 Star),Group Transport,14 days,17634,2
+1862,Malaysia,Male,31-45,Camp (Mina),Bus,14 days,24251,2
+1863,Indonesia,Female,46-60,Hotel (5 Star),Private Car,7 days,24928,1
+1864,Pakistan,Male,60+,Hotel (5 Star),Group Transport,14 days,21455,2
+1865,Bangladesh,Male,31-45,Hotel (5 Star),Bus,10 days,32144,3
+1866,Nigeria,Female,31-45,Camp (Mina),Bus,14 days,33013,2
+1867,Malaysia,Female,46-60,Hotel (3 Star),Group Transport,21 days,26876,4
+1868,UAE,Female,60+,Apartment,Bus,14 days,31962,2
+1869,Egypt,Female,31-45,Hotel (3 Star),Bus,7 days,33084,4
+1870,Pakistan,Female,31-45,Hotel (5 Star),Group Transport,10 days,26143,4
+1871,UK,Male,60+,Camp (Mina),Bus,7 days,31091,3
+1872,Malaysia,Female,31-45,Hotel (3 Star),Train (Haramain),21 days,19179,2
+1873,Egypt,Female,60+,Hotel (5 Star),Train (Haramain),14 days,37807,2
+1874,Indonesia,Female,60+,Apartment,Private Car,7 days,15222,5
+1875,UAE,Male,46-60,Apartment,Bus,7 days,28949,5
+1876,Pakistan,Female,18-30,Apartment,Private Car,7 days,21116,1
+1877,Pakistan,Male,60+,Hotel (5 Star),Train (Haramain),7 days,22667,4
+1878,Pakistan,Female,46-60,Camp (Mina),Train (Haramain),21 days,13775,3
+1879,Indonesia,Female,18-30,Hotel (3 Star),Train (Haramain),21 days,34655,5
+1880,Nigeria,Male,31-45,Apartment,Bus,14 days,19193,2
+1881,UK,Female,18-30,Hotel (5 Star),Bus,14 days,19676,1
+1882,Indonesia,Male,60+,Hotel (5 Star),Train (Haramain),10 days,35776,3
+1883,Bangladesh,Male,60+,Hotel (3 Star),Private Car,21 days,22199,2
+1884,UK,Male,60+,Apartment,Private Car,7 days,20066,2
+1885,India,Female,60+,Hotel (5 Star),Group Transport,7 days,23895,4
+1886,UAE,Female,60+,Hotel (3 Star),Train (Haramain),10 days,5246,4
+1887,Indonesia,Female,46-60,Camp (Mina),Private Car,7 days,26209,5
+1888,Egypt,Male,60+,Camp (Mina),Train (Haramain),10 days,21800,5
+1889,UK,Female,46-60,Camp (Mina),Private Car,14 days,28086,2
+1890,Bangladesh,Male,31-45,Apartment,Group Transport,21 days,25101,2
+1891,India,Female,60+,Hotel (3 Star),Group Transport,10 days,21491,5
+1892,Nigeria,Male,60+,Hotel (3 Star),Train (Haramain),7 days,32207,5
+1893,Egypt,Male,18-30,Hotel (5 Star),Private Car,10 days,25897,2
+1894,UK,Male,31-45,Hotel (5 Star),Bus,14 days,34492,3
+1895,UAE,Female,60+,Hotel (5 Star),Group Transport,7 days,6421,2
+1896,Egypt,Male,60+,Hotel (3 Star),Train (Haramain),14 days,37015,3
+1897,India,Male,31-45,Hotel (5 Star),Train (Haramain),14 days,17970,3
+1898,Egypt,Male,46-60,Hotel (3 Star),Private Car,10 days,12283,2
+1899,Turkey,Male,60+,Hotel (3 Star),Train (Haramain),14 days,33488,1
+1900,Malaysia,Male,18-30,Camp (Mina),Group Transport,7 days,20945,5
+1901,Nigeria,Male,60+,Hotel (5 Star),Train (Haramain),14 days,5255,4
+1902,India,Female,18-30,Camp (Mina),Train (Haramain),14 days,16019,2
+1903,Egypt,Female,18-30,Apartment,Bus,10 days,20487,3
+1904,Malaysia,Male,60+,Apartment,Bus,14 days,24346,2
+1905,Malaysia,Female,60+,Apartment,Group Transport,21 days,13744,5
+1906,Egypt,Female,18-30,Hotel (3 Star),Private Car,10 days,29756,3
+1907,UAE,Male,31-45,Hotel (3 Star),Bus,10 days,22861,4
+1908,Turkey,Male,31-45,Hotel (3 Star),Private Car,7 days,30146,4
+1909,Indonesia,Male,60+,Hotel (5 Star),Group Transport,7 days,26976,4
+1910,Turkey,Female,46-60,Camp (Mina),Bus,7 days,5591,1
+1911,Egypt,Male,31-45,Hotel (3 Star),Private Car,7 days,11277,3
+1912,Nigeria,Female,60+,Camp (Mina),Bus,21 days,7260,3
+1913,Indonesia,Male,31-45,Camp (Mina),Group Transport,10 days,5347,1
+1914,India,Female,46-60,Camp (Mina),Group Transport,14 days,29741,3
+1915,Turkey,Male,60+,Hotel (5 Star),Bus,7 days,11869,1
+1916,Egypt,Male,46-60,Hotel (5 Star),Private Car,7 days,33082,2
+1917,Turkey,Female,60+,Apartment,Train (Haramain),7 days,27080,5
+1918,Indonesia,Female,46-60,Apartment,Train (Haramain),14 days,33979,4
+1919,Bangladesh,Female,31-45,Camp (Mina),Bus,7 days,24422,1
+1920,UK,Female,31-45,Apartment,Private Car,14 days,27993,1
+1921,Turkey,Female,46-60,Camp (Mina),Train (Haramain),10 days,17386,1
+1922,India,Female,46-60,Hotel (5 Star),Group Transport,10 days,39033,2
+1923,India,Male,46-60,Hotel (5 Star),Private Car,10 days,17938,1
+1924,Pakistan,Female,60+,Hotel (5 Star),Train (Haramain),21 days,16159,5
+1925,Turkey,Male,31-45,Hotel (3 Star),Private Car,14 days,7274,5
+1926,UK,Male,60+,Camp (Mina),Bus,7 days,23854,4
+1927,UAE,Female,31-45,Hotel (5 Star),Private Car,7 days,36815,2
+1928,Malaysia,Male,18-30,Camp (Mina),Train (Haramain),7 days,15482,5
+1929,UK,Female,60+,Apartment,Bus,7 days,23961,3
+1930,Malaysia,Female,31-45,Apartment,Private Car,21 days,25044,3
+1931,Malaysia,Male,31-45,Hotel (5 Star),Group Transport,7 days,38836,3
+1932,Bangladesh,Male,60+,Camp (Mina),Train (Haramain),21 days,26975,1
+1933,Pakistan,Female,60+,Hotel (5 Star),Bus,14 days,19706,1
+1934,UK,Female,31-45,Apartment,Private Car,10 days,10974,3
+1935,UK,Male,60+,Hotel (5 Star),Group Transport,7 days,15928,4
+1936,Bangladesh,Male,46-60,Camp (Mina),Train (Haramain),10 days,26213,4
+1937,Turkey,Male,60+,Apartment,Group Transport,14 days,6950,1
+1938,Turkey,Male,60+,Hotel (3 Star),Private Car,14 days,24477,3
+1939,Turkey,Female,60+,Apartment,Private Car,7 days,15411,4
+1940,Nigeria,Female,31-45,Hotel (3 Star),Bus,14 days,26695,1
+1941,Malaysia,Female,46-60,Hotel (5 Star),Group Transport,10 days,22771,3
+1942,Nigeria,Female,18-30,Hotel (5 Star),Bus,7 days,9274,2
+1943,Pakistan,Male,18-30,Camp (Mina),Train (Haramain),21 days,12045,3
+1944,Bangladesh,Male,46-60,Hotel (3 Star),Bus,7 days,34714,3
+1945,UK,Female,46-60,Hotel (5 Star),Train (Haramain),10 days,39386,5
+1946,Malaysia,Female,46-60,Hotel (3 Star),Private Car,7 days,13562,5
+1947,Nigeria,Female,31-45,Hotel (5 Star),Private Car,7 days,32759,2
+1948,Nigeria,Female,18-30,Apartment,Group Transport,10 days,17026,2
+1949,Egypt,Female,46-60,Hotel (5 Star),Train (Haramain),7 days,36589,3
+1950,Nigeria,Female,31-45,Camp (Mina),Private Car,7 days,36738,4
+1951,UAE,Female,18-30,Apartment,Group Transport,10 days,31844,2
+1952,UK,Female,60+,Camp (Mina),Group Transport,14 days,28447,3
+1953,UAE,Female,31-45,Apartment,Bus,10 days,29879,1
+1954,UK,Male,18-30,Hotel (3 Star),Group Transport,7 days,16966,5
+1955,Bangladesh,Female,31-45,Camp (Mina),Private Car,21 days,22732,4
+1956,UK,Male,18-30,Hotel (5 Star),Bus,21 days,10289,3
+1957,UAE,Male,18-30,Hotel (3 Star),Train (Haramain),10 days,25012,1
+1958,UK,Female,60+,Hotel (5 Star),Train (Haramain),21 days,23812,5
+1959,Bangladesh,Female,31-45,Apartment,Private Car,7 days,28092,1
+1960,Bangladesh,Male,46-60,Apartment,Private Car,7 days,30105,3
+1961,Pakistan,Male,60+,Hotel (5 Star),Bus,10 days,19294,2
+1962,UK,Female,60+,Hotel (5 Star),Bus,7 days,8621,5
+1963,Egypt,Male,18-30,Hotel (3 Star),Private Car,14 days,37442,1
+1964,Turkey,Female,46-60,Hotel (5 Star),Private Car,7 days,26699,2
+1965,India,Female,31-45,Camp (Mina),Train (Haramain),10 days,7347,4
+1966,Bangladesh,Female,46-60,Camp (Mina),Train (Haramain),14 days,34486,3
+1967,Indonesia,Male,46-60,Hotel (5 Star),Train (Haramain),14 days,22110,3
+1968,Turkey,Male,46-60,Camp (Mina),Private Car,21 days,9923,5
+1969,Malaysia,Female,46-60,Hotel (5 Star),Group Transport,7 days,20611,1
+1970,UK,Male,46-60,Hotel (3 Star),Private Car,10 days,24199,4
+1971,UAE,Male,18-30,Camp (Mina),Private Car,21 days,14066,5
+1972,India,Male,18-30,Camp (Mina),Train (Haramain),21 days,31754,5
+1973,Indonesia,Male,60+,Hotel (5 Star),Private Car,7 days,29260,1
+1974,Turkey,Male,18-30,Camp (Mina),Bus,7 days,21991,4
+1975,UK,Male,60+,Apartment,Private Car,10 days,27553,1
+1976,Pakistan,Male,60+,Hotel (3 Star),Private Car,21 days,29174,3
+1977,Malaysia,Female,31-45,Hotel (3 Star),Private Car,10 days,26957,2
+1978,India,Male,46-60,Camp (Mina),Private Car,21 days,5634,3
+1979,Egypt,Male,18-30,Camp (Mina),Group Transport,21 days,34881,3
+1980,Pakistan,Male,31-45,Apartment,Private Car,21 days,17771,5
+1981,Indonesia,Male,18-30,Apartment,Bus,7 days,23298,3
+1982,India,Male,60+,Camp (Mina),Bus,21 days,19340,4
+1983,Pakistan,Male,18-30,Camp (Mina),Private Car,21 days,38356,3
+1984,Malaysia,Male,46-60,Apartment,Train (Haramain),21 days,11351,4
+1985,Egypt,Male,60+,Hotel (5 Star),Group Transport,14 days,8838,1
+1986,Pakistan,Female,60+,Apartment,Private Car,7 days,6973,5
+1987,Nigeria,Male,31-45,Hotel (5 Star),Private Car,14 days,15247,4
+1988,Egypt,Male,46-60,Hotel (3 Star),Private Car,7 days,36655,3
+1989,Indonesia,Male,60+,Hotel (3 Star),Train (Haramain),10 days,11683,5
+1990,Malaysia,Male,46-60,Apartment,Train (Haramain),14 days,16244,5
+1991,UK,Female,18-30,Hotel (5 Star),Train (Haramain),10 days,34058,4
+1992,UAE,Female,46-60,Apartment,Group Transport,21 days,33371,4
+1993,UAE,Female,60+,Apartment,Bus,10 days,8822,2
+1994,UAE,Female,31-45,Hotel (5 Star),Group Transport,10 days,33878,2
+1995,India,Female,60+,Apartment,Train (Haramain),10 days,10914,5
+1996,Indonesia,Female,46-60,Hotel (3 Star),Bus,10 days,23164,2
+1997,Malaysia,Female,46-60,Camp (Mina),Bus,7 days,32180,3
+1998,Egypt,Female,60+,Camp (Mina),Train (Haramain),14 days,8688,1
+1999,India,Female,46-60,Apartment,Train (Haramain),7 days,19683,5
+2000,Indonesia,Female,18-30,Hotel (5 Star),Group Transport,7 days,18080,1
