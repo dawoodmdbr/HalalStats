@@ -1,350 +1,592 @@
-# 🕌 HalalStats — Hajj Pilgrim Analytics Dashboard
-
-> A web-based statistical analysis dashboard built with Python & Streamlit for a **Probability and Statistics** semester project (Spring 2026).
-
----
-
-## 📌 Project Overview
-
-This dashboard performs comprehensive statistical analysis on a synthetic dataset of **2,000 Hajj pilgrims** from 10 countries. It covers graphical data exploration, descriptive statistics, inferential testing, probability distributions, and regression modelling — all presented through an interactive web interface.
-
----
-
-## 🗂️ Dataset
-
-**File:** `synthetic_hajj_dataset.csv`
-
-| Variable | Type | Description |
-|---|---|---|
-| `Pilgrim_ID` | ID | Unique identifier (1–2000) |
-| `Country` | Categorical | Country of origin (10 countries) |
-| `Gender` | Categorical | Male / Female |
-| `Age_Group` | Categorical | 18-30, 31-45, 46-60, 60+ |
-| `Accommodation_Type` | Categorical | Camp (Mina), Apartment, Hotel 3★, Hotel 5★ |
-| `Transport_Type` | Categorical | Bus, Group Transport, Train (Haramain), Private Car |
-| `Stay_Duration` | Categorical | 7, 10, 14, or 21 days |
-| `Estimated_Spending_SAR` | Numerical | Total spending in Saudi Riyals |
-| `Group_Size` | Numerical | Number of persons in travel group (1–5) |
-| `Stay_Days` *(derived)* | Numerical | Stay_Duration parsed as integer |
-| `Spending_Per_Day` *(derived)* | Numerical | Spending ÷ Stay_Days |
-| `Spending_Per_Person` *(derived)* | Numerical | Spending ÷ Group_Size |
-
----
-
-## 📊 Charts, Diagrams & Why We Used Each One
-
-Every visualisation in this dashboard was chosen deliberately. Below is a full reference of every chart, the graph type used, and the statistical justification for that choice.
-
----
-
-### 📊 Page 1 — Overview
-
----
-
-#### 1. Pilgrim Count by Country — **Vertical Bar Chart**
-
-A vertical bar chart displays one bar per country, where the height of the bar represents the number of pilgrims from that country. We chose a bar chart here because the x-axis variable (Country) is categorical and unordered, and we are comparing a single count value across multiple distinct groups. Bar charts are the standard choice for comparing frequencies across categories because the human eye is very effective at judging the length of bars side by side. A pie chart would become cluttered with 10 categories, and a line chart would imply a continuous trend which does not exist here.
-
----
-
-#### 2. Gender Distribution — **Donut Chart (Pie Chart with hole)**
-
-A donut chart is a variant of a pie chart that displays proportional data as segments of a ring. We used it here because gender has only two categories (Male and Female), making proportional representation ideal — a reader immediately sees that one group is roughly half or more of the total. The hole in the centre is purely aesthetic; it reduces visual clutter and makes the chart look less heavy compared to a filled pie. We would not use a bar chart here because two-category proportion data is most naturally understood as a part-of-a-whole relationship.
-
----
-
-#### 3. Pilgrim Count by Age Group — **Vertical Bar Chart**
-
-Age groups (18-30, 31-45, 46-60, 60+) are ordered categorical bins. A vertical bar chart was chosen because it makes the count in each age bracket easy to compare at a glance. The natural left-to-right ordering of the bars also reflects the progression of age, giving the chart an intuitive flow. A histogram would be inappropriate here because age groups are pre-defined discrete categories, not a continuous variable.
-
----
-
-#### 4. Accommodation Type Breakdown — **Donut Chart (Pie Chart with hole)**
-
-Accommodation type has four categories and the question of interest is: *what share of pilgrims chose each accommodation?* A donut chart answers this as a part-of-a-whole breakdown. With only four categories, the segments are large enough to be readable without labels overlapping. A bar chart could also work, but a donut chart communicates proportion more naturally when the goal is to show composition rather than absolute counts.
-
----
-
-#### 5. Spending Distribution by Country — **Box Plot**
-
-A box plot (also called a box-and-whisker plot) shows the median, interquartile range (IQR), and outliers of a numerical variable for each group. We used it here because we want to compare not just the average spending across countries but also the spread and skewness — a simple bar chart of means would hide the variability. The box shows the middle 50% of spending values, the whiskers extend to the min/max within 1.5×IQR, and dots beyond the whiskers are outliers. This is much more statistically informative than a bar chart of means.
-
----
-
-#### 6. Transport Type by Country — **Stacked Bar Chart**
-
-A stacked bar chart shows a bar for each country, divided into coloured segments representing transport type proportions. We chose a stacked bar chart here because we are showing two categorical variables simultaneously: country (the groups) and transport type (the sub-groups). Stacking allows us to see both the total pilgrim count per country and the composition of transport types within each country in a single chart. A grouped bar chart would also work but would require more horizontal space with 4 transport types × 10 countries = 40 bars.
-
----
-
-### 📈 Page 2 — Descriptive Statistics
-
----
-
-#### 7. Histogram with Box Marginal — **Histogram + Marginal Box Plot**
-
-A histogram divides a continuous variable into equal-width bins and plots the frequency (count) of values in each bin as vertical bars. We used it here to visualise the shape of the spending distribution — whether it is bell-shaped, skewed, or bimodal. The marginal box plot added above the histogram shows the median and quartiles at the same time, so the reader gets both the detailed distributional shape (histogram) and the five-number summary (box plot) in one view. This combination is standard practice when exploring a new numerical variable for the first time.
-
----
-
-#### 8. Violin Plot by Gender — **Violin Plot**
-
-A violin plot is like a box plot but adds a mirrored kernel density estimate on each side, showing the full shape of the distribution. We used it here split by gender to compare not just the median spending between Male and Female pilgrims but also where the density of values is concentrated. A standard box plot would only show the quartile boundaries; a violin plot reveals whether the distribution is unimodal, bimodal, or has a long tail. This is especially useful for detecting subtle differences between two groups that summary statistics alone would miss.
-
----
-
-#### 9. Mean Spending by Country — **Horizontal Bar Chart (sorted)**
-
-A horizontal bar chart was used here (bars going left to right) sorted in descending order of mean spending. We chose this layout specifically because country names are long strings — displaying them on the x-axis of a vertical bar chart causes label overlap and rotation. Placing the labels on the y-axis of a horizontal bar chart keeps them fully readable. Sorting by value also makes it easy to immediately identify which country spends the most and least, which is the primary question this chart answers.
-
----
-
-#### 10. Spending by Accommodation — Mean / Median / Std Dev — **Grouped Bar Chart**
-
-A grouped bar chart places multiple bars side by side within each category. We used it here to show three statistics (mean, median, and standard deviation) for spending across accommodation types simultaneously. Grouping allows direct visual comparison of all three measures for the same accommodation type without needing three separate charts. The difference between mean and median within each group also reveals skewness, and the standard deviation bar shows how spread out spending is for that accommodation type.
-
----
-
-#### 11. Mean Spending Heatmap — Country × Age Group — **Heatmap**
-
-A heatmap encodes a numerical value (mean spending) as a colour in a two-dimensional grid, where rows are countries and columns are age groups. We used a heatmap here because we are visualising a cross-tabulation of two categorical variables against a continuous outcome. A heatmap is the most compact and readable way to display a 10×4 matrix of values — a grouped bar chart with 40 bars would be impossible to read, and a table alone would require the reader to scan each cell mentally. The colour gradient (light to dark orange) makes high- and low-spending combinations immediately obvious.
-
----
-
-#### 12. Correlation Matrix — **Heatmap (Correlation Heatmap)**
-
-A correlation heatmap is a square grid where each cell shows the Pearson correlation coefficient between two numerical variables, encoded as colour. We used it here to display pairwise correlations among all five numerical variables in one view. Values range from -1 (perfect negative correlation, shown in light) to +1 (perfect positive correlation, shown in dark orange). This chart is the standard tool for a first-pass multicollinearity check before building regression models, and it quickly reveals which variables move together.
-
----
-
-### 🔍 Page 3 — Confidence Intervals & Hypothesis Testing
-
----
-
-#### 13. CI Table — **Data Table**
-
-A plain data table is used here to present the exact numerical values of confidence intervals (lower bound, mean, upper bound) for each country. We chose a table rather than a chart because the primary use of this output is precision — the reader needs to know the exact numbers to report in a statistical analysis. The forest plot below provides the visual summary; the table provides the precise figures.
-
----
-
-#### 14. Forest Plot — **Horizontal Error Bar Chart**
-
-A forest plot (also called a confidence interval plot) shows a dot representing the point estimate (mean spending) for each group, with horizontal lines extending to the lower and upper bounds of the confidence interval. It is the standard visualisation used in statistics and medical research to communicate uncertainty around estimates. We used it here instead of a bar chart because the focus is on the interval width and the overlap between countries — overlapping confidence intervals suggest no significant difference between groups, while non-overlapping intervals suggest a significant difference. A bar chart of means would not show this uncertainty.
-
----
-
-#### 15. Spending by Gender Box Plot — **Box Plot**
-
-A box plot comparing Male vs. Female spending is used alongside the two-sample t-test to provide a visual complement to the numerical test result. The box plot shows whether the medians visually differ, how large the IQRs are relative to the difference, and whether outliers are pulling the means apart from the medians. This is best practice in hypothesis testing: never report a p-value without also showing the underlying distribution of both groups.
-
----
-
-#### 16. Spending by Age Group (ANOVA) — **Box Plot**
-
-A box plot with one box per age group is the appropriate companion visualisation for a one-way ANOVA. ANOVA tests whether any group means differ significantly, but it does not tell you which groups differ or how large the differences are. The box plot fills this gap visually — the reader can see the median and spread of each age group and form a judgment about practical significance beyond just statistical significance.
-
----
-
-### 🎲 Page 4 — Probability & Distributions
-
----
-
-#### 17. Normal Distribution Fit — **Histogram with PDF Overlay (Line Chart)**
-
-The histogram shows the empirical distribution of spending values from the data. Overlaid on top is a smooth line representing the theoretical Normal distribution PDF calculated from the sample mean and standard deviation. We used this combination to visually assess goodness-of-fit: if the histogram bars closely follow the curve, the data is approximately normal. This is a standard diagnostic plot used before applying any parametric statistical test that assumes normality.
-
----
-
-#### 18. Q-Q Plot (Quantile-Quantile Plot) — **Scatter Plot with Reference Line**
-
-A Q-Q plot places the theoretical quantiles of a normal distribution on the x-axis and the observed sample quantiles on the y-axis. If the data is perfectly normal, all points fall exactly on the 45-degree reference line. Deviations from the line reveal the nature of non-normality: an S-curve suggests heavy tails; points above the line at the ends suggest skewness. We used the Q-Q plot here because it is a more sensitive normality diagnostic than the histogram — subtle departures from normality that are invisible on a histogram are clearly visible on a Q-Q plot.
-
----
-
-#### 19. Poisson Distribution Fit — **Bar Chart with Line Overlay**
-
-The bar chart shows the empirical probability of each group size value observed in the data. The orange line overlaid on top shows the theoretical Poisson PMF (probability mass function) calculated using the sample mean as λ. We chose this combination because group size is a discrete count variable — the exact type of variable the Poisson distribution models. Overlaying the theoretical PMF on the empirical bars lets us visually assess whether the Poisson distribution is a good model for group sizes in the dataset.
-
----
-
-#### 20. Conditional Probability Bar Chart — **Vertical Bar Chart**
-
-A simple vertical bar chart is used to show P(High Spender | Accommodation Type) — the probability that a pilgrim is a high spender, conditioned on their accommodation choice. Each bar represents one accommodation type and its height is the conditional probability as a percentage. A bar chart is the correct choice here because we are comparing a single probability value across four distinct categories. It is easy to read which accommodation type is associated with the highest probability of high spending.
-
----
-
-### 📉 Page 5 — Regression & Predictions
-
----
-
-#### 21. Simple Linear Regression Scatter Plot — **Scatter Plot with Regression Line**
-
-A scatter plot places each pilgrim as a dot with Stay Days on the x-axis and Spending on the y-axis. The dashed regression line shows the best-fit linear relationship estimated by OLS. We used a scatter plot here because the goal is to visualise the linear relationship between two continuous variables. The colour coding by accommodation type adds a third dimension at no extra cost. The regression line makes the trend immediately visible, and the spread of points around the line conveys the strength of the relationship (reflected in R²).
-
----
-
-#### 22. MLR Coefficient Plot — **Horizontal Bar Chart with Error Bars**
-
-A coefficient plot is a horizontal bar chart where each bar represents one regression coefficient, with error bars showing the standard error. Bars are coloured orange if the coefficient is statistically significant at α = 0.05, and grey if not. We used this chart because a table of coefficients is hard to read visually — the coefficient plot lets you immediately see the magnitude and direction of each predictor's effect, and the error bars show how precise each estimate is. Overlapping error bars crossing zero indicate non-significant predictors.
-
----
-
-#### 23. Residuals vs. Fitted Values — **Scatter Plot**
-
-This scatter plot places the model's predicted values (fitted values) on the x-axis and the residuals (actual minus predicted) on the y-axis, with a horizontal dashed line at y=0. It is one of the four standard regression diagnostic plots. We use it to check the assumption of homoscedasticity (constant variance of residuals). If residuals are randomly scattered around the zero line with no pattern, the assumption holds. A funnel shape (wider spread at larger fitted values) would indicate heteroscedasticity, which violates OLS assumptions.
-
----
-
-#### 24. Residual Distribution — **Histogram**
-
-A histogram of the residuals is used to check the normality of residuals assumption in linear regression. If residuals follow a roughly bell-shaped, symmetric distribution centred at zero, the normality assumption is satisfied. A skewed or multi-peaked residual histogram suggests a model misspecification. This chart complements the Q-Q plot as a second visual check of the same assumption, and is standard practice in any regression analysis.
-
----
-
-#### 25. Spending Predictor Gauge — **Gauge Chart (Indicator)**
-
-A gauge chart displays the predicted spending value as a needle on a semicircular dial, similar to a speedometer. The dial is divided into colour-coded zones from low spending (light) to high spending (dark orange). We used a gauge chart here specifically for the interactive predictor because it communicates a single predicted value in a way that is immediately intuitive for a live demo — the viewer can see at a glance whether the prediction is in the low, medium, or high range relative to the overall dataset. A bar chart or number alone would be less engaging for presentation purposes.
-
----
-
-### 🗃️ Page 6 — Raw Data
-
----
-
-#### 26. Distribution Snapshots — **Histogram × 3**
-
-Three small histograms at the bottom of the Raw Data page show the distribution of Spending, Group Size, and Stay Duration. We used histograms here as a quick sanity check for anyone exploring the raw data — they provide an immediate visual sense of the spread and shape of the three most important numerical variables without needing to navigate to the Descriptive Statistics page.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip
-
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/halalstats.git
-cd halalstats
-
-# 2. (Optional but recommended) Create a virtual environment
-python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # macOS / Linux
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Run the app
-streamlit run app.py
-```
-
-The app will open automatically at **http://localhost:8501**
-
----
-
-## 📦 Dependencies
-
-```
-streamlit>=1.32.0
-pandas>=2.0.0
-numpy>=1.24.0
-plotly>=5.18.0
-scipy>=1.11.0
-statsmodels>=0.14.0
-```
-
-Install with:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🗃️ Project Structure
-
-```
-halalstats/
-│
-├── app.py                      # Main Streamlit application
-├── synthetic_hajj_dataset.csv  # Dataset (must be in same folder as app.py)
-├── requirements.txt            # Python dependencies
-└── README.md                   # This file
-```
-
----
-
-## 🖥️ Usage
-
-1. Launch the app with `streamlit run app.py`
-2. Click the **☰ hamburger menu** (top-left) to open the sidebar
-3. Navigate between the 6 pages using the sidebar menu
-4. Use the **Filters** section in the sidebar to filter by Country, Gender, or Age Group — all charts update live
-5. On the **Regression & Predictions** page, use the predictor form to estimate spending for a custom pilgrim profile
-6. On the **Raw Data** page, use the search box and column selector to explore the dataset, then download a filtered CSV
-
----
-
-## 📐 Statistical Methods Used
-
-| Method | Chart / Output | Page |
-|---|---|---|
-| Frequency count | Vertical Bar Chart | Overview |
-| Proportional composition | Donut Chart | Overview |
-| Group comparison (counts) | Stacked Bar Chart | Overview |
-| Five-number summary + outliers | Box Plot | Overview, Confidence Intervals |
-| Mean, median, std, IQR, CV, skewness, kurtosis | Summary Table | Descriptive Statistics |
-| Distributional shape | Histogram + Marginal Box | Descriptive Statistics |
-| Group distribution comparison | Violin Plot | Descriptive Statistics |
-| Cross-tabulation of two categoricals | Heatmap | Descriptive Statistics |
-| Pairwise linear association | Correlation Heatmap | Descriptive Statistics |
-| Confidence intervals (t-distribution) | Forest Plot + Table | Confidence Intervals |
-| One-sample t-test | Metrics + Info box | Confidence Intervals |
-| Two-sample independent t-test | Metrics + Box Plot | Confidence Intervals |
-| One-way ANOVA | Metrics + Box Plot | Confidence Intervals |
-| Empirical probability | Data Table | Probability & Distributions |
-| Normal distribution fitting | Histogram + PDF Line | Probability & Distributions |
-| Kolmogorov-Smirnov test | Metric | Probability & Distributions |
-| Shapiro-Wilk normality test | Metric | Probability & Distributions |
-| Q-Q plot | Scatter + Reference Line | Probability & Distributions |
-| Poisson distribution fitting | Bar + PMF Line | Probability & Distributions |
-| Conditional probability | Vertical Bar Chart | Probability & Distributions |
-| Simple linear regression (OLS) | Scatter + Regression Line | Regression & Predictions |
-| Multiple linear regression (OLS) | Coefficient Plot + Table | Regression & Predictions |
-| Residual diagnostics | Scatter + Histogram | Regression & Predictions |
-| Prediction with interval | Gauge Chart | Regression & Predictions |
-
----
-
-## 📋 Report Structure (Submission Format)
-
-This project follows the default submission format:
-
-1. **Problem Statement** — Analysing spending patterns and demographic trends of Hajj pilgrims
-2. **Objective** — Apply statistical methods to uncover insights from pilgrim data
-3. **Data Description** — Synthetic dataset, 2,000 records, 9 original variables
-4. **Results** — Screenshots of all dashboard pages
-5. **Codes** — `app.py` with inline comments, font size 9, line spacing 1
-6. **Conclusion** — Summary of key statistical findings
-
----
-
-## ⚠️ Notes
-
-- The dataset (`synthetic_hajj_dataset.csv`) **must be in the same directory** as `app.py`
-- The app runs fully offline — no internet connection required after installation
-- Tested on Python 3.10 and 3.11
-
----
-
-## 📄 License
-
-This project was created for academic purposes as part of a university semester project.
-
----
-
-*Spring 2026 · Probability and Statistics · Department of Computer Science*
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import pearsonr
+import os
+import warnings
+warnings.filterwarnings("ignore")
+
+# ─── Page Config ────────────────────────────────────────────────────────────
+st.set_page_config(
+    page_title="Hajj Pilgrim Analyzer",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+# ─── Design Tokens ──────────────────────────────────────────────────────────
+ACCENT   = "#F97316"
+ACCENT_L = "#FFF7ED"
+BORDER   = "#E5E7EB"
+TEXT     = "#111827"
+SUBTEXT  = "#6B7280"
+BG       = "#FFFFFF"
+
+plt.rcParams.update({
+    "figure.facecolor":  BG,
+    "axes.facecolor":    BG,
+    "axes.edgecolor":    BORDER,
+    "axes.labelcolor":   TEXT,
+    "xtick.color":       SUBTEXT,
+    "ytick.color":       SUBTEXT,
+    "text.color":        TEXT,
+    "grid.color":        BORDER,
+    "grid.linestyle":    "--",
+    "grid.linewidth":    0.6,
+    "font.family":       "sans-serif",
+    "axes.spines.top":   False,
+    "axes.spines.right": False,
+})
+
+st.markdown(f"""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap');
+html, body, [class*="css"] {{
+    font-family: 'DM Sans', sans-serif;
+    color: {TEXT}; background: {BG};
+}}
+section[data-testid="stSidebar"] {{
+    background: #FAFAFA;
+    border-right: 1px solid {BORDER};
+}}
+div[data-testid="metric-container"] {{
+    background: #FAFAFA;
+    border: 1px solid {BORDER};
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+}}
+div[data-testid="metric-container"] > label {{
+    font-size: 0.75rem !important;
+    color: {SUBTEXT} !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}}
+div[data-testid="metric-container"] > div {{
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    color: {TEXT} !important;
+}}
+.pill {{
+    display: inline-block;
+    background: {ACCENT_L};
+    color: {ACCENT};
+    border: 1px solid #FED7AA;
+    border-radius: 9999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 2px 10px;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+}}
+.sec-title {{ font-size: 1.15rem; font-weight: 600; margin: 0 0 0.2rem; }}
+.week-tag {{
+    font-size: 0.72rem; color: {SUBTEXT};
+    font-style: italic; margin-bottom: 0.9rem; display: block;
+}}
+.sec-desc {{
+    font-size: 0.84rem; color: {SUBTEXT};
+    margin: 0 0 1.2rem; line-height: 1.6;
+}}
+hr {{ border: none; border-top: 1px solid {BORDER}; margin: 1.4rem 0; }}
+</style>
+""", unsafe_allow_html=True)
+
+# ─── Helpers ────────────────────────────────────────────────────────────────
+def pill(label):
+    st.markdown(f'<div class="pill">{label}</div>', unsafe_allow_html=True)
+
+def section(title, desc, week=""):
+    st.markdown(f'<div class="sec-title">{title}</div>', unsafe_allow_html=True)
+    if week:
+        st.markdown(f'<span class="week-tag">📅 Course Outline — {week}</span>', unsafe_allow_html=True)
+    st.markdown(f'<div class="sec-desc">{desc}</div>', unsafe_allow_html=True)
+
+# ─── Load Data ──────────────────────────────────────────────────────────────
+@st.cache_data
+def load(path):
+    df = pd.read_csv(path)
+    if "Stay_Duration" in df.columns:
+        df["Stay_Duration_Days"] = df["Stay_Duration"].str.extract(r"(\d+)").astype(float)
+    return df
+
+CSV_PATH = "synthetic_hajj_dataset.csv"
+if not os.path.exists(CSV_PATH):
+    st.error(f"Dataset `{CSV_PATH}` not found. Place it in the same folder as app.py.")
+    st.stop()
+
+df = load(CSV_PATH)
+
+NUMERIC_COLS = ["Estimated_Spending_SAR", "Group_Size", "Stay_Duration_Days"]
+CAT_COLS     = ["Country", "Gender", "Age_Group", "Accommodation_Type",
+                "Transport_Type", "Stay_Duration"]
+
+# ─── Sidebar ────────────────────────────────────────────────────────────────
+with st.sidebar:
+    st.markdown("## 📊 Hajj Pilgrim\nStatistical Analyzer")
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown(
+        f"<span style='font-size:0.78rem;color:{SUBTEXT}'>"
+        f"Dataset: `{CSV_PATH}`<br>{len(df):,} pilgrims · {df.shape[1]} variables</span>",
+        unsafe_allow_html=True)
+    st.markdown("<hr>", unsafe_allow_html=True)
+
+    page = st.radio("Navigation", [
+        "🏠  Overview",
+        "📋  Raw Data",
+        "📊  Bar Chart",
+        "🥧  Pie Chart",
+        "📐  Measures of Central Tendency",
+        "📏  Measures of Dispersion",
+        "📉  Frequency Distribution",
+        "📈  Histogram",
+        "📦  Box Plot",
+        "🌡️  Correlation & Heatmap",
+    ])
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown(
+        f"<span style='font-size:0.7rem;color:{SUBTEXT}'>"
+        f"<b>Course:</b> MT2005 Probability & Statistics<br>"
+        f"<b>University:</b> NUCES FAST<br>"
+        f"<b>Scope:</b> Weeks 1–3 (CLO 1)</span>",
+        unsafe_allow_html=True)
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# OVERVIEW
+# ════════════════════════════════════════════════════════════════════════════
+if "Overview" in page:
+    pill("Dataset Overview")
+    st.title("Hajj Pilgrim Statistical Analyzer")
+    st.markdown(
+        "<div class='sec-desc'>Exploring the synthetic Hajj pilgrim dataset using descriptive "
+        "statistics and graphical techniques — aligned with MT2005 Course Outline, Weeks 1–3 (CLO 1).</div>",
+        unsafe_allow_html=True)
+
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Total Pilgrims",        f"{len(df):,}")
+    c2.metric("Variables",             f"{df.shape[1]}")
+    c3.metric("Countries Represented", f"{df['Country'].nunique()}")
+    c4.metric("Missing Values",        int(df.isnull().sum().sum()))
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown("#### Variable Classification")
+
+    var_info = pd.DataFrame({
+        "Variable": df.columns,
+        "Data Type": [
+            "Quantitative – Discrete" if c in ["Pilgrim_ID", "Group_Size"]
+            else "Quantitative – Continuous" if c in ["Estimated_Spending_SAR", "Stay_Duration_Days"]
+            else "Qualitative" for c in df.columns
+        ],
+        "Measurement Scale": [
+            "Ratio" if c in ["Pilgrim_ID", "Group_Size", "Estimated_Spending_SAR", "Stay_Duration_Days"]
+            else "Nominal" for c in df.columns
+        ],
+        "Unique Values": [df[c].nunique() for c in df.columns],
+        "Example":       [str(df[c].iloc[0]) for c in df.columns],
+    })
+    st.dataframe(var_info, use_container_width=True, hide_index=True)
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.info(
+        "**Scope:** This app covers **Weeks 1–3** of MT2005 — data types, measurement scales, "
+        "frequency distributions, graphical representation (bar chart, pie chart, histogram, dot plot), "
+        "and measures of central tendency and dispersion for ungrouped and grouped data.")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# RAW DATA
+# ════════════════════════════════════════════════════════════════════════════
+elif "Raw Data" in page:
+    pill("Exploration")
+    section("Raw Dataset",
+            "Unprocessed data table — each row is one pilgrim record. "
+            "Understanding the raw data (sample, population, variables) is the first step before any analysis.",
+            "Week 1 — Introduction, types of variables, sample vs population")
+    n = st.slider("Rows to display", 5, 200, 20)
+    st.dataframe(
+        df.drop(columns=["Stay_Duration_Days"], errors="ignore").head(n),
+        use_container_width=True)
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# BAR CHART
+# ════════════════════════════════════════════════════════════════════════════
+elif "Bar Chart" in page:
+    pill("Graphical Representation")
+    section("Bar Chart",
+            "A bar chart displays the frequency of each category in a qualitative variable. "
+            "Each bar's height equals the count of observations in that group. "
+            "Bars are separated to emphasise the discrete nature of categories.",
+            "Week 1 — Graphical representation: Bar chart")
+
+    col = st.selectbox("Categorical variable", CAT_COLS)
+    vc  = df[col].value_counts().sort_values(ascending=False)
+
+    fig, ax = plt.subplots(figsize=(9, 4.5))
+    bars = ax.bar(vc.index.astype(str), vc.values,
+                  color=ACCENT, alpha=0.85, edgecolor=BG, linewidth=0.5)
+    for bar in bars:
+        ax.text(bar.get_x() + bar.get_width() / 2,
+                bar.get_height() + max(vc.values) * 0.01,
+                str(int(bar.get_height())),
+                ha="center", va="bottom", fontsize=8, color=SUBTEXT)
+    ax.set_xlabel(col, labelpad=8)
+    ax.set_ylabel("Frequency (Count)")
+    ax.set_title(f"Bar Chart — Frequency of '{col}'", fontweight="bold", pad=10)
+    ax.yaxis.grid(True); ax.set_axisbelow(True)
+    plt.xticks(rotation=30, ha="right", fontsize=9)
+    st.pyplot(fig, use_container_width=True)
+
+    st.markdown(
+        f"**Interpretation:** The most frequent category is **{vc.index[0]}** "
+        f"with **{vc.values[0]:,}** pilgrims ({vc.values[0]/len(df)*100:.1f}% of total).")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# PIE CHART
+# ════════════════════════════════════════════════════════════════════════════
+elif "Pie Chart" in page:
+    pill("Graphical Representation")
+    section("Pie Chart",
+            "A pie chart shows each category's proportion relative to the whole (100%). "
+            "Each slice angle = (frequency ÷ total) × 360°. "
+            "Best used for qualitative data with a small number of categories (≤ 7).",
+            "Week 1 — Graphical representation: Pie chart")
+
+    col = st.selectbox("Categorical variable", CAT_COLS)
+    top = st.slider("Top N categories (remainder → 'Other')", 3, 10, 6)
+
+    vc = df[col].value_counts()
+    if len(vc) > top:
+        main  = vc.head(top)
+        other = pd.Series({"Other": vc.iloc[top:].sum()})
+        vc    = pd.concat([main, other])
+
+    palette = ["#F97316","#FB923C","#FDBA74","#FED7AA",
+               "#FEF3C7","#FFF7ED","#E5E7EB","#D1D5DB"][:len(vc)]
+
+    fig, ax = plt.subplots(figsize=(7, 5))
+    wedges, texts, autotexts = ax.pie(
+        vc.values, labels=vc.index, autopct="%1.1f%%",
+        colors=palette, startangle=140, pctdistance=0.78,
+        wedgeprops=dict(edgecolor=BG, linewidth=1.5))
+    for at in autotexts:
+        at.set_fontsize(8); at.set_color(TEXT)
+    ax.set_title(f"Pie Chart — Proportion of '{col}'", fontweight="bold", pad=12)
+    st.pyplot(fig, use_container_width=True)
+
+    st.markdown(
+        f"**Interpretation:** **{vc.index[0]}** accounts for the largest share "
+        f"at **{vc.values[0]/vc.sum()*100:.1f}%** of all pilgrims.")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# MEASURES OF CENTRAL TENDENCY
+# ════════════════════════════════════════════════════════════════════════════
+elif "Central Tendency" in page:
+    pill("Descriptive Statistics")
+    section("Measures of Central Tendency",
+            "Central tendency locates the centre of a dataset. "
+            "Mean = arithmetic average. Median = middle value when sorted. "
+            "Mode = most frequent value. Trimmed Mean = mean after removing extreme top/bottom values.",
+            "Week 2 — Mean, Median, Mode, Trimmed Mean (Ungrouped data)")
+
+    col = st.selectbox("Numeric variable", NUMERIC_COLS)
+    s   = df[col].dropna()
+
+    mean_val   = s.mean()
+    median_val = s.median()
+    mode_vals  = s.mode()
+    mode_val   = mode_vals.iloc[0] if not mode_vals.empty else float("nan")
+    trim_n     = int(len(s) * 0.05)
+    trimmed    = s.sort_values().iloc[trim_n: len(s) - trim_n].mean()
+
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Mean (x̄)",          f"{mean_val:,.2f}")
+    c2.metric("Median",             f"{median_val:,.2f}")
+    c3.metric("Mode",               f"{mode_val:,.2f}")
+    c4.metric("Trimmed Mean (5%)",  f"{trimmed:,.2f}")
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+
+    if mean_val > median_val * 1.05:
+        skew_note = "Mean > Median → distribution is likely **right-skewed** (a few very high values pull the mean up)."
+    elif mean_val < median_val * 0.95:
+        skew_note = "Mean < Median → distribution is likely **left-skewed**."
+    else:
+        skew_note = "Mean ≈ Median → distribution is approximately **symmetric**."
+
+    st.markdown(f"""
+**Definitions:**
+- **Mean (x̄):** Sum of all values ÷ count. Formula: x̄ = Σxᵢ / n. Sensitive to outliers.
+- **Median:** Middle value after sorting. If n is even, average of the two middle values. Robust to outliers.
+- **Mode:** Value that appears most often. A dataset can have no mode, one mode, or multiple modes.
+- **Trimmed Mean:** Remove the bottom and top 5% of values, then compute the mean — reduces outlier influence.
+
+📌 {skew_note}
+""")
+
+    fig, ax = plt.subplots(figsize=(9, 4))
+    ax.hist(s, bins=25, color=ACCENT, alpha=0.75, edgecolor=BG)
+    ax.axvline(mean_val,   color="#1D4ED8", linewidth=1.8, linestyle="--",
+               label=f"Mean = {mean_val:,.1f}")
+    ax.axvline(median_val, color="#15803D", linewidth=1.8, linestyle=":",
+               label=f"Median = {median_val:,.1f}")
+    ax.axvline(mode_val,   color="#DC2626", linewidth=1.5, linestyle="-.",
+               label=f"Mode = {mode_val:,.1f}")
+    ax.set_xlabel(col); ax.set_ylabel("Frequency")
+    ax.set_title(f"Mean, Median & Mode on Distribution of '{col}'", fontweight="bold", pad=10)
+    ax.legend(fontsize=8); ax.yaxis.grid(True); ax.set_axisbelow(True)
+    st.pyplot(fig, use_container_width=True)
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# MEASURES OF DISPERSION
+# ════════════════════════════════════════════════════════════════════════════
+elif "Dispersion" in page:
+    pill("Descriptive Statistics")
+    section("Measures of Dispersion",
+            "Dispersion (spread) tells how much values differ from each other and from the center. "
+            "Key measures: Range, Variance, Standard Deviation, Coefficient of Variation, IQR.",
+            "Week 2 — Variance, Std Dev, CV, IQ Range, Range (Ungrouped data)")
+
+    col = st.selectbox("Numeric variable", NUMERIC_COLS)
+    s   = df[col].dropna()
+
+    rng = s.max() - s.min()
+    var = s.var()
+    std = s.std()
+    cv  = (std / s.mean()) * 100
+    q1  = s.quantile(0.25)
+    q3  = s.quantile(0.75)
+    iqr = q3 - q1
+
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Range",               f"{rng:,.2f}")
+    c1.metric("Variance (s²)",       f"{var:,.2f}")
+    c2.metric("Std Deviation (s)",   f"{std:,.2f}")
+    c2.metric("Coeff. of Variation", f"{cv:.2f}%")
+    c3.metric("Q1",                  f"{q1:,.2f}")
+    c3.metric("Q3",                  f"{q3:,.2f}")
+    st.metric("IQR (Q3 − Q1)",       f"{iqr:,.2f}")
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+    cv_interp = ("high variability" if cv > 30
+                 else "moderate variability" if cv > 15
+                 else "low variability — values are clustered near the mean")
+    st.markdown(f"""
+**Definitions:**
+- **Range:** Max − Min. Simplest measure of spread. Highly sensitive to outliers.
+- **Variance (s²):** Average of the squared deviations from the mean: s² = Σ(xᵢ − x̄)² / (n−1). Units are squared.
+- **Standard Deviation (s):** √Variance. Same unit as the data — easier to interpret.
+- **Coefficient of Variation (CV):** (s / x̄) × 100. Unit-free — allows comparison of spread across different variables.
+- **IQR:** Q3 − Q1. Spread of the middle 50% of the data. Resistant to outliers.
+
+📌 CV = **{cv:.1f}%** indicates **{cv_interp}** in `{col}`.
+""")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# FREQUENCY DISTRIBUTION TABLE
+# ════════════════════════════════════════════════════════════════════════════
+elif "Frequency Distribution" in page:
+    pill("Tabular Representation")
+    section("Frequency Distribution Table",
+            "Organises raw data into a table showing how often each value (or class interval) occurs. "
+            "Columns: Frequency (f), Relative Frequency (RF), Percentage Frequency (PF), "
+            "Cumulative Frequency (CF).",
+            "Week 1 & 3 — Freq dist for qualitative & quantitative data, CF dist, RF, PF")
+
+    mode = st.radio(
+        "Variable type",
+        ["Qualitative (Categorical)", "Quantitative (Numeric — grouped into class intervals)"],
+        horizontal=True)
+
+    if mode.startswith("Qualitative"):
+        col  = st.selectbox("Categorical variable", CAT_COLS)
+        vc   = df[col].value_counts().reset_index()
+        vc.columns = ["Value", "Frequency (f)"]
+        total = vc["Frequency (f)"].sum()
+        vc["Relative Frequency (RF)"]   = (vc["Frequency (f)"] / total).round(4)
+        vc["Percentage Freq (PF) %"]    = (vc["Relative Frequency (RF)"] * 100).round(2)
+        vc["Cumulative Frequency (CF)"] = vc["Frequency (f)"].cumsum()
+        st.dataframe(vc, use_container_width=True, hide_index=True)
+        st.markdown(f"**n = {total:,}**")
+
+    else:
+        col  = st.selectbox("Numeric variable", NUMERIC_COLS)
+        bins = st.slider("Number of class intervals", 4, 15, 7)
+        s    = df[col].dropna()
+        counts, edges = np.histogram(s, bins=bins)
+        labels = [f"{edges[i]:,.1f} – {edges[i+1]:,.1f}" for i in range(len(counts))]
+        total  = counts.sum()
+        ft = pd.DataFrame({
+            "Class Interval":           labels,
+            "Frequency (f)":            counts,
+            "Relative Frequency (RF)":  (counts / total).round(4),
+            "Percentage Freq (PF) %":   ((counts / total) * 100).round(2),
+            "Cumulative Frequency (CF)": np.cumsum(counts),
+        })
+        st.dataframe(ft, use_container_width=True, hide_index=True)
+        st.markdown(
+            f"**n = {total:,}** | Class width ≈ **{(s.max()-s.min())/bins:,.1f}**")
+
+    st.markdown("""
+**Key terms:**
+- **f** — count of observations in that row / class
+- **RF** = f ÷ n — proportion of total (decimal)
+- **PF%** = RF × 100 — percentage
+- **CF** — running total of frequencies (top to current row)
+""")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# HISTOGRAM
+# ════════════════════════════════════════════════════════════════════════════
+elif "Histogram" in page:
+    pill("Graphical Representation")
+    section("Histogram",
+            "A histogram is the graphical version of a frequency distribution for quantitative data. "
+            "Unlike a bar chart, bars touch each other because data is continuous. "
+            "The x-axis shows class intervals; y-axis shows frequency. "
+            "Shape reveals skewness and modality.",
+            "Week 3 — Graphical representation: Histogram")
+
+    col  = st.selectbox("Numeric variable", NUMERIC_COLS)
+    bins = st.slider("Number of bins (class intervals)", 5, 40, 20)
+    s    = df[col].dropna()
+
+    fig, ax = plt.subplots(figsize=(9, 4.5))
+    ax.hist(s, bins=bins, color=ACCENT, alpha=0.85, edgecolor=BG, linewidth=0.4)
+    ax.axvline(s.mean(),   color="#1D4ED8", linewidth=1.5, linestyle="--",
+               label=f"Mean = {s.mean():,.1f}")
+    ax.axvline(s.median(), color="#15803D", linewidth=1.5, linestyle=":",
+               label=f"Median = {s.median():,.1f}")
+    ax.set_xlabel(col, labelpad=8)
+    ax.set_ylabel("Frequency")
+    ax.set_title(f"Histogram — Distribution of '{col}'", fontweight="bold", pad=10)
+    ax.legend(fontsize=8)
+    ax.yaxis.grid(True); ax.set_axisbelow(True)
+    st.pyplot(fig, use_container_width=True)
+
+    skew = s.skew()
+    if skew > 0.5:
+        shape = f"**Right-skewed (positive skew = {skew:.2f})** — long tail to the right; most pilgrims have lower values but a few have very high values."
+    elif skew < -0.5:
+        shape = f"**Left-skewed (negative skew = {skew:.2f})** — long tail to the left."
+    else:
+        shape = f"**Approximately symmetric (skew = {skew:.2f})** — values are fairly evenly spread around the center."
+    st.markdown(f"**Distribution shape:** {shape}")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# BOX PLOT
+# ════════════════════════════════════════════════════════════════════════════
+elif "Box Plot" in page:
+    pill("Graphical Representation")
+    section("Box Plot (Box-and-Whisker Plot)",
+            "Visualises the five-point summary: Minimum, Q1 (25th percentile), Median, "
+            "Q3 (75th percentile), Maximum. The box spans the IQR (middle 50% of data). "
+            "Points beyond the whiskers (Q1 − 1.5·IQR  or  Q3 + 1.5·IQR) are potential outliers.",
+            "Week 2 — Five-point summary, Box plot, IQR")
+
+    col = st.selectbox("Numeric variable", NUMERIC_COLS)
+    grp = st.selectbox("Group by (optional — compare across categories)", ["None"] + CAT_COLS)
+    s   = df[col].dropna()
+
+    q1, med, q3 = s.quantile(0.25), s.median(), s.quantile(0.75)
+    iqr = q3 - q1
+    outliers = s[(s < q1 - 1.5*iqr) | (s > q3 + 1.5*iqr)]
+
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("Min",    f"{s.min():,.1f}")
+    c2.metric("Q1",     f"{q1:,.1f}")
+    c3.metric("Median", f"{med:,.1f}")
+    c4.metric("Q3",     f"{q3:,.1f}")
+    c5.metric("Max",    f"{s.max():,.1f}")
+
+    st.markdown(
+        f"**IQR = {iqr:,.1f}** &nbsp;|&nbsp; "
+        f"Whisker bounds: [{q1-1.5*iqr:,.1f}, {q3+1.5*iqr:,.1f}] &nbsp;|&nbsp; "
+        f"Potential outliers: **{len(outliers)}** values")
+
+    fig, ax = plt.subplots(figsize=(9, 4.5))
+    if grp == "None":
+        data, labels = [s.values], [col]
+    else:
+        groups = df[grp].dropna().unique()
+        data   = [df[df[grp] == g][col].dropna().values for g in groups]
+        labels = [str(g) for g in groups]
+
+    bp = ax.boxplot(data, patch_artist=True, labels=labels,
+                    medianprops=dict(color=ACCENT, linewidth=2.5),
+                    whiskerprops=dict(color=SUBTEXT, linewidth=1),
+                    capprops=dict(color=SUBTEXT, linewidth=1),
+                    flierprops=dict(marker="o", markerfacecolor=ACCENT,
+                                   markersize=4, alpha=0.5, markeredgewidth=0))
+    for patch in bp["boxes"]:
+        patch.set_facecolor(ACCENT_L)
+        patch.set_edgecolor(ACCENT)
+        patch.set_linewidth(1.5)
+
+    title = f"Box Plot — '{col}'" + (f"  grouped by '{grp}'" if grp != "None" else "")
+    ax.set_ylabel(col)
+    ax.set_title(title, fontweight="bold", pad=10)
+    ax.yaxis.grid(True); ax.set_axisbelow(True)
+    plt.xticks(rotation=25, ha="right", fontsize=8)
+    st.pyplot(fig, use_container_width=True)
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# CORRELATION & HEATMAP
+# ════════════════════════════════════════════════════════════════════════════
+elif "Correlation" in page:
+    pill("Correlation")
+    section("Pearson Correlation Coefficient & Heatmap",
+            "The Pearson Correlation Coefficient (r) measures the strength and direction of a linear "
+            "relationship between two quantitative variables. "
+            "r = +1 → perfect positive, r = −1 → perfect negative, r = 0 → no linear relationship. "
+            "The heatmap shows all pairwise correlations simultaneously.",
+            "Week 13 — Correlation, Testing of correlation coefficient (CLO 3 reference)")
+
+    corr = df[NUMERIC_COLS].corr().round(3)
+
+    c1, c2 = st.columns(2)
+    col_x  = c1.selectbox("Variable X", NUMERIC_COLS, 0)
+    col_y  = c2.selectbox("Variable Y", NUMERIC_COLS, 1)
+
+    clean = df[[col_x, col_y]].dropna()
+    r, p  = pearsonr(clean[col_x], clean[col_y])
+    strength  = "strong" if abs(r) > 0.7 else "moderate" if abs(r) > 0.4 else "weak"
+    direction = "positive" if r > 0 else "negative"
+
+    st.metric(f"Pearson r  ({col_x} vs {col_y})",
+              f"{r:.4f}", delta=f"{direction} {strength} linear relationship")
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown("#### Correlation Heatmap")
+
+    fig, ax = plt.subplots(figsize=(6, 4.5))
+    cmap = sns.diverging_palette(220, 20, as_cmap=True)
+    sns.heatmap(corr, annot=True, fmt=".2f", cmap=cmap,
+                center=0, linewidths=0.5, linecolor=BG,
+                square=True, ax=ax,
+                annot_kws={"size": 11, "weight": "bold"},
+                cbar_kws={"shrink": 0.8})
+    ax.set_title("Pearson Correlation Heatmap", fontweight="bold", pad=12)
+    plt.xticks(rotation=20, ha="right", fontsize=9)
+    plt.yticks(fontsize=9)
+    st.pyplot(fig, use_container_width=True)
+
+    st.markdown("""
+**Reading the heatmap:**
+- **Dark orange (→ +1):** Strong positive linear relationship
+- **Dark blue (→ −1):** Strong negative linear relationship
+- **White (≈ 0):** Little or no linear relationship
+
+**Formula:** r = Σ[(xᵢ − x̄)(yᵢ − ȳ)] / √[Σ(xᵢ−x̄)² · Σ(yᵢ−ȳ)²]
+""")
