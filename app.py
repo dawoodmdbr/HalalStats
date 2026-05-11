@@ -1037,63 +1037,63 @@ elif page == "Regression & Predictions":
         st.success(f"**Fail to Reject H₀** — slope β₁ NOT significant at α = {alpha_slr}.")
     st.markdown('</div>', unsafe_allow_html=True)
 
-    st.markdown("---")
+    # st.markdown("---")
 
-    # ── ANOVA for overall regression (Week 14) ──
-    st.markdown('<div class="chart-wrap"><div class="chart-title">ANOVA Table — Overall Regression Significance  |  Week 14</div>', unsafe_allow_html=True)
-    st.caption("H₀: β₁ = 0 (model explains no variance)")
+    # # ── ANOVA for overall regression (Week 14) ──
+    # st.markdown('<div class="chart-wrap"><div class="chart-title">ANOVA Table — Overall Regression Significance  |  Week 14</div>', unsafe_allow_html=True)
+    # st.caption("H₀: β₁ = 0 (model explains no variance)")
 
-    anova_table = sm.stats.anova_lm(mdl_slr, typ=1)
-    ss_reg  = anova_table["sum_sq"].iloc[0]
-    ss_res  = anova_table["sum_sq"].iloc[1]
-    ss_tot  = ss_reg + ss_res
-    df_reg  = int(anova_table["df"].iloc[0])
-    df_res_ = int(anova_table["df"].iloc[1])
-    ms_reg  = ss_reg / df_reg
-    ms_res  = ss_res / df_res_
-    f_stat  = ms_reg / ms_res
-    p_f     = mdl_slr.f_pvalue
+    # anova_table = sm.stats.anova_lm(mdl_slr, typ=1)
+    # ss_reg  = anova_table["sum_sq"].iloc[0]
+    # ss_res  = anova_table["sum_sq"].iloc[1]
+    # ss_tot  = ss_reg + ss_res
+    # df_reg  = int(anova_table["df"].iloc[0])
+    # df_res_ = int(anova_table["df"].iloc[1])
+    # ms_reg  = ss_reg / df_reg
+    # ms_res  = ss_res / df_res_
+    # f_stat  = ms_reg / ms_res
+    # p_f     = mdl_slr.f_pvalue
 
-    anova_df = pd.DataFrame({
-        "Source":      ["Regression", "Residual (Error)", "Total"],
-        "SS":          [round(ss_reg,2),  round(ss_res,2),  round(ss_tot,2)],
-        "df":          [df_reg,           df_res_,           df_reg + df_res_],
-        "MS":          [round(ms_reg,2),  round(ms_res,2),  "—"],
-        "F-Statistic": [round(f_stat,4),  "—",              "—"],
-        "p-Value":     [round(p_f,4),     "—",              "—"],
-    })
-    st.dataframe(anova_df, use_container_width=True, hide_index=True)
+    # anova_df = pd.DataFrame({
+    #     "Source":      ["Regression", "Residual (Error)", "Total"],
+    #     "SS":          [round(ss_reg,2),  round(ss_res,2),  round(ss_tot,2)],
+    #     "df":          [df_reg,           df_res_,           df_reg + df_res_],
+    #     "MS":          [round(ms_reg,2),  round(ms_res,2),  "—"],
+    #     "F-Statistic": [round(f_stat,4),  "—",              "—"],
+    #     "p-Value":     [round(p_f,4),     "—",              "—"],
+    # })
+    # st.dataframe(anova_df, use_container_width=True, hide_index=True)
 
-    fa1, fa2, fa3 = st.columns(3)
-    fa1.metric("F-Statistic", f"{f_stat:.4f}")
-    fa2.metric("p-Value",     f"{p_f:.4f}")
-    fa3.metric("Decision",    "Reject H₀" if p_f < 0.05 else "Fail to Reject H₀")
+    # fa1, fa2, fa3 = st.columns(3)
+    # fa1.metric("F-Statistic", f"{f_stat:.4f}")
+    # fa2.metric("p-Value",     f"{p_f:.4f}")
+    # fa3.metric("Decision",    "Reject H₀" if p_f < 0.05 else "Fail to Reject H₀")
 
-    if p_f < 0.05:
-        st.error(f"**Reject H₀** — overall regression is significant (F = {f_stat:.4f}, p = {p_f:.4f}).")
-    else:
-        st.success(f"**Fail to Reject H₀** — overall regression NOT significant (F = {f_stat:.4f}, p = {p_f:.4f}).")
-    st.markdown('</div>', unsafe_allow_html=True)
+    # if p_f < 0.05:
+    #     st.error(f"**Reject H₀** — overall regression is significant (F = {f_stat:.4f}, p = {p_f:.4f}).")
+    # else:
+    #     st.success(f"**Fail to Reject H₀** — overall regression NOT significant (F = {f_stat:.4f}, p = {p_f:.4f}).")
+    # st.markdown('</div>', unsafe_allow_html=True)
 
-    st.markdown("---")
+    # st.markdown("---")
 
-    # ── Prediction (Week 13) ──
-    st.markdown('<div class="chart-wrap"><div class="chart-title">Prediction Using the SLR Model  |  Week 13</div>', unsafe_allow_html=True)
-    x_input = st.number_input(f"Enter {x_var.replace('_',' ')} value",
-                               min_value=float(dfe[x_var].min()),
-                               max_value=float(dfe[x_var].max()),
-                               value=float(dfe[x_var].mean()))
-    y_pred  = b0 + b1 * x_input
-    pred_se = np.sqrt(mdl_slr.mse_resid * (1 + 1/len(dfe) + (x_input - dfe[x_var].mean())**2 / ((len(dfe)-1)*dfe[x_var].var())))
-    pi_lo   = y_pred - t_crit_slr * pred_se
-    pi_hi   = y_pred + t_crit_slr * pred_se
+    # # ── Prediction (Week 13) ──
+    # st.markdown('<div class="chart-wrap"><div class="chart-title">Prediction Using the SLR Model  |  Week 13</div>', unsafe_allow_html=True)
+    # x_input = st.number_input(f"Enter {x_var.replace('_',' ')} value",
+    #                            min_value=float(dfe[x_var].min()),
+    #                            max_value=float(dfe[x_var].max()),
+    #                            value=float(dfe[x_var].mean()))
+    # y_pred  = b0 + b1 * x_input
+    # pred_se = np.sqrt(mdl_slr.mse_resid * (1 + 1/len(dfe) + (x_input - dfe[x_var].mean())**2 / ((len(dfe)-1)*dfe[x_var].var())))
+    # pi_lo   = y_pred - t_crit_slr * pred_se
+    # pi_hi   = y_pred + t_crit_slr * pred_se
 
-    pr1, pr2, pr3 = st.columns(3)
-    pr1.metric("Predicted Value (ŷ)", f"{y_pred:,.2f} SAR")
-    pr2.metric("95% PI Lower",        f"{pi_lo:,.2f} SAR")
-    pr3.metric("95% PI Upper",        f"{pi_hi:,.2f} SAR")
-    st.info(f"ŷ = {b0:,.2f} + {b1:,.4f} × {x_input:.1f} = **{y_pred:,.2f} SAR**")
-    st.markdown('</div>', unsafe_allow_html=True)
+    # pr1, pr2, pr3 = st.columns(3)
+    # pr1.metric("Predicted Value (ŷ)", f"{y_pred:,.2f} SAR")
+    # pr2.metric("95% PI Lower",        f"{pi_lo:,.2f} SAR")
+    # pr3.metric("95% PI Upper",        f"{pi_hi:,.2f} SAR")
+    # st.info(f"ŷ = {b0:,.2f} + {b1:,.4f} × {x_input:.1f} = **{y_pred:,.2f} SAR**")
+    # st.markdown('</div>', unsafe_allow_html=True)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
